@@ -6,6 +6,28 @@
   font-size: 4rem;
 }
 
+#Page_container {
+  display: flex;
+  flex-direction: row;
+  height: 75vh;
+  border: 5px solid green;
+  padding: 1rem;
+}
+
+#Navigator {
+  width: 20vw;
+  border: 2px solid black;
+  height: 150vh;
+  overflow: scroll;
+  min-width: 200px;
+}
+
+#Content {
+  width: 80vw;
+  border: 2px solid blue;
+  height: 75vh;
+}
+
 #footer {
   background-color: black;
   color: white;
