@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DSA-guide/static/css/main.bf2ef9b2.css",
+    "main.js": "/DSA-guide/static/js/main.d3cb641a.js",
+    "index.html": "/DSA-guide/index.html",
+    "main.bf2ef9b2.css.map": "/DSA-guide/static/css/main.bf2ef9b2.css.map",
+    "main.d3cb641a.js.map": "/DSA-guide/static/js/main.d3cb641a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf2ef9b2.css",
+    "static/js/main.d3cb641a.js"
+  ]
+}
