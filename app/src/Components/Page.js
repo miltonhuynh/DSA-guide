@@ -6,7 +6,7 @@ export default function Page() {
   return (
     <div id="Page_container">
         <Nav/>
-        <Content/>
+        {/*<Content/>*/}
     </div>
   )
 }
