@@ -7,7 +7,7 @@ body,html {
   color: white;
   display: flex;
   justify-content: center;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 #Page_container {
@@ -28,7 +28,11 @@ body,html {
 #Content {
   width: 80vw;
   border: 2px solid blue;
-  height: 75vh;
+  height: 84.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
 }
 
 #footer {
@@ -36,8 +40,11 @@ body,html {
   color: white;
   display: flex;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   position: fixed;
   width: 100vw;
   bottom: 0;
+  height: 5vh;
+  display: flex;
+  align-items: center;
 }
