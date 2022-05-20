@@ -8,6 +8,8 @@ export default function Nav() {
     <div id="Navigator">
       <div onClick={() => navigate("BinarySearch")}>Binary Search</div>
       <div onClick={() => navigate("BubbleSort")}>Bubble Sort</div>
+      <div onClick={() => navigate("QuickSort")}>Quick Sort</div>
+      <div onClick={() => navigate("HashTables")}>Hash Tables</div>
     </div>
   )
 }
