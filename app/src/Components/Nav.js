@@ -6,10 +6,10 @@ export default function Nav() {
 
   return (
     <div id="Navigator">
-      <div onClick={() => navigate("BinarySearch")}>Binary Search</div>
-      <div onClick={() => navigate("BubbleSort")}>Bubble Sort</div>
-      <div onClick={() => navigate("QuickSort")}>Quick Sort</div>
-      <div onClick={() => navigate("HashTables")}>Hash Tables</div>
+      <div class="Concept_Links" onClick={() => navigate("BinarySearch")}>Binary Search</div>
+      <div class="Concept_Links"  onClick={() => navigate("BubbleSort")}>Bubble Sort</div>
+      <div class="Concept_Links"  onClick={() => navigate("QuickSort")}>Quick Sort</div>
+      <div class="Concept_Links"  onClick={() => navigate("HashTables")}>Hash Tables</div>
     </div>
   )
 }
