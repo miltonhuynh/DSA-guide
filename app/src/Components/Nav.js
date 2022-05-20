@@ -9,7 +9,10 @@ export default function Nav() {
       <div class="Concept_Links" onClick={() => navigate("BinarySearch")}>Binary Search</div>
       <div class="Concept_Links"  onClick={() => navigate("BubbleSort")}>Bubble Sort</div>
       <div class="Concept_Links"  onClick={() => navigate("QuickSort")}>Quick Sort</div>
+      <div class="Concept_Links"  onClick={() => navigate("MergeSort")}>Merge Sort</div>
       <div class="Concept_Links"  onClick={() => navigate("HashTables")}>Hash Tables</div>
+      <div class="Concept_Links"  onClick={() => navigate("BreadthFirstSearch")}>Breadth First Search</div>
+      <div class="Concept_Links"  onClick={() => navigate("DepthFirstSearch")}>Depth First Search</div>
     </div>
   )
 }
