@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/DSA-guide/static/css/main.0d38076a.css",
-    "main.js": "/DSA-guide/static/js/main.2c514f9f.js",
+    "main.js": "/DSA-guide/static/js/main.88c64ca6.js",
     "index.html": "/DSA-guide/index.html",
     "main.0d38076a.css.map": "/DSA-guide/static/css/main.0d38076a.css.map",
-    "main.2c514f9f.js.map": "/DSA-guide/static/js/main.2c514f9f.js.map"
+    "main.88c64ca6.js.map": "/DSA-guide/static/js/main.88c64ca6.js.map"
   },
   "entrypoints": [
     "static/css/main.0d38076a.css",
-    "static/js/main.2c514f9f.js"
+    "static/js/main.88c64ca6.js"
   ]
 }
