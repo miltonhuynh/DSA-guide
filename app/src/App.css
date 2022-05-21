@@ -30,10 +30,32 @@ body,html {
   padding: 0.5rem;
   transition: 0.25s;
   text-align: center;
+  background: rgb(100, 255, 255);
 }
 
 .Concept_Links:hover {
- background-color: rgb(230,230,230);
+  background: rgb(0, 150, 255);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(100, 255, 255);
+  transition: 1s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 150, 255);
 }
 
 #Content {
@@ -58,3 +80,4 @@ body,html {
   display: flex;
   align-items: center;
 }
+
