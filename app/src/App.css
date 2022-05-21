@@ -18,17 +18,18 @@ body,html {
 }
 
 #Navigator {
-  width: 25vw;
+  width: 22vw;
   overflow-y: scroll;
   font-size: 2rem;
 }
 
 .Concept_Links {
   border: 2px solid black;
-  margin: 1rem;
+  margin: 0.5rem;
   cursor: pointer;
   padding: 0.5rem;
   transition: 0.25s;
+  text-align: center;
 }
 
 .Concept_Links:hover {
