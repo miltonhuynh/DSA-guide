@@ -1,6 +1,6 @@
 body,html {
   height: 100%;
-  background-color: rgb(235, 235, 235)
+  background-color: rgb(18, 13, 58);
 }
 
 #header {
@@ -33,11 +33,38 @@ body,html {
   padding: 1rem;
   transition: 0.2s;
   text-align: center;
-  background: rgb(100, 255, 255);
+  background: rgb(138, 133, 0);
+  color: white;
 }
 
 .Concept_Links:hover {
-  background: rgb(0, 150, 255);
+  background: rgb(251, 255, 0);
+  color: black;
+}
+
+.Concept_title {
+  color: white;
+  text-align: center;
+  margin: 2rem;
+}
+
+.Concept_page {
+  border: 3px solid white;
+  height: 80vh;
+  width: 60vw;
+  overflow-y: scroll;
+}
+
+.Concept_description {
+  color: white;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+.Code {
+  font-size: 1.5rem;
+  border: 2px solid red;
+  color: white;
 }
 
 /* width */
@@ -69,10 +96,6 @@ body,html {
   justify-content: center;
   align-items: center;
   font-size: 5rem;
-}
-
-.code {
-  font-size: 0.5rem;
 }
 
 #footer {
