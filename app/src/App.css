@@ -1,6 +1,6 @@
 body,html {
   height: 100%;
-  background-color: rgb(200, 255, 200);
+  background-color: rgb(235, 235, 235)
 }
 
 #header {
@@ -69,6 +69,10 @@ body,html {
   justify-content: center;
   align-items: center;
   font-size: 5rem;
+}
+
+.code {
+  font-size: 0.5rem;
 }
 
 #footer {
