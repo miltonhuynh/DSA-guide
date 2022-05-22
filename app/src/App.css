@@ -64,12 +64,16 @@ body,html {
   margin: 2rem;
 }
 
+.Code_box {
+  font-size: 2rem;
+}
+
 .Code {
   font-size: 1.2rem;
   color: white;
   border: 1px solid white;
-  padding: 5rem;
-  margin: 3rem;
+  padding: 2rem;
+  margin: 1rem;
 }
 
 /* width */
