@@ -17,6 +17,7 @@ import InsertionSort from './Concepts/InsertionSort';
 import PriorityQueue from './Concepts/PriorityQueue';
 import Stack from './Concepts/Stack';
 import HeapSort from './Concepts/HeapSort';
+import TimeComplexity from './Concepts/TimeComplexity';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,7 @@ root.render(
     <Routes>
       <Route path="/DSA-guide" element={<App />}>
         <Route index element={<Home />} />
+        <Route path="/DSA-guide/TimeComplexity" element={<TimeComplexity />} />
         <Route path="/DSA-guide/Stack" element={<Stack />} />
         <Route path="/DSA-guide/BinarySearch" element={<BinarySearch />} />
         <Route path="/DSA-guide/BubbleSort" element={<BubbleSort />} />
