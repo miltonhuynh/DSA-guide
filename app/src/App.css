@@ -74,19 +74,19 @@ body,html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(200, 200, 200);
+  background: rgb(0, 0, 0);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(100, 255, 255);
+  background: rgb(181, 184, 0);
   transition: 1s;
   border: 2px solid black;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(0, 150, 255);
+  background: yellow;
 }
 
 #Content {
