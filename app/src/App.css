@@ -61,11 +61,12 @@ body,html {
 .Concept_description {
   color: white;
   font-size: 1.5rem;
-  margin: 2rem;
+  margin: 4rem;
 }
 
 .Code_box {
   font-size: 2rem;
+  margin: 3rem;
 }
 
 .Code {
