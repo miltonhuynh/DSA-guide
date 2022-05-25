@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function HashTables() {
   return (
-    <div>HashTables placeholder</div>
+    <div class="Concept_page">
+      <div class="Concept_title">Hash tables</div>
+    </div>
   )
 }
