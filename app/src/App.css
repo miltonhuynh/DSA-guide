@@ -42,7 +42,7 @@ body,html {
   text-align: center;
   background: rgb(138, 133, 0);
   color: white;
-  font-size: 1.3vw;
+  font-size: 1.7vw;
   padding: 1vw;
   font-family: 'Zen Maru Gothic', sans-serif;
 }
@@ -50,9 +50,6 @@ body,html {
 .Concept_Links:hover {
   background: rgb(251, 255, 0);
   color: black;
-  font-size: 1.6vw;
-  padding: 1.5vw;
-  margin: 1.5vw 1vw 1.5vw 1vw;
 }
 
 .Concept_title {
