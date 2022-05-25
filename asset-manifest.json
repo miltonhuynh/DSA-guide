@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/DSA-guide/static/css/main.52d94fb1.css",
-    "main.js": "/DSA-guide/static/js/main.aa90e34f.js",
+    "main.css": "/DSA-guide/static/css/main.26b725db.css",
+    "main.js": "/DSA-guide/static/js/main.9d90b44f.js",
+    "static/media/github-brands.svg": "/DSA-guide/static/media/github-brands.45a5f4c7412fa45fdbbcfbc1bff04f35.svg",
     "index.html": "/DSA-guide/index.html",
-    "main.52d94fb1.css.map": "/DSA-guide/static/css/main.52d94fb1.css.map",
-    "main.aa90e34f.js.map": "/DSA-guide/static/js/main.aa90e34f.js.map"
+    "main.26b725db.css.map": "/DSA-guide/static/css/main.26b725db.css.map",
+    "main.9d90b44f.js.map": "/DSA-guide/static/js/main.9d90b44f.js.map"
   },
   "entrypoints": [
-    "static/css/main.52d94fb1.css",
-    "static/js/main.aa90e34f.js"
+    "static/css/main.26b725db.css",
+    "static/js/main.9d90b44f.js"
   ]
 }
