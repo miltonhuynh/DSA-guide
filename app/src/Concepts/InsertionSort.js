@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function InsertionSort() {
   return (
-    <div>InsertionSort placeholder</div>
+    <div class="Concept_page">
+      <div class="Concept_title">Insertion sort</div>
+    </div>
   )
 }

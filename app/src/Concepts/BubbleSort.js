@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function BubbleSort() {
   return (
-    <div>BubbleSort placeholder</div>
+    <div class="Concept_page">
+      <div class="Concept_title">Bubble Sort</div>
+    </div>
   )
 }
