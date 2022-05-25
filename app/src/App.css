@@ -17,7 +17,7 @@ body,html {
   align-items: center;
   font-size: 3vw;
   height: 8vh;
-  padding-top: 0.5rem;
+  padding-top: 0.5vw;
   font-family: 'Manjari', sans-serif;
 }
 
@@ -26,24 +26,24 @@ body,html {
   flex-direction: row;
   justify-content: space-between;
   max-height: 88vh;
-  padding: 0.1rem;
+  padding: 0.1vw;
 }
 
 #Navigator {
-  width: 20vw;
+  width: 25vw;
   overflow-y: scroll;
 }
 
 .Concept_Links {
-  border: 2px solid black;
-  margin: 1rem;
+  border: 0.2vw solid black;
+  margin: 1vw;
   cursor: pointer;
   transition: 0.4s;
   text-align: center;
   background: rgb(138, 133, 0);
   color: white;
   font-size: 1.3vw;
-  padding: 1rem;
+  padding: 1vw;
   font-family: 'Zen Maru Gothic', sans-serif;
 }
 
@@ -51,16 +51,16 @@ body,html {
   background: rgb(251, 255, 0);
   color: black;
   font-size: 1.6vw;
-  padding: 1.5rem;
-  margin: 1.5rem 1rem 1.5rem 1rem;
+  padding: 1.5vw;
+  margin: 1.5vw 1vw 1.5vw 1vw;
 }
 
 .Concept_title {
   color: white;
   text-align: center;
-  margin: 2rem 10rem 2rem 10rem;
-  border: 2px solid white;
-  padding: 1rem;
+  margin: 2vw 10vw 2vw 10vw;
+  border: 0.2vw solid white;
+  padding: 1vw;
   font-size: 4vw;
   font-family: 'Comfortaa', cursive;
 }
@@ -74,26 +74,26 @@ body,html {
 .Concept_description {
   color: white;
   font-size: 1.5vw;
-  margin: 2rem 10rem 2rem 10rem;
+  margin: 2vw 10vw 2vw 10vw;
   font-family: 'Didact Gothic', sans-serif;
 }
 
 .Code_box {
-  font-size: 2vw;
-  margin: 2rem 10rem 2rem 10rem;
+  font-size: 1.5vw;
+  margin: 2vw 10vw 2vw 10vw;
 }
 
 .Code {
   font-size: 1.2vw;
   color: white;
-  border: 1px solid white;
-  padding: 2rem;
-  margin: 1rem;
+  border: 0.1vw solid white;
+  padding: 2vw;
+  margin: 1vw;
 }
 
 /* width */
 ::-webkit-scrollbar {
-  width: 1rem;
+  width: 1vw;
 }
 
 /* Track */
@@ -105,7 +105,7 @@ body,html {
 ::-webkit-scrollbar-thumb {
   background: rgb(181, 184, 0);
   transition: 1s;
-  border: 2px solid black;
+  border: 0.2vw solid black;
 }
 
 /* Handle on hover */
