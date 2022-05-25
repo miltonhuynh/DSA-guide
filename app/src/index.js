@@ -18,6 +18,7 @@ import PriorityQueue from './Concepts/PriorityQueue';
 import Stack from './Concepts/Stack';
 import HeapSort from './Concepts/HeapSort';
 import TimeComplexity from './Concepts/TimeComplexity';
+import Definitions from './Concepts/Definitions';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -39,6 +40,7 @@ root.render(
         <Route path="/DSA-guide/BreadthFirstSearch" element={<BreadthFirstSearch />} />
         <Route path="/DSA-guide/Dijkstra" element={<Dijkstra />} />
         <Route path="/DSA-guide/PriorityQueue" element={<PriorityQueue />} />
+        <Route path="/DSA-guide/Definitions" element={<Definitions />} />
       </Route>
     </Routes>
   </BrowserRouter>

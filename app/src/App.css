@@ -15,17 +15,26 @@ body,html {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3vw;
-  height: 8vh;
+  font-size: 2vw;
+  height: 5vh;
   padding-top: 0.5vw;
   font-family: 'Manjari', sans-serif;
+}
+
+#Github-icon {
+  color: white;
+  width: 2vw;
+  transition: 0.3s;
+  position: fixed;
+  top: 0.4vw;
+  left: 1vw;
 }
 
 #Page_container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-height: 88vh;
+  max-height: 92vh;
   padding: 0.1vw;
 }
 
@@ -63,7 +72,7 @@ body,html {
 }
 
 .Concept_page {
-  height: 88vh;
+  height: 92vh;
   width: 80vw;
   overflow-y: scroll;
 }
@@ -86,6 +95,15 @@ body,html {
   border: 0.1vw solid white;
   padding: 2vw;
   margin: 1vw;
+}
+
+#Terms_list {
+  margin: 2vw 10vw 2vw 10vw;
+}
+
+.Term {
+  font-size: 1.5vw;
+  margin-top: 1.5rem;
 }
 
 /* width */
@@ -115,11 +133,11 @@ body,html {
   color: white;
   display: flex;
   justify-content: center;
-  font-size: 1vw;
+  font-size: 0.8vw;
   position: fixed;
   width: 100vw;
   bottom: 0;
-  height: 4vh;
+  height: 3vh;
   display: flex;
   align-items: center;
 }
