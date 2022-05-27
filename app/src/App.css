@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=M+PLUS+1p&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Zen+Maru+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
 
 body,html {
   height: 100%;
@@ -39,7 +39,7 @@ body,html {
 }
 
 #Navigator {
-  width: 25vw;
+  width: 20vw;
   overflow-y: scroll;
 }
 
@@ -51,9 +51,9 @@ body,html {
   text-align: center;
   background: rgb(138, 133, 0);
   color: white;
-  font-size: 1.7vw;
-  padding: 1vw;
-  font-family: 'Zen Maru Gothic', sans-serif;
+  font-size: 1.5vw;
+  padding: 0.5vw;
+  font-family: 'Mandali', sans-serif;
 }
 
 .Concept_Links:hover {
