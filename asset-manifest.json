@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/DSA-guide/static/css/main.26b725db.css",
-    "main.js": "/DSA-guide/static/js/main.56677bc8.js",
+    "main.js": "/DSA-guide/static/js/main.150be8e8.js",
     "static/media/github-brands.svg": "/DSA-guide/static/media/github-brands.45a5f4c7412fa45fdbbcfbc1bff04f35.svg",
     "index.html": "/DSA-guide/index.html",
     "main.26b725db.css.map": "/DSA-guide/static/css/main.26b725db.css.map",
-    "main.56677bc8.js.map": "/DSA-guide/static/js/main.56677bc8.js.map"
+    "main.150be8e8.js.map": "/DSA-guide/static/js/main.150be8e8.js.map"
   },
   "entrypoints": [
     "static/css/main.26b725db.css",
-    "static/js/main.56677bc8.js"
+    "static/js/main.150be8e8.js"
   ]
 }
