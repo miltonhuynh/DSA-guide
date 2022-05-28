@@ -8,6 +8,7 @@ export default function Nav() {
     <div id="Navigator">
       <div class="Concept_Links"  onClick={() => navigate("Definitions")}>Common Terms</div>
       <div class="Concept_Links" onClick={() => navigate("TimeComplexity")}>Time Complexity</div>
+      <div class="Concept_Links" onClick={() => navigate("SpaceComplexity")}>S[ace] Complexity</div>
       <div class="Concept_Links" onClick={() => navigate("Stack")}>Stack</div>
       <div class="Concept_Links" onClick={() => navigate("BinarySearch")}>Binary Search</div>
       <div class="Concept_Links"  onClick={() => navigate("BubbleSort")}>Bubble Sort</div>
