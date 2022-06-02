@@ -22,36 +22,37 @@ export default function BigO() {
         Method 1:
         <br />
         <div class="Code_box">
-        <Tabs>
-          <TabList>
-            <Tab class="Tab_title">Python</Tab>
-            <Tab class="Tab_title">C++</Tab>
-            <Tab class="Tab_title">Java</Tab>
-            <Tab class="Tab_title">JavaScript</Tab>
-          </TabList>
+          <Tabs>
+            <TabList>
+              <Tab class="Tab_title">Python</Tab>
+              <Tab class="Tab_title">C++</Tab>
+              <Tab class="Tab_title">Java</Tab>
+              <Tab class="Tab_title">JavaScript</Tab>
+            </TabList>
 
-          <TabPanel>
-            <div class="Code">
-                <pre><code>{slow_python_snippet}</code></pre>
-            </div>
-          </TabPanel>
-          <TabPanel>
-            <div class="Code">
-                <pre><code>{slow_python_snippet}</code></pre>
-            </div>
-          </TabPanel>
-          <TabPanel>
-            <div class="Code">
-                <pre><code>{slow_python_snippet}</code></pre>
-            </div>
-          </TabPanel>
-          <TabPanel>
-            <div class="Code">
-                <pre><code>{slow_python_snippet}</code></pre>
-            </div>
-          </TabPanel>
-        </Tabs>
-      </div>
+            <TabPanel>
+              <div class="Code">
+                  <pre><code>{slow_python_snippet}</code></pre>
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <div class="Code">
+                  <pre><code>{slow_python_snippet}</code></pre>
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <div class="Code">
+                  <pre><code>{slow_python_snippet}</code></pre>
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <div class="Code">
+                  <pre><code>{slow_python_snippet}</code></pre>
+              </div>
+            </TabPanel>
+          </Tabs>
+        </div>
+        <h2>Big O Notation</h2>
       </div>
 
     </div>
