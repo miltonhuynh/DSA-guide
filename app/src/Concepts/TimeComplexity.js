@@ -3,10 +3,21 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
 
-const slow_python_snippet = 
-`function addUpTo(n) {
-  let total = 0;
+const slow_snippet = 
+`function addUpToFirst(n) { 
+  var total = 0;
+  for (var i = 0; i <= n; i++) {
+    total += i;
+  }
+  return total;
 }`
+
+const fast_snippet = 
+`
+function addUpToSecond(n) {
+  return n * (n + 1) / 2;
+}
+`
 
 export default function BigO() {
   return (
@@ -21,37 +32,9 @@ export default function BigO() {
         <br /><br />
         Method 1:
         <br />
-        <div class="Code_box">
-          <Tabs>
-            <TabList>
-              <Tab class="Tab_title">Python</Tab>
-              <Tab class="Tab_title">C++</Tab>
-              <Tab class="Tab_title">Java</Tab>
-              <Tab class="Tab_title">JavaScript</Tab>
-            </TabList>
-
-            <TabPanel>
-              <div class="Code">
-                  <pre><code>{slow_python_snippet}</code></pre>
-              </div>
-            </TabPanel>
-            <TabPanel>
-              <div class="Code">
-                  <pre><code>{slow_python_snippet}</code></pre>
-              </div>
-            </TabPanel>
-            <TabPanel>
-              <div class="Code">
-                  <pre><code>{slow_python_snippet}</code></pre>
-              </div>
-            </TabPanel>
-            <TabPanel>
-              <div class="Code">
-                  <pre><code>{slow_python_snippet}</code></pre>
-              </div>
-            </TabPanel>
-          </Tabs>
-        </div>
+        <pre><div class="Code_box Code">
+          {slow_snippet}
+        </div></pre>
         <h2>Big O Notation</h2>
       </div>
 
