@@ -32,10 +32,30 @@ export default function BigO() {
         <br /><br />
         Method 1:
         <br />
-        <pre><div class="Code_box Code">
-          {slow_snippet}
-        </div></pre>
-        <h2>Big O Notation</h2>
+        <pre>
+          <div class="Code_box Code">
+            {slow_snippet}
+          </div>
+        </pre>
+        <br />
+        Method 2:
+        <br />
+        <pre>
+          <div class="Code_box Code">
+            {fast_snippet}
+          </div>
+        </pre>
+        Both of these methods return the same value, but the first method has to run an additional operation 
+        as the size of n increases. Whereas in the method 2, it is constant.
+
+        <h1>Big O Notation</h1>
+        To summarize how efficient an algorithm is, we generalize its performance to Big O.
+
+        <h3>O(1)</h3>
+        <h3>O(log n)</h3>
+        <h3>O(n)</h3>
+        <h3>O n(log n)</h3>
+        <h3>O n2</h3>
       </div>
 
     </div>
