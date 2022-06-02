@@ -28,7 +28,7 @@ root.render(
       <Route path="/DSA-guide" element={<App />}>
         <Route index element={<Home />} />
         <Route path="/DSA-guide/TimeComplexity" element={<TimeComplexity />} />
-        <Route path="/DSA-guide/TimeComplexity" element={<SpaceComplexity />} />
+        <Route path="/DSA-guide/SpaceComplexity" element={<SpaceComplexity />} />
         <Route path="/DSA-guide/Stack" element={<Stack />} />
         <Route path="/DSA-guide/BinarySearch" element={<BinarySearch />} />
         <Route path="/DSA-guide/BubbleSort" element={<BubbleSort />} />
