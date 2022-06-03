@@ -1,7 +1,4 @@
 import React from 'react'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
-
 
 const slow_snippet = 
 `function addUpToFirst(n) { 
@@ -52,6 +49,13 @@ export default function BigO() {
         To summarize how efficient an algorithm is, we generalize its performance to Big O.
 
         <h3>O(1)</h3>
+        <h4>Constant time as n scales</h4>
+        <h5>Example</h5>
+        <pre>
+          <code class="Code_box Code">
+            x = 5;
+          </code>
+        </pre>
         <h3>O(log n)</h3>
         <h3>O(n)</h3>
         <h3>O n(log n)</h3>
