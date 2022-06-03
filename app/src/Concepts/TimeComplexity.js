@@ -46,7 +46,8 @@ export default function BigO() {
         as the size of n increases. Whereas in the method 2, it is constant.
 
         <h1>Big O Notation</h1>
-        To summarize how efficient an algorithm is, we generalize its performance to Big O.
+        <img src={require('../images/bigo.jpg')} style={{width: "40vw"}}></img>
+        <div>To summarize how efficient an algorithm is, we generalize its performance to Big O.</div>
 
         <h3>O(1)</h3>
         <h4>Constant time as n scales</h4>
