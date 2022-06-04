@@ -51,7 +51,6 @@ export default function BigO() {
 
         <h3>O(1)</h3>
         <h4>Constant time as n scales</h4>
-        <h5 style={{position: "relative", left: "2vw"}}>Example</h5>
         <pre>
           <code class="Code_box Code">
             x = 5;
