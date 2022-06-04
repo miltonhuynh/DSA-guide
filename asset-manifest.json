@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DSA-guide/static/css/main.2abdc90b.css",
-    "main.js": "/DSA-guide/static/js/main.20ed6812.js",
+    "main.js": "/DSA-guide/static/js/main.f5f8c976.js",
     "static/media/bigo.jpg": "/DSA-guide/static/media/bigo.5a65b3028ec37aebe878.jpg",
     "static/media/github-brands.svg": "/DSA-guide/static/media/github-brands.45a5f4c7412fa45fdbbcfbc1bff04f35.svg",
     "index.html": "/DSA-guide/index.html",
     "main.2abdc90b.css.map": "/DSA-guide/static/css/main.2abdc90b.css.map",
-    "main.20ed6812.js.map": "/DSA-guide/static/js/main.20ed6812.js.map"
+    "main.f5f8c976.js.map": "/DSA-guide/static/js/main.f5f8c976.js.map"
   },
   "entrypoints": [
     "static/css/main.2abdc90b.css",
-    "static/js/main.20ed6812.js"
+    "static/js/main.f5f8c976.js"
   ]
 }
