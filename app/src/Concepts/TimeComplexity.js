@@ -53,7 +53,7 @@ export default function BigO() {
         <h4>Constant time as n scales</h4>
         <pre>
           <code class="Code_box Code">
-            x = 5;
+            let x = 5;
           </code>
         </pre>
         <h3>O(log n)</h3>
