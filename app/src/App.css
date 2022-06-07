@@ -97,6 +97,19 @@ body,html {
   margin: 1vw;
 }
 
+.BigO_type {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  position: relative;
+  left: 0.5vw;
+  font-size: 2vw;
+}
+
+.BigO_example {
+  margin-bottom: 4vw;
+}
+
+
 #Terms_list {
   margin: 2vw 10vw 2vw 10vw;
 }

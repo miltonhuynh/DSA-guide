@@ -51,15 +51,35 @@ export default function BigO() {
 
         <h2>Common Big O and examples</h2>
         <div class="BigO_type">O(1)</div>
-        <pre>
+        <pre class="BigO_example">
           <code class="Code_box Code">
             let x = 5;
           </code>
         </pre>
-        <h3>O(log n)</h3>
-        <h3>O(n)</h3>
-        <h3>O n(log n)</h3>
-        <h3>O n2</h3>
+        <div class="BigO_type">O(log n)</div>
+        <pre class="BigO_example">
+          <code class="Code_box Code">
+            let x = 5;
+          </code>
+        </pre>
+        <div class="BigO_type">O(n)</div>
+        <pre class="BigO_example">
+          <code class="Code_box Code">
+            let x = 5;
+          </code>
+        </pre>
+        <div class="BigO_type">O n(log n)</div>
+        <pre class="BigO_example">
+          <code class="Code_box Code">
+            let x = 5;
+          </code>
+        </pre>
+        <div class="BigO_type">O n2</div>
+        <pre class="BigO_example">
+          <code class="Code_box Code">
+            let x = 5;
+          </code>
+        </pre>
       </div>
 
     </div>
