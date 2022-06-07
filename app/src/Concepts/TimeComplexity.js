@@ -49,8 +49,8 @@ export default function BigO() {
         <img src={require('../images/bigo.jpg')} style={{width: "40vw"}} alt="Big O graph"></img>
         <div>To summarize how efficient an algorithm is, we generalize its performance to Big O.</div>
 
-        <h3>O(1)</h3>
-        <h4>Constant time as n scales</h4>
+        <h2>Common Big O and examples</h2>
+        <div class="BigO_type">O(1)</div>
         <pre>
           <code class="Code_box Code">
             let x = 5;
