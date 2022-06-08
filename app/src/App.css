@@ -15,11 +15,17 @@ body,html {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2vw;
   height: 5vh;
   padding-top: 0.5vw;
   font-family: 'Manjari', sans-serif;
 }
+
+
+#Brand {
+  font-size: 2vw;
+  cursor: pointer;
+}
+
 
 #Github-icon {
   color: white;
