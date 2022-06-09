@@ -6,7 +6,8 @@ export default function Home() {
       <div class="Concept_title">Welcome!</div>
       <div class="Concept_description">
         <div>This website is still under construction, feel free to visit every now and then to check my progress!</div><br></br>
-        <div>Disclaimer: This is just a quick reference, please check out other resources to learn more in-depth! </div>
+        <div>Data Structures and Algorithms is the way data is organized and manipulated. This topic shows up on interviews a lot and the concept learned will be valuable throughout a developer's career. I created this website to help myself and others break these concepts down and understand them better.</div><br/>
+        <div>If you have any questions, comments or suggestions, please contact me at miltonhuynh@gmail.com</div>
       </div>
     </div>
   )
