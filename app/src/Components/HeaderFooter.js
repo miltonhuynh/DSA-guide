@@ -12,7 +12,7 @@ export default function HeaderFooter(props) {
           <div id="Brand" onClick={() => navigate("")}>Milton's Data Structures and Algorithms Guide</div>
         </div>
             {props.children}
-        <div id="footer">Created by Milton Huynh, with React.js</div>
+        <div id="footer">Created by Milton Huynh with React.js</div>
     </>
   )
 }
