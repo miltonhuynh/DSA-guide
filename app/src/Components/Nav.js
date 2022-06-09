@@ -6,7 +6,7 @@ export default function Nav() {
 
   return (
     <div id="Navigator">
-      <div class="Concept_Links"  onClick={() => navigate("Definitions")}>Welcome Page</div>
+      <div class="Concept_Links"  onClick={() => navigate("")}>Welcome Page</div>
       <div class="Concept_Links"  onClick={() => navigate("Definitions")}>Common Terms</div>
       <div class="Concept_Links" onClick={() => navigate("TimeComplexity")}>Time Complexity</div>
       <div class="Concept_Links" onClick={() => navigate("SpaceComplexity")}>Space Complexity</div>
