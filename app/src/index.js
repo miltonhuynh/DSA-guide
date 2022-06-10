@@ -20,6 +20,7 @@ import HeapSort from './Concepts/HeapSort';
 import TimeComplexity from './Concepts/TimeComplexity';
 import Definitions from './Concepts/Definitions';
 import SpaceComplexity from './Concepts/SpaceComplexity';
+import FrequencyCounter from './Concepts/FrequencyCounter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,6 +31,7 @@ root.render(
         <Route path="/DSA-guide/TimeComplexity" element={<TimeComplexity />} />
         <Route path="/DSA-guide/SpaceComplexity" element={<SpaceComplexity />} />
         <Route path="/DSA-guide/Stack" element={<Stack />} />
+        <Route path="/DSA-guide/FrequencyCounter" element={<FrequencyCounter />} />
         <Route path="/DSA-guide/BinarySearch" element={<BinarySearch />} />
         <Route path="/DSA-guide/BubbleSort" element={<BubbleSort />} />
         <Route path="/DSA-guide/QuickSort" element={<QuickSort />} />
