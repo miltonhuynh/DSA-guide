@@ -9,6 +9,30 @@ body,html {
   color: white;
 }
 
+.text-xsm {
+  font-size: 1rem;
+}
+
+.font-sm {
+  font-size: 1.25rem;
+}
+
+.font-m {
+  font-size: 1.5rem;
+}
+
+.font-l {
+  font-size: 2rem;
+}
+
+.font-xl {
+  font-size: 2.5rem;
+}
+
+.font-xxl {
+  font-size: 3.25rem;
+}
+
 #header {
   background-color: black;
   color: white;
@@ -20,12 +44,10 @@ body,html {
   font-family: 'Manjari', sans-serif;
 }
 
-
 #Brand {
   font-size: 2vw;
   cursor: pointer;
 }
-
 
 #Github-icon {
   color: white;
@@ -83,11 +105,10 @@ body,html {
   overflow-y: scroll;
 }
 
-.Concept_description {
+.Concept_container {
   color: white;
-  font-size: 1.5vw;
-  margin: 2vw 10vw 2vw 10vw;
   font-family: 'Didact Gothic', sans-serif;
+  margin: 0vw 10vw 0vw 10vw;
 }
 
 .Code_box {
