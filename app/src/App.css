@@ -105,15 +105,10 @@ body,html {
   overflow-y: scroll;
 }
 
-.Concept_container {
+.Container {
   color: white;
   font-family: 'Didact Gothic', sans-serif;
   margin: 0vw 10vw 0vw 10vw;
-}
-
-.Code_box {
-  font-size: 1.5vw;
-  margin: 2vw 10vw 2vw 10vw;
 }
 
 .Code {
@@ -136,10 +131,6 @@ body,html {
   margin-bottom: 4vw;
 }
 
-
-#Terms_list {
-  margin: 2vw 10vw 2vw 10vw;
-}
 
 .Term {
   font-size: 1.5vw;
