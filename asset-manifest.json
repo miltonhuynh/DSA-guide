@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DSA-guide/static/css/main.c6e43929.css",
-    "main.js": "/DSA-guide/static/js/main.bb62c7a2.js",
+    "main.css": "/DSA-guide/static/css/main.7f58738c.css",
+    "main.js": "/DSA-guide/static/js/main.2d0d83a4.js",
     "static/media/bigo.jpg": "/DSA-guide/static/media/bigo.5a65b3028ec37aebe878.jpg",
     "static/media/github-brands.svg": "/DSA-guide/static/media/github-brands.45a5f4c7412fa45fdbbcfbc1bff04f35.svg",
     "index.html": "/DSA-guide/index.html",
-    "main.c6e43929.css.map": "/DSA-guide/static/css/main.c6e43929.css.map",
-    "main.bb62c7a2.js.map": "/DSA-guide/static/js/main.bb62c7a2.js.map"
+    "main.7f58738c.css.map": "/DSA-guide/static/css/main.7f58738c.css.map",
+    "main.2d0d83a4.js.map": "/DSA-guide/static/js/main.2d0d83a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6e43929.css",
-    "static/js/main.bb62c7a2.js"
+    "static/css/main.7f58738c.css",
+    "static/js/main.2d0d83a4.js"
   ]
 }
