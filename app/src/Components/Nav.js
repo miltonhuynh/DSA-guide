@@ -12,6 +12,7 @@ export default function Nav() {
       <div class="Concept_Links" onClick={() => navigate("SpaceComplexity")}>Space Complexity</div>
       <div class="Concept_Links" onClick={() => navigate("Stack")}>Stack</div>
       <div class="Concept_Links" onClick={() => navigate("Recursion")}>Recursion</div>
+      <div class="Concept_Links" onClick={() => navigate("SlidingWindow")}>Sliding Window</div>
       <div class="Concept_Links" onClick={() => navigate("FrequencyCounter")}>Frequency Counter</div>
       <div class="Concept_Links" onClick={() => navigate("BinarySearch")}>Binary Search</div>
       <div class="Concept_Links"  onClick={() => navigate("BubbleSort")}>Bubble Sort</div>
