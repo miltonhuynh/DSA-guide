@@ -21,6 +21,7 @@ import TimeComplexity from './Concepts/TimeComplexity';
 import Definitions from './Concepts/Definitions';
 import SpaceComplexity from './Concepts/SpaceComplexity';
 import FrequencyCounter from './Concepts/FrequencyCounter';
+import Recursion from './Concepts/Recursion';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -45,6 +46,7 @@ root.render(
         <Route path="/DSA-guide/Dijkstra" element={<Dijkstra />} />
         <Route path="/DSA-guide/PriorityQueue" element={<PriorityQueue />} />
         <Route path="/DSA-guide/Definitions" element={<Definitions />} />
+        <Route path="/DSA-guide/Recursion" element={<Recursion />} />
       </Route>
     </Routes>
   </BrowserRouter>
