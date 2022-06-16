@@ -13,7 +13,6 @@ export default function Nav() {
       <div class="Concept_Links" onClick={() => navigate("Definitions")}>Common Terms</div>
       <div class="Concept_Links" onClick={() => navigate("DepthFirstSearch")}>Depth First Search</div>
       <div class="Concept_Links" onClick={() => navigate("Dijkstra")}>Dijkstra Algorithm</div>
-      <div class="Concept_Links" onClick={() => navigate("DivideConquer")}>Divide and Conquer</div>
       <div class="Concept_Links" onClick={() => navigate("FrequencyCounter")}>Frequency Counter</div>
       <div class="Concept_Links" onClick={() => navigate("HashTables")}>Hash Tables</div>
       <div class="Concept_Links" onClick={() => navigate("HeapSort")}>Heap Sort</div>

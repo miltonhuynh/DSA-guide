@@ -23,7 +23,6 @@ import SpaceComplexity from './Concepts/SpaceComplexity';
 import FrequencyCounter from './Concepts/FrequencyCounter';
 import Recursion from './Concepts/Recursion';
 import SlidingWindow from './Concepts/SlidingWindow';
-import DivideConquer from './Concepts/DivideConquer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -50,7 +49,6 @@ root.render(
         <Route path="/DSA-guide/Definitions" element={<Definitions />} />
         <Route path="/DSA-guide/Recursion" element={<Recursion />} />
         <Route path="/DSA-guide/SlidingWindow" element={<SlidingWindow />} />
-        <Route path="/DSA-guide/DivideConquer" element={<DivideConquer />} />
       </Route>
     </Routes>
   </BrowserRouter>
