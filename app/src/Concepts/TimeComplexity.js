@@ -29,7 +29,7 @@ export default function BigO() {
         <div class="font-l">Method 1:</div>
         <br />
         <pre>
-          <div class="Code_box Code">
+          <div class="Code">
             {slow_snippet}
           </div>
         </pre>
@@ -37,7 +37,7 @@ export default function BigO() {
         <div class="font-l">Method 2:</div>
         <br />
         <pre>
-          <div class="Code_box Code">
+          <div class="Code">
             {fast_snippet}
           </div>
         </pre>
@@ -49,36 +49,46 @@ export default function BigO() {
         <div>To summarize how efficient an algorithm is, we generalize its performance to Big O.</div>
 
         <h2>Common Big O and examples</h2>
-        <div class="BigO_type">O(1)</div>
-        <pre class="BigO_example">
-          <code class="Code_box Code">
-            let x = 5;
-          </code>
-        </pre>
-        <div class="BigO_type">O(log n)</div>
-        <pre class="BigO_example">
-          <code class="Code_box Code">
-            let x = 5;
-          </code>
-        </pre>
-        <div class="BigO_type">O(n)</div>
-        <pre class="BigO_example">
-          <code class="Code_box Code">
-            let x = 5;
-          </code>
-        </pre>
-        <div class="BigO_type">O n(log n)</div>
-        <pre class="BigO_example">
-          <code class="Code_box Code">
-            let x = 5;
-          </code>
-        </pre>
-        <div class="BigO_type">O n2</div>
-        <pre class="BigO_example">
-          <code class="Code_box Code">
-            let x = 5;
-          </code>
-        </pre>
+        <div class="font-l">O(1)</div>
+        <div class="Code">
+          <pre>
+            <code>
+              let x = 5;
+            </code>
+          </pre>
+        </div>
+        <div class="font-l">O(log n)</div>
+        <div class="Code">
+          <pre>
+            <code>
+              let x = 5;
+            </code>
+          </pre>
+        </div>
+        <div class="font-l">O(n)</div>
+        <div class="Code">
+          <pre>
+            <code>
+              let x = 5;
+            </code>
+          </pre>
+        </div>
+        <div class="font-l">O n(log n)</div>
+        <div class="Code">
+          <pre>
+            <code>
+              let x = 5;
+            </code>
+          </pre>
+        </div>
+        <div class="font-l">O n2</div>
+        <div class="Code">
+          <pre>
+            <code>
+              let x = 5;
+            </code>
+          </pre>
+        </div>
       </div>
 
     </div>
