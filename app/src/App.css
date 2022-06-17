@@ -33,6 +33,10 @@ body,html {
   font-size: 3.25rem;
 }
 
+.indent {
+  margin-left: 2vw;
+}
+
 #header {
   background-color: black;
   color: white;

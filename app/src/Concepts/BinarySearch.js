@@ -5,9 +5,7 @@ export default function BinarySearch() {
   
 
 const javascript_snippet = 
-  `<script>
-
-  function binarySearch(arr, l, r, x){
+  `function binarySearch(arr, l, r, x) {
     if (r >= l) {
       let mid = l + Math.floor((r - l) / 2);
   
@@ -29,9 +27,7 @@ const javascript_snippet =
   let n = arr.length
   let result = binarySearch(arr, 0, n - 1, x);
   (result == -1) ? document.write( "Element is not present in array")
-          : document.write("Element is present at index " +result);
-  </script>
-  `
+          : document.write("Element is present at index " +result);`
 
 
 
