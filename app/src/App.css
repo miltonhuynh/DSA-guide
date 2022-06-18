@@ -10,23 +10,23 @@ body,html {
 }
 
 .text-xsm {
-  font-size: 1rem;
+  font-size: 1vw;
 }
 
 .font-sm {
-  font-size: 1.25rem;
+  font-size: 1.25vw
 }
 
 .font-m {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
 }
 
 .font-l {
-  font-size: 2rem;
+  font-size: 2vw;
 }
 
 .font-xl {
-  font-size: 2.5rem;
+  font-size: 2.5vw;
 }
 
 .font-xxl {
@@ -119,8 +119,9 @@ body,html {
   font-size: 1.2vw;
   color: white;
   border: 0.1vw solid white;
-  padding: 1vw 2vw 1vw 4vw;
-  margin: 1vw;
+  width: 47vw;
+  padding: 2vw 5vw 2vw 5vw;
+  margin: 2vw 0vw 2vw 0vw;
 }
 
 .BigO_type {
