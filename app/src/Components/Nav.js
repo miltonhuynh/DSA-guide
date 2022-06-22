@@ -7,10 +7,10 @@ export default function Nav() {
   return (
     <div id="Navigator">
       <div class="Concept_Links" onClick={() => navigate("")}>Welcome Page</div>
+      <div class="Concept_Links" onClick={() => navigate("Definitions")}>Common Terms</div>
       <div class="Concept_Links" onClick={() => navigate("BinarySearch")}>Binary Search</div>
       <div class="Concept_Links" onClick={() => navigate("BreadthFirstSearch")}>Breadth First Search</div>
       <div class="Concept_Links" onClick={() => navigate("BubbleSort")}>Bubble Sort</div>
-      <div class="Concept_Links" onClick={() => navigate("Definitions")}>Common Terms</div>
       <div class="Concept_Links" onClick={() => navigate("DepthFirstSearch")}>Depth First Search</div>
       <div class="Concept_Links" onClick={() => navigate("Dijkstra")}>Dijkstra Algorithm</div>
       <div class="Concept_Links" onClick={() => navigate("FrequencyCounter")}>Frequency Counter</div>
