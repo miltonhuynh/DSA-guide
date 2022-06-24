@@ -55,11 +55,11 @@ body,html {
 
 #Github-icon {
   color: white;
-  width: 2vw;
+  width: 2.3vw;
   transition: 0.3s;
   position: fixed;
-  top: 0.4vw;
-  left: 1vw;
+  top: 0.3vw;
+  right: 1vw;
 }
 
 #Page_container {
