@@ -3,7 +3,18 @@ import React from 'react'
 export default function InsertionSort() {
 
   const insertion = 
-  `a`
+  `function insertionSort(arr){
+    var currentVal;
+      for(var i = 1; i < arr.length; i++){
+          currentVal = arr[i];
+          for(var j = i - 1; j >= 0 && arr[j] > currentVal; j--) {
+              arr[j+1] = arr[j]
+          }
+          arr[j+1] = currentVal;
+      }
+      return arr;
+  }
+  `
   return (
     <div class="Concept_page">
       <div class="Concept_title">Insertion sort</div>
