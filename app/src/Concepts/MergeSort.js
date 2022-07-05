@@ -10,6 +10,7 @@ export default function MergeSort() {
           <li>Splits an array in half until it can no longer be divided.</li><br/>
           <li>Exploits the fact that arrays of 0 or 1 elements are always sorted.</li><br/>
           <li>Merge operation is applied once array is fully split.</li><br/>
+          <img src={require('../images/merge.jpg')} style={{width: "40vw"}} alt="Merge sort illustration"></img>
         </div></ul>
       </div>
     </div>
