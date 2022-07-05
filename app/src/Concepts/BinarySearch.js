@@ -29,11 +29,11 @@ const javascript_snippet =
   <div class="Concept_page">
     <div class="Concept_title">Binary Search</div>
     <div class="Container">
-      <ul>
-        <li><div class="font-m">Binary search is a much faster form of search than linear search.</div></li><br/>
-        <li><div class="font-m">Rather than eliminating one element at a time, you can elimate half of the remaining elements at at time.</div></li><br/>
-        <li><div class="font-m">Binary search only works on sorted arrays.</div></li><br/><br/>
-      </ul>
+      <ul><div class="font-m">
+        <li><div>Binary search is a much faster form of search than linear search.</div></li><br/>
+        <li><div>Rather than eliminating one element at a time, you can elimate half of the remaining elements at at time.</div></li><br/>
+        <li><div>Binary search only works on sorted arrays.</div></li><br/><br/>
+      </div></ul>
       <div class="font-l">Implementation:</div>
       <div class="Code">
           <pre><code>{javascript_snippet}</code></pre>
