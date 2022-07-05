@@ -1,6 +1,40 @@
 import React from 'react'
 
 export default function MergeSort() {
+
+  const Implementation =
+  `function merge(arr1, arr2){
+    let results = [];
+    let i = 0;
+    let j = 0;
+    while(i < arr1.length && j < arr2.length){
+        if(arr2[j] > arr1[i]){
+            results.push(arr1[i]);
+            i++;
+        } else {
+            results.push(arr2[j])
+            j++;
+        }
+    }
+    while(i < arr1.length) {
+        results.push(arr1[i])
+        i++;
+    }
+    while(j < arr2.length) {
+        results.push(arr2[j])
+        j++;
+    }
+    return results;
+}
+
+function mergeSort(arr){
+    if(arr.length <= 1) return arr;
+    let mid = Math.floor(arr.length/2);
+    let left = mergeSort(arr.slice(0,mid));
+    let right = mergeSort(arr.slice(mid));
+    return merge(left, sright);
+}`
+
   return (
     <div class="Concept_page">
       <div class="Concept_title">Merge sort</div>
@@ -12,6 +46,14 @@ export default function MergeSort() {
           <li>Merge operation is applied once array is fully split.</li><br/>
           <img src={require('../images/merge.jpg')} style={{width: "40vw"}} alt="Merge sort illustration"></img>
         </div></ul>
+        <div class="font-l">Implementation</div>
+        <div class="Code">
+          <pre>
+            <code>
+              {Implementation}
+            </code>
+          </pre>
+        </div>
       </div>
     </div>
   )
