@@ -21,10 +21,10 @@ export default function InsertionSort() {
       <div class="Container">
         <div class="font-m">
           <ul>
-            <li><div>Insertion sort works like organizing playing cards in your hands.</div></li><br/>
-            <li><div>Builds up the sort by gradually creating a larger left half which is always sorted.</div></li><br/>
-            <li><div>If data is almost sorted, time complexity is better than bubble sort and selection sort.</div></li><br/>
-            <li><div>Implementation steps:</div></li>
+            <li>Insertion sort works like organizing playing cards in your hands.</li><br/>
+            <li>Builds up the sort by gradually creating a larger left half which is always sorted.</li><br/>
+            <li>If data is almost sorted, time complexity is better than bubble sort and selection sort.</li><br/>
+            <li>Implementation steps:</li>
             <div class="indent font-sm">
               <div>1) Start by picking the second element in the array.</div>
               <div>2) Compare the second element with the one before it and swap if necessary.</div>
