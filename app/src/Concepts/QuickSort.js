@@ -7,7 +7,9 @@ export default function QuickSort() {
       <div class="Container">
         <ul>
           <div class="font-m">
-            <li>test</li>
+            <li>Works by selecting one element (the pivot) and finding the index where the pivot should end up in the sorted array.</li>
+            <li>Counts the number of elements on each side of the pivot.</li>
+            <li>Once the pivot is positioned appropriately, quick sort can be applied on either side of the pivot.</li>
           </div>
         </ul>
       </div>
