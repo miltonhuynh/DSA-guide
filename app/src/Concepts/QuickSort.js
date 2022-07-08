@@ -48,7 +48,8 @@ export default function QuickSort() {
               <div>2) Iterate through the array and find the index where the pivot should be, swap so all numbers less than pivot is on the left side of the array and greater than to the right.</div>
               <div>3) Swap the pivot element with the element in its correct index.</div>
               <div>4) Recursively repeat process until the array is sorted.</div>
-            </div>
+            </div><br/>
+            <div class="font-l">Implementation</div>
             <div class="Code">
               <pre>
                 <code>
