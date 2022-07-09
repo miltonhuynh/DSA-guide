@@ -43,6 +43,7 @@ function mergeSort(arr){
           <div class="font-m">
             <li>This sorting algorithm uses a divide and conquer strategy.</li><br/>
             <li>Splits an array in half until it can no longer be divided.</li><br/>
+            <li>During merging, iterates through both arrays and adds the smaller value, when one array is exhausted, adds the remaining elements in the other array.</li><br/>
             <li>Exploits the fact that arrays of 0 or 1 elements are always sorted.</li><br/>
             <li>Merge operation is applied once array is fully split.</li><br/>
           <img src={require('../images/merge.jpg')} style={{width: "40vw"}} alt="Merge sort illustration"></img>
