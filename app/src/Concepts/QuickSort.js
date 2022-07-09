@@ -42,6 +42,7 @@ export default function QuickSort() {
             <li>Works by selecting one element (the pivot) and finding the index where the pivot should end up in the sorted array.</li><br/>
             <li>Counts the number of elements on each side of the pivot.</li><br/>
             <li>Once the pivot is positioned appropriately, quick sort can be applied on either side of the pivot.</li><br/>
+            <li>The time complexity of this sorting algorithm is on average O(n log(n)) and worst case n^2 and is in-place.</li><br/>
             <li>Implementation Steps:</li>
             <div class="indent font-sm">
               <div>1) Choose an element in the array to be the pivot.</div>

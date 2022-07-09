@@ -46,6 +46,7 @@ function mergeSort(arr){
             <li>During merging, iterates through both arrays and adds the smaller value, when one array is exhausted, adds the remaining elements in the other array.</li><br/>
             <li>Exploits the fact that arrays of 0 or 1 elements are always sorted.</li><br/>
             <li>Merge operation is applied once array is fully split.</li><br/>
+            <li>The time complexity of this sorting algorithm is O(n log(n)) and takes n space.</li>
           <img src={require('../images/merge.jpg')} style={{width: "40vw"}} alt="Merge sort illustration"></img>
           </div>
         </ul>
