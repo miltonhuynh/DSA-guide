@@ -20,6 +20,7 @@ export default function Nav() {
       <div class="Concept_Links" onClick={() => navigate("InsertionSort")}>Insertion Sort</div>
       <div class="Concept_Links" onClick={() => navigate("PriorityQueue")}>Priority Queue</div>
       <div class="Concept_Links" onClick={() => navigate("QuickSort")}>Quick Sort</div>
+      <div class="Concept_Links" onClick={() => navigate("RadixSort")}>Radix Sort</div>
       <div class="Concept_Links" onClick={() => navigate("Recursion")}>Recursion</div>
       <div class="Concept_Links" onClick={() => navigate("SelectionSort")}>Selection Sort</div>
       <div class="Concept_Links" onClick={() => navigate("SlidingWindow")}>Sliding Window</div>

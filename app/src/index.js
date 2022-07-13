@@ -24,6 +24,7 @@ import FrequencyCounter from './Concepts/FrequencyCounter';
 import Recursion from './Concepts/Recursion';
 import SlidingWindow from './Concepts/SlidingWindow';
 import StringSearch from './Concepts/StringSearch';
+import RadixSort from './Concepts/RadixSort';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -51,6 +52,7 @@ root.render(
         <Route path="/DSA-guide/Recursion" element={<Recursion />} />
         <Route path="/DSA-guide/SlidingWindow" element={<SlidingWindow />} />
         <Route path="/DSA-guide/StringSearch" element={<StringSearch />} />
+        <Route path="/DSA-guide/RadixSort" element={<RadixSort />} />
       </Route>
     </Routes>
   </BrowserRouter>
