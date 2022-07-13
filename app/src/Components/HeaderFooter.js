@@ -9,7 +9,7 @@ export default function HeaderFooter(props) {
     <>
         <div id="header">
           <div id="Github-icon"><a href="https://github.com/miltonhuynh/DSA-guide"><Githubicon/></a></div>
-          <div id="Brand" onClick={() => navigate("")}>Milton's Data Structures and Algorithms Guide</div>
+          <div id="Brand" onClick={() => navigate("")}>Milton's DS&A Crash Course</div>
         </div>
             {props.children}
         <div id="footer">Created by Milton Huynh with React.js</div>
