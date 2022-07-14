@@ -42,6 +42,7 @@ export default function RadixSort() {
                 <li>Radix sort is a special sorting algorithm that works on lists of numbers</li><br/>
                 <li>Never makes comparisons between elements</li><br/>
                 <li>It exploits the fact that information about the size of the number is in the number of digits</li><br/>
+                <li>The time complexity of this sorting algorithm is O(nk), k being the number of digits</li><br/>
                 <li>Implementation steps:</li>
                 <div class="indent font-sm">
                   <div>1) Define a function that accepts a list of numbers</div>
