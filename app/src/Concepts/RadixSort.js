@@ -9,6 +9,7 @@ export default function RadixSort() {
             <ul>
                 <li>Radix sort is a special sorting algorithm that works on lists of numbers</li><br/>
                 <li>Never makes comparisons between elements</li><br/>
+                <li>It exploits the fact that information about the size of the number is in the number of digits</li><br/>
             </ul>
         </div>
         </div>

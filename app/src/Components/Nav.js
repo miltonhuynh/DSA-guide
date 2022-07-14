@@ -13,6 +13,7 @@ export default function Nav() {
       <div class="Concept_Links" onClick={() => navigate("BubbleSort")}>Bubble Sort</div>
       <div class="Concept_Links" onClick={() => navigate("DepthFirstSearch")}>Depth First Search</div>
       <div class="Concept_Links" onClick={() => navigate("Dijkstra")}>Dijkstra Algorithm</div>
+      <div class="Concept_Links" onClick={() => navigate("DoublyLinkedList")}>Doubly Linked List</div>
       <div class="Concept_Links" onClick={() => navigate("FrequencyCounter")}>Frequency Counter</div>
       <div class="Concept_Links" onClick={() => navigate("HashTables")}>Hash Tables</div>
       <div class="Concept_Links" onClick={() => navigate("HeapSort")}>Heap Sort</div>
@@ -23,6 +24,7 @@ export default function Nav() {
       <div class="Concept_Links" onClick={() => navigate("RadixSort")}>Radix Sort</div>
       <div class="Concept_Links" onClick={() => navigate("Recursion")}>Recursion</div>
       <div class="Concept_Links" onClick={() => navigate("SelectionSort")}>Selection Sort</div>
+      <div class="Concept_Links" onClick={() => navigate("SingleLinkedList")}>Single Linked List</div>
       <div class="Concept_Links" onClick={() => navigate("SlidingWindow")}>Sliding Window</div>
       <div class="Concept_Links" onClick={() => navigate("SpaceComplexity")}>Space Complexity</div>
       <div class="Concept_Links" onClick={() => navigate("Stack")}>Stack</div>
