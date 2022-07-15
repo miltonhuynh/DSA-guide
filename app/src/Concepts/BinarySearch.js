@@ -32,7 +32,7 @@ const javascript_snippet =
       <ul><div class="font-m">
         <li><div>Binary search is a much faster form of search than linear search.</div></li><br/>
         <li><div>Rather than eliminating one element at a time, you can elimate half of the remaining elements at at time.</div></li><br/>
-        <li><div>Binary search only works on sorted arrays.</div></li><br/><br/>
+        <li><div>Binary search only works on sorted arrays.</div></li><br/>
       </div></ul>
       <div class="font-l">Implementation:</div>
       <div class="Code">
