@@ -9,7 +9,7 @@ export default function Definitions() {
           <div class="Term"><u>Class</u>: a blueprint for creating objects with pre-defined properties and methods.</div>
           <div class="Term"><u>Data structure</u>: collections of values, the relationships among them, and the functions or operations that can be applied to the data.</div>
           <div class="Term"><u>Hashmap:</u> a way to store some data and retrieve it based off of a particular key.</div>
-          <div class="Term"><u>Linked List</u>: a data structure that contains a head, tail and length property. Linked lists consists of nodes, and each node has a value and a pointer to another node or null./div>
+          <div class="Term"><u>Linked List</u>: a data structure that contains a head, tail and length property. Linked lists consists of nodes, and each node has a value and a pointer to another node or null.</div>
           <div class="Term"><u>Node:</u> a basic unit of a data structure, such as a linked list or tree data structure. Nodes contain data and also may link to other nodes.</div>
           <div class="Term"><u>Sorting:</u> the process of rearranging the items in a collection (e.g. an array) so that items are in some kind of order.
           <div class="indent font-sm">Examples:<br/>
