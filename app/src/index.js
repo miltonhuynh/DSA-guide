@@ -25,7 +25,7 @@ import Recursion from './Concepts/Recursion';
 import SlidingWindow from './Concepts/SlidingWindow';
 import StringSearch from './Concepts/StringSearch';
 import RadixSort from './Concepts/RadixSort';
-import SingleLinkedList from './Concepts/SingleLinkedList';
+import SinglyLinkedList from './Concepts/SinglyLinkedList';
 import DoublyLinkedList from './Concepts/DoublyLinkedList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -55,7 +55,7 @@ root.render(
         <Route path="/DSA-guide/SlidingWindow" element={<SlidingWindow />} />
         <Route path="/DSA-guide/StringSearch" element={<StringSearch />} />
         <Route path="/DSA-guide/RadixSort" element={<RadixSort />} />
-        <Route path="/DSA-guide/SingleLinkedList" element={<SingleLinkedList />} />
+        <Route path="/DSA-guide/SinglyLinkedList" element={<SinglyLinkedList />} />
         <Route path="/DSA-guide/DoublyLinkedList" element={<DoublyLinkedList />} />
       </Route>
     </Routes>

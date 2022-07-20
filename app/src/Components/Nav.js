@@ -24,7 +24,7 @@ export default function Nav() {
       <div class="Concept_Links" onClick={() => navigate("RadixSort")}>Radix Sort</div>
       <div class="Concept_Links" onClick={() => navigate("Recursion")}>Recursion</div>
       <div class="Concept_Links" onClick={() => navigate("SelectionSort")}>Selection Sort</div>
-      <div class="Concept_Links" onClick={() => navigate("SingleLinkedList")}>Single Linked List</div>
+      <div class="Concept_Links" onClick={() => navigate("SinglyLinkedList")}>Singly Linked List</div>
       <div class="Concept_Links" onClick={() => navigate("SlidingWindow")}>Sliding Window</div>
       <div class="Concept_Links" onClick={() => navigate("SpaceComplexity")}>Space Complexity</div>
       <div class="Concept_Links" onClick={() => navigate("Stack")}>Stack</div>
