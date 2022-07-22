@@ -47,6 +47,11 @@ export default function SinglyLinkedList() {
                 <div> 18) Return the value of the node removed</div>
               </div>
             </div>
+            <div class="indent">
+            <div>Unshift (Adding a new node to the beginning of a linked list)</div>
+            <div class="indent font-sm">
+              <div> 19)</div>
+            </div>
           </div>
         </ul>
         <img src={require('../images/sll.png')} style={{width: "60vw"}} alt="Singly linked list illustration"></img>
