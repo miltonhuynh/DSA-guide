@@ -48,9 +48,10 @@ export default function SinglyLinkedList() {
               </div>
             </div>
             <div class="indent">
-            <div>Unshift (Adding a new node to the beginning of a linked list)</div>
-            <div class="indent font-sm">
-              <div> 19)</div>
+              <div>Unshift (Adding a new node to the beginning of a linked list)</div>
+              <div class="indent font-sm">
+                <div> 19)</div>
+              </div>
             </div>
           </div>
         </ul>
