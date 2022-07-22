@@ -38,7 +38,7 @@ export default function SinglyLinkedList() {
                 </div>
             </div>
             <div class="indent">
-              <div>Shift (Removing a node from the beginning of the linked list</div>
+              <div>Shift (Removing a node from the beginning of the linked list)</div>
               <div class="indent font-sm">
                 <div> 14) If there are no nodes, return undefined</div>
                 <div> 15) Store the current head property in a variable</div>
