@@ -12,7 +12,7 @@ export default function SinglyLinkedList() {
             <li>Unlike arrays, insertion and deletion is not as time consuming, don't need to re-index every element.</li><br/>
             <li>Implementation steps:</li>
             <div class="indent">
-              <div>Node</div>
+              <div>Node (Basic unit of data structure than can hold a value)</div>
               <div class="indent font-sm">1) Create a node that contains a variable that holds a value and a pointer to the next node.</div>
             </div>
             <div class="indent">
@@ -36,6 +36,16 @@ export default function SinglyLinkedList() {
                   <div>12) Decrement the length of the list by 1</div>
                   <div>13) Return the value of the node removed</div>
                 </div>
+            </div>
+            <div class="indent">
+              <div>Shift (Removing a node from the beginning of the linked list</div>
+              <div class="indent font-sm">
+                <div> 14) If there are no nodes, return undefined</div>
+                <div> 15) Store the current head property in a variable</div>
+                <div> 16) Set the head property to be the current head's next property</div>
+                <div> 17) Decrement the length by 1</div>
+                <div> 18) Return the value of the node removed</div>
+              </div>
             </div>
           </div>
         </ul>
