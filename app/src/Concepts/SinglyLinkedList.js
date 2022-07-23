@@ -50,7 +50,12 @@ export default function SinglyLinkedList() {
             <div class="indent">
               <div>Unshift (Adding a new node to the beginning of a linked list)</div>
               <div class="indent font-sm">
-                <div> 19)</div>
+                <div> 19) Create a new node using the value passed to the function</div>
+                <div> 20) If there is no head property on the list, set the head and tail to be the newly created node</div>
+                <div> 21) Otherwise set the newly created node's next property to be the current head property on the list</div>
+                <div> 22) Set the head property on the list to be that newly created node</div>
+                <div> 23) Increment the length of the list by 1</div>
+                <div> 24) Return the linked list</div>
               </div>
             </div>
           </div>
