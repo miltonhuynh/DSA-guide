@@ -58,6 +58,14 @@ export default function SinglyLinkedList() {
                 <div> 24) Return the linked list</div>
               </div>
             </div>
+            <div class="indent">
+              <div>Get (Retrieving a node by it's position in the Linked List)</div>
+              <div class="indent font-sm">
+                <div> 25) Let the function accept an index</div>
+                <div> 26) If the index is less than zero or greater than or equal to the length of the list, return null</div>
+                <div> 27) Loop through the list until you reach the index and return the node at that specific index</div>
+              </div>
+            </div>
           </div>
         </ul>
         <img src={require('../images/sll.png')} style={{width: "60vw"}} alt="Singly linked list illustration"></img>
