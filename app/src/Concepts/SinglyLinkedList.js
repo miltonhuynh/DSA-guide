@@ -66,6 +66,14 @@ export default function SinglyLinkedList() {
                 <div> 27) Loop through the list until you reach the index and return the node at that specific index</div>
               </div>
             </div>
+            <div class="indent">
+              <div>Set (Changing the value of a node based on it's position in the Linked List)</div>
+              <div class="indent font-sm">
+                <div> 28) This function should accept a value and an index</div>
+                <div> 29) Use your get function to find the specific node</div>
+                <div> 30) If the node is not found, return false, if the node is found, set the value of that node to be the value passed to the function and return true</div>
+              </div>
+            </div>
           </div>
         </ul>
         <img src={require('../images/sll.png')} style={{width: "60vw"}} alt="Singly linked list illustration"></img>
