@@ -1,6 +1,26 @@
 import React from 'react'
 
 export default function SinglyLinkedList() {
+
+  const implementation = 
+  `class Node{
+    constructor(val){
+        this.val = val;
+        this.next = null;
+    }
+}
+
+class SinglyLinkedList{
+    constructor(){
+        this.head = null;
+        this.tail = null;
+        this.length = 0;
+    }
+    push(val){
+        
+    }
+}`
+
   return (
     <div class="Concept_page">
       <div class="Concept_title">Singly Linked List</div>
@@ -76,7 +96,15 @@ export default function SinglyLinkedList() {
             </div>
           </div>
         </ul>
-        <img src={require('../images/sll.png')} style={{width: "60vw"}} alt="Singly linked list illustration"></img>
+        <img src={require('../images/sll.png')} style={{width: "60vw"}} alt="Singly linked list illustration"></img><br/><br/><br/>
+        <div class="font-l">Implementation</div>
+        <div class="Code">
+              <pre>
+                <code>
+                  {implementation}
+                </code>
+              </pre>
+            </div>
       </div>
     </div>
   )
