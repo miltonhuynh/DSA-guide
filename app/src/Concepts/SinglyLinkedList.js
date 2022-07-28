@@ -206,7 +206,7 @@ class SinglyLinkedList{
               </div>
             </div>
             <div class="indent">
-              <div> Insert (Adding a node to the Linked List at a specific position</div>
+              <div>Insert (Adding a node to the Linked List at a specific position</div>
               <div class="indent font-sm">
                 <div> 31) If the index is less than zero or greater than the length, return false</div>
                 <div> 32) If the index is the same as the length, push a new node to the end of the list</div>
@@ -216,6 +216,18 @@ class SinglyLinkedList{
                 <div> 36) Set the next property on the new node to be the previous next</div>
                 <div> 37) Increment the length</div>
                 <div> 38) Return true</div>
+              </div>
+            </div>
+            <div class="indent">
+              <div>Remove (Removing a node from the Linked List at a specific position</div>
+              <div class="indent font-sm">
+                <div> 39) If the index is less than zero or greater than the length, return underfined</div>
+                <div> 40) If the index is the same as the length - 1, pop</div>
+                <div> 41) If the index is 0, shift</div>
+                <div> 42) Otherwise, using the get method, access the node at the index - 1</div>
+                <div> 43) Set the next property on that node to be the next of the next node</div>
+                <div> 44) Decrement the length</div>
+                <div> 45) Return the value of the node removed</div>
               </div>
             </div>
           </div>
