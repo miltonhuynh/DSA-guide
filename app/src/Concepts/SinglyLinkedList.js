@@ -211,7 +211,7 @@ class SinglyLinkedList{
                 <div> 31) If the index is less than zero or greater than the length, return false</div>
                 <div> 32) If the index is the same as the length, push a new node to the end of the list</div>
                 <div> 33) If the index is zero, unshift a new node to the start of the list</div>
-                <div> 34) Otherwise, using the get method, access the node at the index -1.</div>
+                <div> 34) Otherwise, using the get method, access the node at the index - 1.</div>
                 <div> 35) Set the next property on that node to be the new node</div>
                 <div> 36) Set the next property on the new node to be the previous next</div>
                 <div> 37) Increment the length</div>
