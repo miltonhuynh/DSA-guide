@@ -230,6 +230,19 @@ class SinglyLinkedList{
                 <div> 45) Return the value of the node removed</div>
               </div>
             </div>
+            <div class="indent">
+              <div> Reverse (Reversing the Linked List in place)</div>
+              <div class="indent font-sm">
+                <div> 46) Swap the head and the tail</div>
+                <div> 47) Create a variable called next and a variable called prev</div>
+                <div> 48) Create a variable called node and initialize it to the head property</div>
+                <div> 49) Loop through the list</div>
+                <div> 50) Set next to be the next property on whatever the current node is</div>
+                <div> 51) Set the next property on the node to be whatever prev is</div>
+                <div> 52) Set prev to be the value of the node variable</div>
+                <div> 53) Set the node variable to be the value of the next variable</div>
+              </div>
+            </div>
           </div>
         </ul>
         <img src={require('../images/sll.png')} style={{width: "60vw"}} alt="Singly linked list illustration"></img><br/><br/><br/>
