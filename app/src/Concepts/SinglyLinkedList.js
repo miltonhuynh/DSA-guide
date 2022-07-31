@@ -3,23 +3,23 @@ import React from 'react'
 export default function SinglyLinkedList() {
 
   const implementation = 
-  `class Node{
-    constructor(val){
+  `class Node {
+    constructor(val) {
         this.val = val;
         this.next = null;
     }
 }
 
-class SinglyLinkedList{
-    constructor(){
+class SinglyLinkedList {
+    constructor() {
         this.head = null;
         this.tail = null;
         this.length = 0;
     }
 
-    push(val){
+    push(val) {
         var newNode = new Node(val);
-        if(!this.head){
+        if(!this.head) {
             this.head = newNode;
             this.tail = this.head;
         } else {
@@ -30,36 +30,36 @@ class SinglyLinkedList{
         return this;
     }
 
-    pop(){
+    pop() {
         if(!this.head) return undefined;
         var current = this.head;
         var newTail = current;
-        while(current.next){
+        while(current.next) {
             newTail = current;
             current = current.next;
         }
         this.tail = newTail;
         this.tail.next = null;
         this.length--;
-        if(this.length === 0){
+        if(this.length === 0) {
             this.head = null;
             this.tail = null;
         }
         return current;
     }
 
-    shift(){
+    shift() {
         if(!this.head) return undefined;
         var currentHead = this.head;
         this.head = currentHead.next;
         this.length--;
-        if(this.length === 0){
+        if(this.length === 0) {
             this.tail = null;
         }
         return currentHead;
     }
 
-    unshift(val){
+    unshift(val) {
         var newNode = new Node(val);
         if(!this.head) {
             this.head = newNode;
@@ -71,27 +71,27 @@ class SinglyLinkedList{
         return this;
     }
 
-    get(index){
+    get(index) {
         if(index < 0 || index >= this.length) return null;
         var counter = 0;
         var current = this.head;
-        while(counter !== index){
+        while(counter !== index) {
             current = current.next;
             counter++;
         }
         return current;
     }
 
-    set(index, val){
+    set(index, val) {
         var foundNode = this.get(index);
-        if(foundNode){
+        if(foundNode) {
             foundNode.val = val;
             return true;
         }
         return false;
     }
 
-    insert(index, val){
+    insert(index, val) {
         if(index < 0 || index > this.length) return false;
         if(index === this.length) return !!this.push(val);
         if(index === 0) return !!this.unshift(val);
@@ -105,7 +105,7 @@ class SinglyLinkedList{
         return true;
     }
 
-    remove(index){
+    remove(index) {
         if(index < 0 || index >= this.length) return undefined;
         if(index === 0) return this.shift();
         if(index === this.length - 1) return this.pop();
@@ -116,13 +116,13 @@ class SinglyLinkedList{
         return removed;
     }
     
-    reverse(){
+    reverse() {
       var node = this.head;
       this.head = this.tail;
       this.tail = node;
       var next;
       var prev = null;
-      for(var i = 0; i < this.length; i++){
+      for(var i = 0; i < this.length; i++) {
         next = node.next;
         node.next = prev;
         prev = node;
