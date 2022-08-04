@@ -37,6 +37,10 @@ body,html {
   margin-left: 2vw;
 }
 
+.indent-extra {
+  margin-left: 3vw;
+}
+
 #header {
   background-color: black;
   color: white;
