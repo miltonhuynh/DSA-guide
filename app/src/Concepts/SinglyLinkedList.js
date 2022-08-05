@@ -153,7 +153,7 @@ class SinglyLinkedList {
             <div class="indent-extra font-sm">
             <div>2) Let this function accept a value</div>
             <div>3) Create a new node using the value passed to the function</div>
-            <div>4) If there is no head property on the list, set the head and tail to be the newly created node</div>
+            <div>4) If there is no head property (list is empty) on the list, set the head and tail to be the newly created node</div>
             <div>5) Otherwise set the next property on the tail to be the new node and set the tail property on the list to be the newly created node</div>
             <div>6) Increment the length by 1</div>
             <div>7) Return the linked list</div>
