@@ -187,18 +187,21 @@ class SinglyLinkedList {
               <div> 23) Increment the length of the list by 1</div>
               <div> 24) Return the linked list</div>
           </div>
+
             <ul><li>Get (Retrieving a node by it's position in the Linked List)</li></ul>
             <div class="indent-extra font-sm">
               <div> 25) Let the function accept an index</div>
               <div> 26) If the index is less than zero or greater than or equal to the length of the list, return null</div>
               <div> 27) Loop through the list until you reach the index and return the node at that specific index</div>
           </div>
+
             <ul><li>Set (Changing the value of a node based on it's position in the Linked List)</li></ul>
             <div class="indent-extra font-sm">
               <div> 28) This function should accept a value and an index</div>
               <div> 29) Use your get function to find the specific node</div>
               <div> 30) If the node is not found, return false, if the node is found, set the value of that node to be the value passed to the function and return true</div>
             </div>
+
             <ul><li>Insert (Adding a node to the Linked List at a specific position</li></ul>
             <div class="indent-extra font-sm">
               <div> 31) If the index is less than zero or greater than the length, return false</div>
@@ -210,6 +213,7 @@ class SinglyLinkedList {
               <div> 37) Increment the length</div>
               <div> 38) Return true</div>
             </div>
+
             <ul><li>Remove (Removing a node from the Linked List at a specific position</li></ul>
             <div class="indent-extra font-sm">
               <div> 39) If the index is less than zero or greater than the length, return underfined</div>
@@ -220,6 +224,7 @@ class SinglyLinkedList {
               <div> 44) Decrement the length</div>
               <div> 45) Return the value of the node removed</div>
             </div>
+            
             <ul><li>Reverse (Reversing the Linked List in place)</li></ul>
             <div class="indent-extra font-sm">
               <div> 46) Swap the head and the tail</div>

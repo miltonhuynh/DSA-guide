@@ -18,13 +18,24 @@ export default function DoublyLinkedList() {
             
             <ul><li>Push (Adding a node to the beginning of list)</li></ul>
             <div class="indent-extra font-sm">
-            <div>2) Create a new node with the value passed to the function</div>
-            <div>3) If the head property is null (list is empty), set the head and tail to be the newly created node</div>
-            <div>4) If not, set the next property on the tail to be that node</div>
-            <div>5) Set the previous property of the newly created node to be the old tail</div>
-            <div>6) Set the tail to be the newly created node</div>
-            <div>7) Increment the length</div>
-            <div>8) Return the Doubly Linked List</div>
+              <div>2) Create a new node with the value passed to the function</div>
+              <div>3) If the head property is null (list is empty), set the head and tail to be the newly created node</div>
+              <div>4) If not, set the next property on the tail to be that node</div>
+              <div>5) Set the previous property of the newly created node to be the old tail</div>
+              <div>6) Set the tail to be the newly created node</div>
+              <div>7) Increment the length</div>
+              <div>8) Return the Doubly Linked List</div>
+            </div>
+
+            <ul><li>Pop (Removing a node from the end of the Doubly Linked List)</li></ul>
+            <div class="indent-extra font-sm">
+              <div>9) If there is no head, return undefined</div>
+              <div>10) Store the current tail in a variable to return later</div>
+              <div>11) If the length is 1, set the head and tail to be null</div>
+              <div>12) Update the tail to be the previous node</div>
+              <div>13) Set the newTail's next to null</div>
+              <div>14) Decrement the length</div>
+              <div>15) Return the value removed</div>
             </div>
           </div>
         </ul>
