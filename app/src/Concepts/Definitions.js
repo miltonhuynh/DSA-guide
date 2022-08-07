@@ -15,9 +15,9 @@ export default function Definitions() {
           <div class="indent font-sm">Examples:<br/>
             <div class="indent">1) Sorting numbers from smallest to largest.</div>
             <div class="indent">2) Sorting names alphabetically.</div>
-            <div class="indent">3) Sorting movies based on release year.</div>
-            </div>
+            <div class="indent">3) Sorting movies based on release year.</div><br/><br/>
           </div>
+        </div>
       </div>
     </div>
   )
