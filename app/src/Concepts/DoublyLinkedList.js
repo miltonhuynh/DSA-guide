@@ -32,7 +32,7 @@ export default function DoublyLinkedList() {
               <div>9) If there is no head, return undefined</div>
               <div>10) Store the current tail in a variable to return later</div>
               <div>11) If the length is 1, set the head and tail to be null</div>
-              <div>12) Update the tail to be the previous node</div>
+              <div>12) Update the list's tail to be the previous node</div>
               <div>13) Set the newTail's next to null</div>
               <div>14) Decrement the length</div>
               <div>15) Return the value removed</div>
