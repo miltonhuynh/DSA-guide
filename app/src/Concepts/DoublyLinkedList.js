@@ -39,14 +39,16 @@ export default function DoublyLinkedList() {
             </div>
 
             <ul><li>Shift (Removing a node from the beginning of the Doubly Linked List</li></ul>
-            <div>16) If the length is 0, return undefined</div>
-            <div>17) Store the current head in a variable, return at end</div>
-            <div>18) If length is 1, set head and tail to null</div>
-            <div>19) Update the head to be the next of the old head</div>
-            <div>20) Set the head's prev property to null</div>
-            <div>21) Set the old head's next to null</div>
-            <div>22) Decrement the lenght</div>
-            <div>23) Return the removed node</div>
+            <div class="indent-extra font-sm">
+              <div>16) If the length is 0, return undefined</div>
+              <div>17) Store the current head in a variable, return at end</div>
+              <div>18) If length is 1, set head and tail to null</div>
+              <div>19) Update the head to be the next of the old head</div>
+              <div>20) Set the head's prev property to null</div>
+              <div>21) Set the old head's next to null</div>
+              <div>22) Decrement the length</div>
+              <div>23) Return the removed node</div>
+            </div>
           </div>
         </ul>
       </div>
