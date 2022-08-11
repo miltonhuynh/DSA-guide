@@ -38,7 +38,7 @@ export default function DoublyLinkedList() {
               <div>15) Return the value removed</div>
             </div>
 
-            <ul><li>Shift (Removing a node from the beginning of the Doubly Linked List</li></ul>
+            <ul><li>Shift (Removing a node from the beginning of the Doubly Linked List)</li></ul>
             <div class="indent-extra font-sm">
               <div>16) If the length is 0, return undefined</div>
               <div>17) Store the current head in a variable, return at end</div>
@@ -50,13 +50,20 @@ export default function DoublyLinkedList() {
               <div>23) Return the removed node</div>
             </div>
 
-            <ul><li>Unshift (Adding a node to the beginning of the Doubly Linked List</li></ul>
+            <ul><li>Unshift (Adding a node to the beginning of the Doubly Linked List)</li></ul>
             <div class="indent-extra font-sm">
               <div>24) Create a new node with the value passed to function</div>
               <div>25) If lenght is 0, set the head and tail to new node</div>
               <div>26) Otherwise, set the prev property of current head to be new node, set the next property on the new node to be the head property and update the head to be the new node</div>
               <div>27) Increment the length</div>
               <div>28) Return the list</div>
+            </div>
+
+            <ul><li>Get (Accessing a node in a Doubly Linked List by its position)</li></ul>
+            <div class="indent-extra font-sm">
+              <div>29) If the index is less than 0 or greater or equal to the length, return null</div>
+              <div>30) If the index is less than or equal to half the length of the list, loop through the list starting from head towards the middle, return the found node</div>
+              <div>31) If the index is greater than half the length of the list, loop backwards through the list starting from the tail towards the middle, return the found node</div>
             </div>
           </div>
         </ul>
