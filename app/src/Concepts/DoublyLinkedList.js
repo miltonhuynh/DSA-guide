@@ -65,6 +65,13 @@ export default function DoublyLinkedList() {
               <div>30) If the index is less than or equal to half the length of the list, loop through the list starting from head towards the middle, return the found node</div>
               <div>31) If the index is greater than half the length of the list, loop backwards through the list starting from the tail towards the middle, return the found node</div>
             </div>
+
+            <ul><li>Set (Replacing the value of a specified node in a list)</li></ul>
+            <div class="indent-extra font-sm">
+              <div>32) Create a variable which is the result of the get method at the index passed to the function</div>
+              <div>33) If the get method returns a valid node, set the value of that node to be the value passed to the function</div>
+              <div>34) Return true if node is valid, otherwise return false</div>
+            </div>
           </div>
         </ul>
       </div>
