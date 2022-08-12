@@ -72,6 +72,17 @@ export default function DoublyLinkedList() {
               <div>33) If the get method returns a valid node, set the value of that node to be the value passed to the function</div>
               <div>34) Return true if node is valid, otherwise return false</div>
             </div>
+
+            <ul><li>Insert (Adding a node in a list by a specific position</li></ul>
+            <div class="indent-extra font-sm">
+              <div>35) If the index is less than zero or greater than the length, return false</div>
+              <div>36) If the index is 0, unshift</div>
+              <div>37) If the index is equal to the length, push</div>
+              <div>38) Use the get method to access the index - 1</div>
+              <div>39) Set the next and prev properties on the correct nodes to link everything together</div>
+              <div>40) Increment the length</div>
+              <div>41) Return true</div>
+            </div>
           </div>
         </ul>
       </div>
