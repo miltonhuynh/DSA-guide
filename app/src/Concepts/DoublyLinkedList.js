@@ -83,6 +83,18 @@ export default function DoublyLinkedList() {
               <div>40) Increment the length</div>
               <div>41) Return true</div>
             </div>
+
+            <ul><li>Remove (Removing a node from a list given a certain position)</li></ul>
+            <div class="indent-extra font-sm">
+              <div>42) If the index is less than zero or greater than or equal to the length return undefined</div>
+              <div>43) If the index is 0, shift</div>
+              <div>44) If the index is equal to the length - 1, pop</div>
+              <div>45) Use the get method to retrieve the item to be removed</div>
+              <div>46) Update the next and prev properties to remove the found node from the list</div>
+              <div>47) Set the next and prev to null on the found node</div>
+              <div>48) Decrement the length</div>
+              <div>49) Return the removed node</div>
+            </div>
           </div>
         </ul>
       </div>
