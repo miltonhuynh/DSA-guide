@@ -25,6 +25,7 @@ queue.shift()`
 									</ul>
 								</div>
 							</li>
+							<li>Useful for processing tasks and are foundational for more complex data structures</li>
 							<li>
               Big O of Queues
               <div class="indent-extra font-sm">
