@@ -26,6 +26,16 @@ queue.shift()`
 								</div>
 							</li>
 							<li>
+              Big O of Queues
+              <div class="indent-extra font-sm">
+                <div>Insertion: O(1)</div>
+                <div>Removal: O(1)</div>
+                <div>Searching: O(n)</div>
+                <div>Access: O(n)</div>
+              </div>
+            </li><br/>
+            <li></li>
+							<li>
 								It is possible to implement a Queue with an array, for example:<br/>
 								<div class="Code">
 									<pre>
