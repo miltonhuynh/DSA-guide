@@ -210,7 +210,7 @@ class DoublyLinkedList {
               <div>48) Decrement the length</div>
               <div>49) Return the removed node</div>
             </div>
-
+            <div class="font-l">Implementation</div>
             <div class="Code">
               <pre>
                 <code>

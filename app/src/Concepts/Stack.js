@@ -6,6 +6,44 @@ export default function Stack() {
 stack.push(1);
 stack.push(2);
 stack.pop();`
+
+const DLL_example = 
+`class Node {
+  constructor(value){
+      this.value = value;
+      this.next = null;
+  }
+}
+
+class Stack {
+  constructor(){
+      this.first = null;
+      this.last = null;
+      this.size = 0;
+  }
+  push(val){
+      var newNode = new Node(val);
+      if(!this.first){
+          this.first = newNode;
+          this.last = newNode;
+      } else {
+          var temp = this.first;
+          this.first = newNode;
+          this.first.next = temp;
+      }
+      return ++this.size;
+  }
+  pop(){
+      if(!this.first) return null;
+      var temp = this.first;
+      if(this.first === this.last){
+          this.last = null;
+      }
+      this.first = this.first.next;
+      this.size--;
+      return temp.value;
+  }
+}`
   
 
   return (
@@ -47,7 +85,15 @@ stack.pop();`
               <div>10) If there is only one node, set the first and last property to be null</div>
               <div>11) If there is more than one node, set the first property to be the next property on the current list</div>
               <div>12) Decrement the size by one</div>
-              <div>13) Return the value of the node removed</div>
+              <div>13) Return the value of the node removed</div><br/>
+            </div>
+            <div class="font-l">Implementation</div>
+            <div class="Code">
+              <pre>
+                <code>
+                  {DLL_example}
+                </code>
+              </pre>
             </div>
           </div>
         </ul>
