@@ -53,6 +53,8 @@ class Stack {
         <ul>
           <div class="font-m">
             <li>A last in first out data structure, the last element added to the stack will be the first element removed from the stack.</li><br/>
+            <li>Stacks are used to handle function invocations (the call stack), for operations like undo/redo, and for routing and much more</li>
+            <li>Not a built in structure in JavaScript</li>
             <li>
               Big O of Stacks
               <div class="indent-extra font-sm">
@@ -72,7 +74,7 @@ class Stack {
                   </code>
                 </pre>
               </div>
-              Since the item at index 1 '2' was added last to the list it will be removed when pop is called<br/><br/>
+              <div class="font-sm">Since the item at index 1 '2' was added last to the list it will be removed when pop is called</div><br/>
             </li>
             <li>In addition to push and pop, unshift and shift can also be used to implement a stack in an array, these add and remove from the beginning of the array instead of the end; however, it is better to push and pops to avoid re-indexing every other item</li><br/>
             <li>Linked lists can also be used to implement a Stack data structure</li><br/>

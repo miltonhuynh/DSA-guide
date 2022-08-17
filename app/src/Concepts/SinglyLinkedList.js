@@ -145,11 +145,13 @@ class SinglyLinkedList {
             <li>Unlike arrays, insertion and deletion is not as time consuming, don't need to re-index every element.</li><br/>
             <li>
               Big O of Singly Linked Lists
-              <div class="indent-extra font-sm">
-                <div>Insertion: O(1)</div>
-                <div>Removal: O(1) or O(n)</div>
-                <div>Searching: O(n) *Technically O(n/2) but still in general O(n)</div>
-                <div>Access: O(n)</div>
+              <div class="font-sm">
+                <ul>
+                  <li>Insertion: O(1)</li>
+                  <li>Removal: O(1) or O(n)</li>
+                  <li>Searching: O(n) *Technically O(n/2) but still in general O(n)</li>
+                  <li>Access: O(n)</li>
+                </ul>
               </div>
             </li><br/>
 

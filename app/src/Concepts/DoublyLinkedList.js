@@ -127,11 +127,13 @@ class DoublyLinkedList {
             <li>Every node of requires extra space for a previous pointer</li><br/>
             <li>
               Big O of Doubly Linked Lists
-              <div class="indent-extra font-sm">
-                <div>Insertion: O(1)</div>
-                <div>Removal: O(1)</div>
-                <div>Searching: O(n) *Technically O(n/2) but still in general O(n)</div>
-                <div>Access: O(n)</div>
+              <div class="font-sm">
+                <ul>
+                  <li>Insertion: O(1)</li>
+                  <li>Removal: O(1)</li>
+                  <li>Searching: O(n) *Technically O(n/2) but still in general O(n)</li>
+                  <li>Access: O(n)</li>
+                </ul>
               </div>
             </li><br/>
 
