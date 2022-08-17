@@ -143,6 +143,15 @@ class SinglyLinkedList {
             <li>Each node points to the next item, unlike doubly linked list which points to the previous and next item.</li><br/>
             <li>Does not have indexes, connected via nodes with a next pointer, random access is not allowed.</li><br/>
             <li>Unlike arrays, insertion and deletion is not as time consuming, don't need to re-index every element.</li><br/>
+            <li>
+              Big O of Singly Linked Lists
+              <div class="indent-extra font-sm">
+                <div>Insertion: O(1)</div>
+                <div>Removal: O(1) or O(n)</div>
+                <div>Searching: O(n) *Technically O(n/2) but still in general O(n)</div>
+                <div>Access: O(n)</div>
+              </div>
+            </li><br/>
 
             <li>Implementation steps:</li>
 

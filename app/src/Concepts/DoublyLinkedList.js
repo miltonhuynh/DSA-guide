@@ -125,6 +125,15 @@ class DoublyLinkedList {
             <li>Almost identical to Singly Linked Lists, except every node has another pointer to the previous node</li><br/>
             <li>Can be traversed in both forward and backward directions, can quickly remove or add a new node before a given node</li><br/>
             <li>Every node of requires extra space for a previous pointer</li><br/>
+            <li>
+              Big O of Doubly Linked Lists
+              <div class="indent-extra font-sm">
+                <div>Insertion: O(1)</div>
+                <div>Removal: O(1)</div>
+                <div>Searching: O(n) *Technically O(n/2) but still in general O(n)</div>
+                <div>Access: O(n)</div>
+              </div>
+            </li><br/>
 
             <li>Implementation Steps:</li>
 

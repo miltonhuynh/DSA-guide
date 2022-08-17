@@ -54,6 +54,15 @@ class Stack {
           <div class="font-m">
             <li>A last in first out data structure, the last element added to the stack will be the first element removed from the stack.</li><br/>
             <li>
+              Big O of Stacks
+              <div class="indent-extra font-sm">
+                <div>Insertion: O(1)</div>
+                <div>Removal: O(1)</div>
+                <div>Searching: O(n)</div>
+                <div>Access: O(n)</div>
+              </div>
+            </li><br/>
+            <li>
               There are multiple ways to implement a stack in JavaScript, one way is to create an array and use the push and pop methods<br/><br/>
               Example:
               <div class="Code">
