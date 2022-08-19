@@ -1,9 +1,6 @@
 import React from 'react'
 
 export default function BinarySearch() {
-
-  
-
 const javascript_snippet = 
   `function binarySearch(arr, elem) {
     var start = 0;
