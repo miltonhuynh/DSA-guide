@@ -9,12 +9,12 @@ body,html {
   color: white;
 }
 
-.text-xsm {
-  font-size: 1vw;
+.font-xsm {
+  font-size: 1.2vw;
 }
 
 .font-sm {
-  font-size: 1.25vw
+  font-size: 1.35vw
 }
 
 .font-m {

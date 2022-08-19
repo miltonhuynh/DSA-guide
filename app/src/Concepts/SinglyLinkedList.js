@@ -156,11 +156,11 @@ class SinglyLinkedList {
 
           <li>Implementation steps:</li>
 
-          <ul>
+          <ul class="font-sm">
             <li>Create a node that contains a variable that holds a value and a pointer to the next node.</li>
           
             <li>Push (Adding a node to the beginning of list)</li>
-            <ul class="font-sm">
+            <ul class="font-xsm">
               <li>Let this function accept a value</li>
               <li>Create a new node using the value passed to the function</li>
               <li>If there is no head property (list is empty) on the list, set the head and tail to be the newly created node</li>
@@ -170,7 +170,7 @@ class SinglyLinkedList {
             </ul>
             
             <li>Pop (Removing a node from the end of the list)</li>
-            <ul class="font-sm">
+            <ul class="font-xsm">
               <li>If there are no nodes in the list, return undefined</li>
               <li>Loop through the list until you reach the tail</li>
               <li>Set the next property of the 2nd to last node to be null</li>
@@ -180,7 +180,7 @@ class SinglyLinkedList {
             </ul>
         
             <li>Shift (Removing a node from the beginning of the linked list)</li>
-            <ul class="font-sm">
+            <ul class="font-xsm">
               <li>If there are no nodes, return undefined</li>
               <li>Store the current head property in a variable</li>
               <li>Set the head property to be the current head's next property</li>
@@ -189,7 +189,7 @@ class SinglyLinkedList {
             </ul>
 
             <li>Unshift (Adding a new node to the beginning of a linked list)</li>
-            <ul class="font-sm">
+            <ul class="font-xsm">
               <li>Create a new node using the value passed to the function</li>
               <li>If there is no head property on the list, set the head and tail to be the newly created node</li>
               <li>Otherwise set the newly created node's next property to be the current head property on the list</li>
@@ -199,21 +199,21 @@ class SinglyLinkedList {
             </ul>
 
             <li>Get (Retrieving a node by it's position in the Linked List)</li>
-            <ul class="font-sm">
+            <ul class="font-xsm">
               <li>Let the function accept an index</li>
               <li>If the index is less than zero or greater than or equal to the length of the list, return null</li>
               <li>Loop through the list until you reach the index and return the node at that specific index</li>
             </ul>
 
             <li>Set (Changing the value of a node based on it's position in the Linked List)</li>
-            <ul class="font-sm">
+            <ul class="font-xsm">
               <li>This function should accept a value and an index</li>
               <li>Use your get function to find the specific node</li>
               <li>If the node is not found, return false, if the node is found, set the value of that node to be the value passed to the function and return true</li>
             </ul>
 
             <li>Insert (Adding a node to the Linked List at a specific position</li>
-            <ul class="font-sm">
+            <ul class="font-xsm">
               <li>If the index is less than zero or greater than the length, return false</li>
               <li>If the index is the same as the length, push a new node to the end of the list</li>
               <li>If the index is zero, unshift a new node to the start of the list</li>
@@ -225,7 +225,7 @@ class SinglyLinkedList {
             </ul>
 
             <li>Remove (Removing a node from the Linked List at a specific position</li>
-            <ul class="font-sm">
+            <ul class="font-xsm">
               <li>If the index is less than zero or greater than the length, return underfined</li>
               <li>If the index is the same as the length - 1, pop</li>
               <li>If the index is 0, shift</li>
@@ -236,7 +236,7 @@ class SinglyLinkedList {
             </ul>
             
             <li>Reverse (Reversing the Linked List in place)</li>
-            <ul class="font-sm">
+            <ul class="font-xsm">
               <li>Swap the head and the tail</li>
               <li>Create a variable called next and a variable called prev</li>
               <li>Create a variable called node and initialize it to the head property</li>

@@ -119,118 +119,114 @@ class DoublyLinkedList {
   return (
     <div class="Concept_page">
       <div class="Concept_title">Doubly Linked List</div>
-      <div class="Container">
+      <div class="Container font-m">
         <ul>
-          <div class="font-m">
-            <li>Almost identical to Singly Linked Lists, except every node has another pointer to the previous node</li><br/>
-            <li>Can be traversed in both forward and backward directions, can quickly remove or add a new node before a given node</li><br/>
-            <li>Every node of requires extra space for a previous pointer</li><br/>
-            <li>
-              Big O of Doubly Linked Lists
-              <div class="font-sm">
-                <ul>
-                  <li>Insertion: O(1)</li>
-                  <li>Removal: O(1)</li>
-                  <li>Searching: O(n) *Technically O(n/2) but still in general O(n)</li>
-                  <li>Access: O(n)</li>
-                </ul>
-              </div>
-            </li><br/>
+          <li>Almost identical to Singly Linked Lists, except every node has another pointer to the previous node</li><br/>
+          <li>Can be traversed in both forward and backward directions, can quickly remove or add a new node before a given node</li><br/>
+          <li>Every node of requires extra space for a previous pointer</li><br/>
+          <li>
+            Big O of Doubly Linked Lists
+            <ul class="font-sm"> 
+              <li>Insertion: O(1)</li>
+              <li>Removal: O(1)</li>
+              <li>Searching: O(n) *Technically O(n/2) but still in general O(n)</li>
+              <li>Access: O(n)</li>
+            </ul>
+          </li><br/>
 
-            <li>Implementation Steps:</li>
-
-            <ul><li>Node</li></ul>
-            <div class="indent-extra font-sm">1) Create a node that contains a variable that holds a value and a pointer to the next and previous node.</div>
+          <li>Implementation Steps:</li>
+          <ul class="font-sm">
+            <li>Create a node that contains a variable that holds a value and a pointer to the next and previous node.</li>
             
-            <ul><li>Push (Adding a node to the beginning of list)</li></ul>
-            <div class="indent-extra font-sm">
-              <div>2) Create a new node with the value passed to the function</div>
-              <div>3) If the head property is null (list is empty), set the head and tail to be the newly created node</div>
-              <div>4) If not, set the next property on the tail to be that node</div>
-              <div>5) Set the previous property of the newly created node to be the old tail</div>
-              <div>6) Set the tail to be the newly created node</div>
-              <div>7) Increment the length</div>
-              <div>8) Return the Doubly Linked List</div>
-            </div>
+            <li>Push (Adding a node to the beginning of list)</li>
+            <ul class="font-xsm">
+              <li>Create a new node with the value passed to the function</li>
+              <li>If the head property is null (list is empty), set the head and tail to be the newly created node</li>
+              <li>If not, set the next property on the tail to be that node</li>
+              <li>Set the previous property of the newly created node to be the old tail</li>
+              <li>Set the tail to be the newly created node</li>
+              <li>Increment the length</li>
+              <li>Return the Doubly Linked List</li>
+            </ul>
 
-            <ul><li>Pop (Removing a node from the end of the Doubly Linked List)</li></ul>
-            <div class="indent-extra font-sm">
-              <div>9) If there is no head, return undefined</div>
-              <div>10) Store the current tail in a variable to return later</div>
-              <div>11) If the length is 1, set the head and tail to be null</div>
-              <div>12) Update the list's tail to be the previous node</div>
-              <div>13) Set the newTail's next to null</div>
-              <div>14) Decrement the length</div>
-              <div>15) Return the value removed</div>
-            </div>
+            <li>Pop (Removing a node from the end of the Doubly Linked List)</li>
+            <ul class="font-xsm">
+              <li>If there is no head, return undefined</li>
+              <li>Store the current tail in a variable to return later</li>
+              <li>If the length is 1, set the head and tail to be null</li>
+              <li>Update the list's tail to be the previous node</li>
+              <li>Set the newTail's next to null</li>
+              <li>Decrement the length</li>
+              <li>Return the value removed</li>
+            </ul>
 
-            <ul><li>Shift (Removing a node from the beginning of the Doubly Linked List)</li></ul>
-            <div class="indent-extra font-sm">
-              <div>16) If the length is 0, return undefined</div>
-              <div>17) Store the current head in a variable, return at end</div>
-              <div>18) If length is 1, set head and tail to null</div>
-              <div>19) Update the head to be the next of the old head</div>
-              <div>20) Set the head's prev property to null</div>
-              <div>21) Set the old head's next to null</div>
-              <div>22) Decrement the length</div>
-              <div>23) Return the removed node</div>
-            </div>
+            <li>Shift (Removing a node from the beginning of the Doubly Linked List)</li>
+            <ul class="font-xsm">
+              <li>If the length is 0, return undefined</li>
+              <li>Store the current head in a variable, return at end</li>
+              <li>If length is 1, set head and tail to null</li>
+              <li>Update the head to be the next of the old head</li>
+              <li>Set the head's prev property to null</li>
+              <li>Set the old head's next to null</li>
+              <li>Decrement the length</li>
+              <li>Return the removed node</li>
+            </ul>
 
-            <ul><li>Unshift (Adding a node to the beginning of the Doubly Linked List)</li></ul>
-            <div class="indent-extra font-sm">
-              <div>24) Create a new node with the value passed to function</div>
-              <div>25) If lenght is 0, set the head and tail to new node</div>
-              <div>26) Otherwise, set the prev property of current head to be new node, set the next property on the new node to be the head property and update the head to be the new node</div>
-              <div>27) Increment the length</div>
-              <div>28) Return the list</div>
-            </div>
+            <li>Unshift (Adding a node to the beginning of the Doubly Linked List)</li>
+            <ul class="font-xsm">
+              <li>Create a new node with the value passed to function</li>
+              <li>If length is 0, set the head and tail to new node</li>
+              <li>Otherwise, set the prev property of current head to be new node, set the next property on the new node to be the head property and update the head to be the new node</li>
+              <li>Increment the length</li>
+              <li>Return the list</li>
+            </ul>
 
-            <ul><li>Get (Accessing a node in a Doubly Linked List by its position)</li></ul>
-            <div class="indent-extra font-sm">
-              <div>29) If the index is less than 0 or greater or equal to the length, return null</div>
-              <div>30) If the index is less than or equal to half the length of the list, loop through the list starting from head towards the middle, return the found node</div>
-              <div>31) If the index is greater than half the length of the list, loop backwards through the list starting from the tail towards the middle, return the found node</div>
-            </div>
+            <li>Get (Accessing a node in a Doubly Linked List by its position)</li>
+            <ul class="font-xsm">
+              <li>If the index is less than 0 or greater or equal to the length, return null</li>
+              <li>If the index is less than or equal to half the length of the list, loop through the list starting from head towards the middle, return the found node</li>
+              <li>If the index is greater than half the length of the list, loop backwards through the list starting from the tail towards the middle, return the found node</li>
+            </ul>
 
-            <ul><li>Set (Replacing the value of a specified node in a list)</li></ul>
-            <div class="indent-extra font-sm">
-              <div>32) Create a variable which is the result of the get method at the index passed to the function</div>
-              <div>33) If the get method returns a valid node, set the value of that node to be the value passed to the function</div>
-              <div>34) Return true if node is valid, otherwise return false</div>
-            </div>
+            <li>Set (Replacing the value of a specified node in a list)</li>
+            <ul class="font-xsm">
+              <li>Create a variable which is the result of the get method at the index passed to the function</li>
+              <li>If the get method returns a valid node, set the value of that node to be the value passed to the function</li>
+              <li>Return true if node is valid, otherwise return false</li>
+            </ul>
 
-            <ul><li>Insert (Adding a node in a list by a specific position</li></ul>
-            <div class="indent-extra font-sm">
-              <div>35) If the index is less than zero or greater than the length, return false</div>
-              <div>36) If the index is 0, unshift</div>
-              <div>37) If the index is equal to the length, push</div>
-              <div>38) Use the get method to access the index - 1</div>
-              <div>39) Set the next and prev properties on the correct nodes to link everything together</div>
-              <div>40) Increment the length</div>
-              <div>41) Return true</div>
-            </div>
+            <li>Insert (Adding a node in a list by a specific position</li>
+            <ul class="font-xsm">
+              <li>If the index is less than zero or greater than the length, return false</li>
+              <li>If the index is 0, unshift</li>
+              <li>If the index is equal to the length, push</li>
+              <li>Use the get method to access the index - 1</li>
+              <li>Set the next and prev properties on the correct nodes to link everything together</li>
+              <li>Increment the length</li>
+              <li>Return true</li>
+            </ul>
 
-            <ul><li>Remove (Removing a node from a list given a certain position)</li></ul>
-            <div class="indent-extra font-sm">
-              <div>42) If the index is less than zero or greater than or equal to the length return undefined</div>
-              <div>43) If the index is 0, shift</div>
-              <div>44) If the index is equal to the length - 1, pop</div>
-              <div>45) Use the get method to retrieve the item to be removed</div>
-              <div>46) Update the next and prev properties to remove the found node from the list</div>
-              <div>47) Set the next and prev to null on the found node</div>
-              <div>48) Decrement the length</div>
-              <div>49) Return the removed node</div>
-            </div>
-            <div class="font-l">Implementation</div>
-            <div class="Code">
-              <pre>
-                <code>
-                  {Implementation}
-                </code>
-              </pre>
-            </div>
+            <li>Remove (Removing a node from a list given a certain position)</li>
+            <ul class="font-xsm">
+              <li>If the index is less than zero or greater than or equal to the length return undefined</li>
+              <li>If the index is 0, shift</li>
+              <li>If the index is equal to the length - 1, pop</li>
+              <li>Use the get method to retrieve the item to be removed</li>
+              <li>Update the next and prev properties to remove the found node from the list</li>
+              <li>Set the next and prev to null on the found node</li>
+              <li>Decrement the length</li>
+              <li>Return the removed node</li>
+            </ul>
+          </ul>
+          <div class="font-l">Implementation</div>
+          <div class="Code">
+            <pre>
+              <code>
+                {Implementation}
+              </code>
+            </pre>
           </div>
-        </ul>
+          </ul>
       </div>
     </div>
   )
