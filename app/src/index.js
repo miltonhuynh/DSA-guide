@@ -28,6 +28,7 @@ import RadixSort from './Concepts/RadixSort';
 import SinglyLinkedList from './Concepts/SinglyLinkedList';
 import DoublyLinkedList from './Concepts/DoublyLinkedList';
 import Queue from './Concepts/Queue';
+import BinaryTree from './Concepts/BinaryTree';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -59,6 +60,7 @@ root.render(
         <Route path="/DSA-guide/SinglyLinkedList" element={<SinglyLinkedList />} />
         <Route path="/DSA-guide/DoublyLinkedList" element={<DoublyLinkedList />} />
         <Route path="/DSA-guide/Queue" element={<Queue />} />
+        <Route path="/DSA-guide/BinaryTree" element={<BinaryTree />} />
 
       </Route>
     </Routes>
