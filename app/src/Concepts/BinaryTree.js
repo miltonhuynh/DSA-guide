@@ -31,10 +31,10 @@ export default function BinaryTree() {
 					</ul>
 					<img src={require('../images/binarytree.png')} style={{width: "30vw"}} alt="Singly linked list illustration"></img><br/><br/>
 					<li>Implementation Steps</li>
-						<ul class="font-sm">
-							<li>Create a Node class with a constructor to create properties value, left and right</li>
-							<li>Create a Tree class with a constructor to create the root node</li>
-						</ul>
+					<ul class="font-sm">
+						<li>Create a Node class with a constructor to create properties value, left and right</li>
+						<li>Create a Tree class with a constructor to create the root node</li>
+					</ul>
 				</ul>
       </div>
     </div>

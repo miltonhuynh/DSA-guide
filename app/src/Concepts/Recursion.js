@@ -44,10 +44,12 @@ const factorial_recursive =
       <div class="Container">
         <div class="font-m">
           <ul>
-            <li><div>Recursion is simply a process (in our case a function) that calls itself.</div></li><br/>
-            <li><div>There are two essential parts of a recursive function:</div></li>
-            <div class="font-sm indent">1)<u> Base Case</u>: The condition when the recursion ends.</div>
-            <div class="font-sm indent">2)<u> Different Input</u>: The function is called with a different input each time.</div><br/>
+            <li>Recursion is simply a process (in our case a function) that calls itself.</li><br/>
+            <li>There are two essential parts of a recursive function:</li>
+            <ul>
+              <li class="font-sm">1) <u>Base Case</u>: The condition when the recursion ends.</li>
+              <li class="font-sm">2) <u>Different Input</u>: The function is called with a different input each time.</li><br/>
+            </ul>
           </ul>
           <div class="font-l">A simple countdown example: </div>
           <div class="Code">
