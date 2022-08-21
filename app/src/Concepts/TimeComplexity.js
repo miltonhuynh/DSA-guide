@@ -24,9 +24,9 @@ export default function BigO() {
         solve a problem but some methods will take less time than others. It is important to consider
         run time as the amount of data grows so will how long it will take the function to return an answer.</div>
         <br /><br />
-        <div class="font-l">For example, consider a function that adds all the numbers from 1 to some number n.</div>
+        <div class="font-m">For example, consider a function that adds all the numbers from 1 to some number n.</div>
         <br /><br />
-        <div class="font-l">Method 1:</div>
+        <div class="font-m">Method 1:</div>
         <br />
         <pre>
           <div class="Code">
