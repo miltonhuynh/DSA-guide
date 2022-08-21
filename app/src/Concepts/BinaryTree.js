@@ -34,6 +34,28 @@ export default function BinaryTree() {
 					<ul class="font-sm">
 						<li>Create a Node class with a constructor to create properties value, left and right</li>
 						<li>Create a Tree class with a constructor to create the root node</li>
+						<li>
+							Insert
+							<ul class="font-sm">
+								<li>Create a new node</li>
+								<li>Check if there is a root, if not, the root becomes the new node</li>
+								<li>If there is a root, check if the value of the new node is greater than or less than the value of the root</li>
+								<li>
+									If it is greater, check to see if there is a node to the right
+									<ul class="font-xsm">
+										<li>If there is, move to that node and repeat these steps</li>
+										<li>If there is not, add that node as the right property</li>
+									</ul>
+								</li>
+								<li>
+									If it is less, check to see if there is a node to the left
+									<ul class="font-xsm">
+										<li>If there is, move to that node and repeat these steps</li>
+										<li>If there is not, add that node as the left property</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
 					</ul>
 				</ul>
       </div>
