@@ -56,6 +56,28 @@ export default function BinaryTree() {
 								</li>
 							</ul>
 						</li>
+						<li>
+							Find
+							<ul class="font-sm">
+								<li>Check if there is a root, if not, done searching</li>
+								<li>If there is a root, check if value of the node is the value we are looking for, return if found</li>
+								<li>If not, check if the value is greater than or less than the value of the root or current</li>
+								<li>
+									If it is greater, check to see if there is a node to the right
+									<ul class="font-xsm">
+										<li>If there is, move to that node and repeat these steps</li>
+										<li>If there isn't, done searching</li>
+									</ul>
+								</li>
+								<li>
+									If it is less, check to see if there is a node to the left
+									<ul class="font-xsm">
+										<li>If there is, move to that node and repeat these steps</li>
+										<li>If there isn't, done searching</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
 					</ul>
 				</ul>
       </div>
