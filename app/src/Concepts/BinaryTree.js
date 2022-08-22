@@ -29,7 +29,7 @@ export default function BinaryTree() {
 						<li>Every node to the left of a parent node is always less than the parent</li>
 						<li>Every node to the right of a parent node is always greater than the parent</li><br/>
 					</ul>
-					<li>The complexity of Insertion and Searching is O(log n)</li>
+					<li>The complexity of Insertion and Searching is O(log n) in the best case and O(n) in the worst case</li>
 					<img src={require('../images/binarytree.png')} style={{width: "30vw"}} alt="Singly linked list illustration"></img><br/><br/>
 					<li>Implementation Steps</li>
 					<ul class="font-sm">
