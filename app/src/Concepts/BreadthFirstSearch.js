@@ -1,6 +1,23 @@
 import React from 'react'
 
 export default function BreadthFirstSearch() {
+
+  const implementation =
+  `BFS(){
+    var node = this.root,
+        data = [],
+        queue = [];
+    queue.push(node);
+
+    while(queue.length){
+       node = queue.shift();
+       data.push(node.value);
+       if(node.left) queue.push(node.left);
+       if(node.right) queue.push(node.right);
+    }
+    return data;
+}`
+
   return (
     <div class="Concept_page">
       <div class="Concept_title">Breadth First Search</div>
@@ -21,10 +38,19 @@ export default function BreadthFirstSearch() {
                   <li>If there is a right property on the node dequeued, add it to the queue</li>
                 </ul>
               </li>
-              <li>Return the variable that stores the values</li>
+              <li>Return the variable that stores the values</li><br/>
             </ul>
           </li>
-
+          <li>
+            JavaScript Implementation:
+            <div class="Code">
+              <pre>
+                <code>
+                  {implementation}
+                </code>
+              </pre>
+            </div>
+          </li>
         </ul>
       </div>
     </div>

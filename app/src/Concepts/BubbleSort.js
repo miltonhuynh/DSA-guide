@@ -29,17 +29,17 @@ export default function BubbleSort() {
             <div>1) Start looping with a variable called i at the end of the array towards the beginning.</div>
             <div>2) Start an inner loop with a variable called j from the beginning until i - 1</div>
             <div>3) If arr[j] is greater than arr[j+1], swap those two values!</div>
-            <div>4) Return the sorted array.</div>
+            <div>4) Return the sorted array.</div><br/>
           </div>
         </ul>
-      <div class="font-l">Implementation</div>
-      <div class="Code">
-        <pre>
-          <code>
-            {bubblesort}
-          </code>
-        </pre>
-      </div>
+        <div class="font-l">JavaScript Implementation</div>
+          <div class="Code">
+            <pre>
+              <code>
+                {bubblesort}
+              </code>
+            </pre>
+          </div>
       </div>
     </div>
   )

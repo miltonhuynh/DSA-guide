@@ -29,9 +29,13 @@ const javascript_snippet =
         <li><div>Rather than eliminating one element at a time, you can elimate half of the remaining elements at at time.</div></li><br/>
         <li><div>Binary search only works on sorted arrays.</div></li><br/>
       </ul>
-      <div class="font-l">Implementation:</div>
+      <div class="font-l">JavaScript Implementation:</div>
       <div class="Code">
-          <pre><code>{javascript_snippet}</code></pre>
+          <pre>
+            <code>
+              {javascript_snippet}
+            </code>
+          </pre>
       </div>
     </div>
   </div>

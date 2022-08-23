@@ -215,10 +215,10 @@ class DoublyLinkedList {
               <li>Update the next and prev properties to remove the found node from the list</li>
               <li>Set the next and prev to null on the found node</li>
               <li>Decrement the length</li>
-              <li>Return the removed node</li>
+              <li>Return the removed node</li><br/>
             </ul>
           </ul>
-          <div class="font-l">Implementation</div>
+          <div class="font-l">JavaScript Implementation</div>
           <div class="Code">
             <pre>
               <code>
