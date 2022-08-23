@@ -20,17 +20,15 @@ const javascript_snippet =
     return -1;
 }`
 
-
-
   return (
   <div class="Concept_page">
     <div class="Concept_title">Binary Search</div>
     <div class="Container">
-      <ul><div class="font-m">
+      <ul class="font-m">
         <li><div>Binary search is a much faster form of search than linear search.</div></li><br/>
         <li><div>Rather than eliminating one element at a time, you can elimate half of the remaining elements at at time.</div></li><br/>
         <li><div>Binary search only works on sorted arrays.</div></li><br/>
-      </div></ul>
+      </ul>
       <div class="font-l">Implementation:</div>
       <div class="Code">
           <pre><code>{javascript_snippet}</code></pre>
