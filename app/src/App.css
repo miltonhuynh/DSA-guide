@@ -9,6 +9,10 @@ body,html {
   color: white;
 }
 
+.font-xxsm {
+  font-size: 1.05vw;
+}
+
 .font-xsm {
   font-size: 1.2vw;
 }
