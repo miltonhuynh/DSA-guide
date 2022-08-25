@@ -29,8 +29,9 @@ export default function InsertionSort() {
               <div>1) Start by picking the second element in the array.</div>
               <div>2) Compare the second element with the one before it and swap if necessary.</div>
               <div>3) Continue to the next element and if it is in the incorrect order, iterate through the sorted portion to place the element in the correct place.</div>
-              <div>4) Repeat until the array is sorted.</div>
+              <div>4) Repeat until the array is sorted.</div><br/>
             </div>
+            <div class="font-l">JavaScript Implementation</div>
             <div class="Code">
                 <pre>
                   <code>

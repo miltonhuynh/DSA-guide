@@ -32,7 +32,7 @@ export default function SelectionSort() {
         <div class="indent font-sm">2) The remaining subarray which is unsorted.</div><br/>
         <li>In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray. </li>
       </div></ul>
-      <div class="font-l">Implementation</div>
+      <div class="font-l">JavaScript Implementation</div>
       <div class="Code">
         <pre>
           <code>

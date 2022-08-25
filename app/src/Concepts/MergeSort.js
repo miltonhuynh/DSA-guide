@@ -48,7 +48,7 @@ function mergeSort(arr){
             <li>The time complexity of this sorting algorithm is O(n log(n)) and takes n space.</li><br/>
           <img src={require('../images/merge.jpg')} style={{width: "40vw"}} alt="Merge sort illustration"></img>
         </ul>
-        <div class="font-l">Implementation</div>
+        <div class="font-l">JavaScript Implementation</div>
         <div class="Code">
           <pre>
             <code>

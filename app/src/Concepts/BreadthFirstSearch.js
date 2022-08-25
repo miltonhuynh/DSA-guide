@@ -41,17 +41,15 @@ export default function BreadthFirstSearch() {
               <li>Return the variable that stores the values</li><br/>
             </ul>
           </li>
-          <li>
-            JavaScript Implementation:
-            <div class="Code">
-              <pre>
-                <code>
-                  {implementation}
-                </code>
-              </pre>
-            </div>
-          </li>
         </ul>
+    <div class="font-l">JavaScript Implementation:</div>
+        <div class="Code">
+          <pre>
+            <code>
+              {implementation}
+            </code>
+          </pre>
+        </div>
       </div>
     </div>
   )

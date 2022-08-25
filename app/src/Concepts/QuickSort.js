@@ -50,7 +50,7 @@ export default function QuickSort() {
               <div>3) Swap the pivot element with the element in its correct index.</div>
               <div>4) Recursively repeat process until the array is sorted.</div>
             </div><br/>
-            <div class="font-l">Implementation</div>
+            <div class="font-l">JavaScript Implementation</div>
             <div class="Code">
               <pre>
                 <code>

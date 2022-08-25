@@ -54,7 +54,7 @@ export default function RadixSort() {
                 </div>
             </ul>
         </div>
-        <div class="font-l">Implementation:</div>
+        <div class="font-l">JavaScript Implementation:</div>
         <div class="Code">
           <pre>
             <code>
