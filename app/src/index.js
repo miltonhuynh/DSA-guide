@@ -29,6 +29,7 @@ import SinglyLinkedList from './Concepts/SinglyLinkedList';
 import DoublyLinkedList from './Concepts/DoublyLinkedList';
 import Queue from './Concepts/Queue';
 import BinaryTree from './Concepts/BinaryTree';
+import BinaryHeap from './Concepts/BinaryHeap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -61,6 +62,7 @@ root.render(
         <Route path="/DSA-guide/DoublyLinkedList" element={<DoublyLinkedList />} />
         <Route path="/DSA-guide/Queue" element={<Queue />} />
         <Route path="/DSA-guide/BinaryTree" element={<BinaryTree />} />
+        <Route path="/DSA-guide/BinaryHeap" element={<BinaryHeap />} />
 
       </Route>
     </Routes>

@@ -8,6 +8,7 @@ export default function Nav() {
     <div id="Navigator">
       <div class="Concept_Links" onClick={() => navigate("")}>Welcome Page</div>
       <div class="Concept_Links" onClick={() => navigate("Definitions")}>Common Terms</div>
+      <div class="Concept_Links" onClick={() => navigate("BinaryHeap")}>Binary Heap</div>
       <div class="Concept_Links" onClick={() => navigate("BinarySearch")}>Binary Search</div>
       <div class="Concept_Links" onClick={() => navigate("BinaryTree")}>Binary Tree</div>
       <div class="Concept_Links" onClick={() => navigate("BreadthFirstSearch")}>Breadth First Search</div>
