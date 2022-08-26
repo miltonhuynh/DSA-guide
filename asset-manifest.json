@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/DSA-guide/static/css/main.ac2e6766.css",
-    "main.js": "/DSA-guide/static/js/main.5489a45e.js",
+    "main.js": "/DSA-guide/static/js/main.6eeb1004.js",
     "static/media/BFS.png": "/DSA-guide/static/media/BFS.f1a2027cd6ed6ebd4818.png",
     "static/media/binarytree.png": "/DSA-guide/static/media/binarytree.8d62d2a3da2e0f5395c2.png",
     "static/media/DFSpostorder.png": "/DSA-guide/static/media/DFSpostorder.99f7cc6c8ba1519e93ed.png",
     "static/media/DFSinorder.png": "/DSA-guide/static/media/DFSinorder.421643fe7271cb33af33.png",
+    "static/media/BinaryHeapArray.png": "/DSA-guide/static/media/BinaryHeapArray.f0258dac40a91f338567.png",
     "static/media/DFSpreorder.png": "/DSA-guide/static/media/DFSpreorder.edbc030ef2a7db3e0b39.png",
     "static/media/bigo.jpg": "/DSA-guide/static/media/bigo.5a65b3028ec37aebe878.jpg",
     "static/media/merge.jpg": "/DSA-guide/static/media/merge.6448ecb706563c28e232.jpg",
@@ -13,10 +14,10 @@
     "static/media/github-brands.svg": "/DSA-guide/static/media/github-brands.45a5f4c7412fa45fdbbcfbc1bff04f35.svg",
     "index.html": "/DSA-guide/index.html",
     "main.ac2e6766.css.map": "/DSA-guide/static/css/main.ac2e6766.css.map",
-    "main.5489a45e.js.map": "/DSA-guide/static/js/main.5489a45e.js.map"
+    "main.6eeb1004.js.map": "/DSA-guide/static/js/main.6eeb1004.js.map"
   },
   "entrypoints": [
     "static/css/main.ac2e6766.css",
-    "static/js/main.5489a45e.js"
+    "static/js/main.6eeb1004.js"
   ]
 }
