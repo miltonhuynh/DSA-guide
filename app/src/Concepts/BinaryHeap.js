@@ -22,7 +22,7 @@ export default function BinaryHeap() {
               </ul><br/>
             </li>
             <li>Binary Heaps are used to implement Priority Queues, which are very commonly used data structures</li><br/>
-            <li>Also used with graph traversal algorithms</li>
+            <li>Also used with graph traversal algorithms</li><br/>
             <li>
               Binary Heaps can be stored in a list or an array: 
               <img src={require('../images/BinaryHeapArray.png')} style={{width: "50vw"}} alt="Binary Heap array illustration"></img><br/>
