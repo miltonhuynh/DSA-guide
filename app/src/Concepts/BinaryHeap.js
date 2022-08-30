@@ -30,7 +30,7 @@ export default function BinaryHeap() {
                 <li>For any index of array n, the left child is stored at 2n + 1 and the right child is stored at 2n + 2</li>
                 <li>For any child at index n, its parent is at index (n - 1) / 2, floored</li>
               </ul>
-            </li>
+            </li><br/>
             <li>
               Max Binary Heaps implementation: 
               <ul class="font-sm">
@@ -47,6 +47,25 @@ export default function BinaryHeap() {
                         <li>Set the index to be the parentIndex, and start over</li>
                       </ul>
                     </ul>
+                  </ul>
+                </li>
+                <li>
+                  Extract Max:
+                  <ul class="font-sm">
+                    <li>Swap the first value in the values property with the last one</li>
+                    <li>Pop the values property, so you can return the value at the end</li>
+                    <li>
+                      Have the new root "sink down" to the correct spot: 
+                      <ul class="font-xsm">
+                        <li>Parent index starts at 0 (root)</li>
+                        <li>Find the index of the left child: 2 * (index + 1)</li>
+                        <li>Find the index of the right child: 2 * (index + 2)</li>
+                        <li>If the left or right child is greater than the element, swap. If both children are larger, swap with the larger child</li>
+                        <li>The child index swapped becomes the new parent index</li>
+                        <li>Loop and swap until neither child is larger than the element</li>
+                        <li>Return the old root</li>
+                      </ul>
+                    </li>
                   </ul>
                 </li>
               </ul>
