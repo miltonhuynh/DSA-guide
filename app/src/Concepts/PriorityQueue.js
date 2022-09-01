@@ -84,6 +84,15 @@ class Node {
           <li>Elements with higher priorities are served before elements with lower priorities</li><br/>
           <li>A naive version of implementation is to use a list to store all the elements, each with a priority number, but we would have to iterate over the whole list to find the highest priority element</li><br/>
           <li>A more efficient way is to use <ref onClick={() => navigate("../BinaryHeap")}><u>Binary Heaps</u></ref> to store our elements</li><br/>
+          <li>
+            Implementation Steps: 
+            <ul class="font-sm">
+              <li>Write a min binary heap, lower number means higher priority</li>
+              <li>Each Node has a val and a priority, use the priority to build the heap</li>
+              <li>Enqueue method accepts a value and a priority, makes a new node, and puts it in the right spot based off of its priority</li>
+              <li>Dequeue method removes root element, returns it, and rearranges heap using priority</li>
+            </ul><br/>
+          </li>
           <div class="font-l">JavaScript Implementation: </div>
           <div class="Code">
             <pre>
