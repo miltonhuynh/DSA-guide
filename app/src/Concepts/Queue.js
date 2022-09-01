@@ -25,7 +25,7 @@ queue.shift()`
 									</ul>
 								</div>
 							</li>
-							<li>Useful for processing tasks and are foundational for more complex data structures</li>
+							<li>Useful for processing tasks and are foundational for more complex data structures</li><br/>
 							<li>
               Big O of Queues
               <div class="indent-extra font-sm">
@@ -35,7 +35,6 @@ queue.shift()`
                 <div>Access: O(n)</div>
               </div>
             </li><br/>
-            <li></li>
 							<li>
 								It is possible to implement a Queue with an array, for example:<br/>
 								<div class="Code">
@@ -47,7 +46,7 @@ queue.shift()`
 								</div>
 							<div class="font-sm">The first element with value 5 will be removed since it was added first to the array, when removing from an array, every item would have to be re-indexed making this method less ideal</div>
 							</li><br/>
-							<li>A Queue can be implemented using a Linked List to avoid re-indexing every element in the list</li>
+							<li>A Queue can be implemented using a Linked List to avoid re-indexing every element in the list</li><br/>
 							<li>Implementation steps using the Linked List method</li>
 							<ul><li>Enqueue</li></ul>
 							<div class="indent-extra font-sm">
