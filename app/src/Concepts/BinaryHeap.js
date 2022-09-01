@@ -104,6 +104,14 @@ export default function BinaryHeap() {
               </ul>
             </li><br/>
             <li>
+            Big O of Binary Heaps
+            <ul class="font-sm"> 
+              <li>Insertion: O(log N)</li>
+              <li>Removal: O(log N)</li>
+              <li>Search: O(N)</li>
+            </ul>
+          </li><br/>
+            <li>
               Max Binary Heaps implementation: 
               <ul class="font-sm">
                 <li>
