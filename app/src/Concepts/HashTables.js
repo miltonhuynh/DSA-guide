@@ -4,10 +4,11 @@ export default function HashTables() {
   const hashfunction =
   `function hash(key, arrayLen) {
     let total = 0;
+    let prime = 31;
     for (let char of key) {
       // map "a" to 1, "b" to 2, "c" to 3, etc.
       let value = char.charCodeAt(0) - 96
-      total = (total + value) % arrayLen;
+      total = (total * prime + value) % arrayLen;
     }
     return total;
   }`
@@ -42,16 +43,17 @@ export default function HashTables() {
             <ul class="font-sm">
               <li>In order to look up values by key, we need a way to convert keys into valid array indices</li>
               <li>A function that performs this task is called a hash function</li>
+              <li>Hash functions use prime numbers to reduce collisions and spread out keys more uniformly</li>
               <li>
                 A good hash function has to be: 
                 <ul class="font-xsm">
-                  <li>1) Fast (constant time)</li>
-                  <li>2) Doesn't cluster outputs at specific indices, but distributes uniformly</li>
-                  <li>3) Deterministic (same input yields same output)</li>
-                </ul>
-              <li>
+                  <li>Fast (constant time)</li>
+                  <li>Doesn't cluster outputs at specific indices, but distributes uniformly</li>
+                  <li>Deterministic (same input yields same output)</li>
+                </ul><br/>
+                <li>
                   Example of a hash function that takes in a string and returns a key:
-                  <div class="Code">
+                  <div class="Code-sm">
                     <pre>
                       <code>
                         {hashfunction}
@@ -59,6 +61,24 @@ export default function HashTables() {
                     </pre>
                   </div>
                 </li>
+                <li>Handling collisions: </li>
+                <ul class="font-xsm">
+                  <li>Even with a large array and good hash function, collisions are inevitable</li>
+                  <li>
+                    The two main strategies to deal with collions are:
+                    <ul class="font-xxsm">
+                      <li>1) <u>Separate chaining</u>: store values using a more sophisticated data structure at each index in the array, this allows us to store multiple key-value pairs at the same index</li>
+                      <li>2) <u>Linear probing</u>: when a collision is found, search through the array to find the next empty spot</li>
+                    </ul>
+                  </li>
+                </ul>
+                <li>Implementation Steps:</li>
+                <ul class="font-xsm">
+                  <li>Set</li>
+                </ul>
+                <ul class="font-xsm">
+                  <li>Get</li>
+                </ul>
               </li>
             </ul>
           </li>
