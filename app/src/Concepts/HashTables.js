@@ -69,15 +69,26 @@ export default function HashTables() {
                     <ul class="font-xxsm">
                       <li>1) <u>Separate chaining</u>: store values using a more sophisticated data structure at each index in the array, this allows us to store multiple key-value pairs at the same index</li>
                       <li>2) <u>Linear probing</u>: when a collision is found, search through the array to find the next empty spot</li>
-                    </ul>
+                    </ul><br/>
                   </li>
                 </ul>
                 <li>Implementation Steps:</li>
                 <ul class="font-xsm">
                   <li>Set</li>
+                  <ul class="font-xxsm">
+                    <li>Accepts a key and a value</li>
+                    <li>Hashes the key</li>
+                    <li>Store the key-value pair in the hash table array via separate chaining</li>
+                    <li>If the key isn't found, return underfined</li>
+                  </ul>
                 </ul>
                 <ul class="font-xsm">
                   <li>Get</li>
+                  <ul class="font-xxsm">
+                    <li>Accepts a key</li>
+                    <li>Hashes the key</li>
+                    <li>Retrieves the key-value pair in the hash table</li>
+                  </ul>
                 </ul>
               </li>
             </ul>
