@@ -65,7 +65,7 @@ export default function HashTables() {
                 <ul class="font-xsm">
                   <li>Even with a large array and good hash function, collisions are inevitable</li>
                   <li>
-                    The two main strategies to deal with collions are:
+                    The two main strategies to deal with collisions are:
                     <ul class="font-xxsm">
                       <li>1) <u>Separate chaining</u>: store values using a more sophisticated data structure at each index in the array, this allows us to store multiple key-value pairs at the same index</li>
                       <li>2) <u>Linear probing</u>: when a collision is found, search through the array to find the next empty spot</li>
