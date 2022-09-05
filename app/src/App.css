@@ -79,19 +79,19 @@ body,html {
 }
 
 #Navigator {
-  width: 21vw;
+  width: 22vw;
   overflow-y: scroll;
 }
 
 .Concept_Links {
   border: 0.2vw solid black;
-  margin: 1vw;
+  margin: 0.5vw 1vw 0.75vw 0.5vw;
   cursor: pointer;
   transition: 0.4s;
   text-align: center;
   background: rgb(138, 133, 0);
   color: white;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
   padding: 0.3vw;
   font-family: 'Mandali', sans-serif;
 }
