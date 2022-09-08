@@ -12,6 +12,68 @@ export default function HashTables() {
     }
     return total;
   }`
+
+  const implementation =
+  `class HashTable {
+    constructor(size=53){
+      this.keyMap = new Array(size);
+    }
+  
+    _hash(key) {
+      let total = 0;
+      let WEIRD_PRIME = 31;
+      for (let i = 0; i < Math.min(key.length, 100); i++) {
+        let char = key[i];
+        let value = char.charCodeAt(0) - 96
+        total = (total * WEIRD_PRIME + value) % this.keyMap.length;
+      }
+      return total;
+    }
+    set(key,value){
+      let index = this._hash(key);
+      if(!this.keyMap[index]){
+        this.keyMap[index] = [];
+      }
+      this.keyMap[index].push([key, value]);
+    }
+    get(key){
+      let index = this._hash(key);
+      if(this.keyMap[index]){
+        for(let i = 0; i < this.keyMap[index].length; i++){
+          if(this.keyMap[index][i][0] === key) {
+            return this.keyMap[index][i][1]
+          }
+        }
+      }
+      return undefined;
+    }
+    keys(){
+      let keysArr = [];
+      for(let i = 0; i < this.keyMap.length; i++){
+        if(this.keyMap[i]){
+          for(let j = 0; j < this.keyMap[i].length; j++){
+            if(!keysArr.includes(this.keyMap[i][j][0])){
+              keysArr.push(this.keyMap[i][j][0])
+            }
+          }
+        }
+      }
+      return keysArr;
+    }
+    values(){
+      let valuesArr = [];
+      for(let i = 0; i < this.keyMap.length; i++){
+        if(this.keyMap[i]){
+          for(let j = 0; j < this.keyMap[i].length; j++){
+            if(!valuesArr.includes(this.keyMap[i][j][1])){
+              valuesArr.push(this.keyMap[i][j][1])
+            }
+          }
+        }
+      }
+      return valuesArr;
+    }
+  }`
   
   return (
     <div class="Concept_page">
@@ -90,10 +152,30 @@ export default function HashTables() {
                     <li>Retrieves the key-value pair in the hash table</li>
                   </ul>
                 </ul>
+                <ul class="font-xsm">
+                  <li>Keys</li>
+                  <ul class="font-xxsm">
+                    <li>Loops through the hash table array and returns an array of keys in the table</li>
+                  </ul>
+                </ul>
+                <ul class="font-xsm">
+                  <li>Values</li>
+                  <ul class="font-xxsm">
+                    <li>Loops through the hash table array and returns an array of values in the table</li>
+                  </ul>
+                </ul>
               </li>
             </ul>
           </li>
         </ul>
+        <div class="font-l">JavaScript Implementation</div>
+        <div class="Code">
+          <pre>
+            <code>
+              {implementation}
+            </code>
+          </pre>
+        </div>
       </div>
     </div>
   )
