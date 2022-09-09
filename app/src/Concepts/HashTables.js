@@ -101,6 +101,14 @@ export default function HashTables() {
             </ul><br/>
           </li>
           <li>
+            Big O of Hash Tables
+            <ul class="font-sm"> 
+              <li>Insertion: O(1)</li>
+              <li>Deletion: O(1)</li>
+              <li>Access: O(1)</li>
+            </ul>
+          </li><br/>
+          <li>
             An array can be used to implement a hash table: 
             <ul class="font-sm">
               <li>In order to look up values by key, we need a way to convert keys into valid array indices</li>
