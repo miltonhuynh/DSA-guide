@@ -17,6 +17,7 @@ export default function Nav() {
       <div class="Concept_Links" onClick={() => navigate("Dijkstra")}>Dijkstra's Algorithm</div>
       <div class="Concept_Links" onClick={() => navigate("DoublyLinkedList")}>Doubly Linked List</div>
       <div class="Concept_Links" onClick={() => navigate("FrequencyCounter")}>Frequency Counter</div>
+      <div class="Concept_Links" onClick={() => navigate("Graphs")}>Graphs</div>
       <div class="Concept_Links" onClick={() => navigate("HashTables")}>Hash Tables</div>
       <div class="Concept_Links" onClick={() => navigate("HeapSort")}>Heap Sort</div>
       <div class="Concept_Links" onClick={() => navigate("MergeSort")}>Merge Sort</div>
