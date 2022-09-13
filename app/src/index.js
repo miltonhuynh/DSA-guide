@@ -65,7 +65,6 @@ root.render(
         <Route path="/DSA-guide/BinaryTree" element={<BinaryTree />} />
         <Route path="/DSA-guide/BinaryHeap" element={<BinaryHeap />} />
         <Route path="/DSA-guide/Graphs" element={<Graphs />} />
-
       </Route>
     </Routes>
   </BrowserRouter>
