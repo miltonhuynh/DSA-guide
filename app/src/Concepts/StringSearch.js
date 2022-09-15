@@ -33,7 +33,7 @@ export default function StringSearch() {
             <div class="font-sm indent">4. If the characters do match, keep going.</div>
             <div class="font-sm indent">5. If you complete the inner loop and find a match, increment the count of matches.</div>
             <div class="font-sm indent">6. Return the count.</div><br/>
-            <div class="font-l">Implementation: </div>
+            <div class="font-l">JavaScript Implementation: </div>
             <div class="Code">
                 <pre>
                     <code>
