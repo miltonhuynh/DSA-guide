@@ -25,6 +25,24 @@ export default function Graphs() {
 							<li><u>Weighted/Unweighted</u>: values assigned to distances between vertices</li>
 							<li><u>Directed/Undirected</u>: directions assigned to distances between vertices</li>
 						</ul>
+					</li><br/>
+					<li>
+						There are two main ways to store a graph:
+						<ul class="font-sm">
+							<li>
+								1) <u>Adjacency Matrix</u>
+								<ul class="font-xsm">
+								<li>Stores a graph of N nodes with a two dimensional N x N array</li><br/>
+								<img src={require('../images/adj_matrix.png')} style={{width: "40vw"}} alt="Adjacency matrix illustration"></img><br/><br/>
+								</ul>
+							</li>
+							<li>
+								2) <u>Adjacency Graph</u>
+								<ul class="font-xsm">
+									<img src={require('../images/adj_list.png')} style={{width: "40vw"}} alt="Adjacency list	 illustration"></img>
+								</ul>
+							</li>
+						</ul>
 					</li>
 				</ul>
 			</div>
