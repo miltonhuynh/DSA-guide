@@ -27,19 +27,22 @@ export default function Graphs() {
 						</ul>
 					</li><br/>
 					<li>
-						There are two main ways to store a graph:
+						There are two main ways to store a graph:<br/>
 						<ul class="font-sm">
 							<li>
 								1) <u>Adjacency Matrix</u>
 								<ul class="font-xsm">
 								<li>Stores a graph of N nodes with a two dimensional N x N array</li><br/>
-								<img src={require('../images/adj_matrix.png')} style={{width: "40vw"}} alt="Adjacency matrix illustration"></img><br/><br/>
+								<img src={require('../images/adj_matrix.png')} style={{width: "45vw"}} alt="Adjacency matrix illustration"></img><br/><br/>
 								</ul>
 							</li>
 							<li>
 								2) <u>Adjacency Graph</u>
 								<ul class="font-xsm">
-									<img src={require('../images/adj_list.png')} style={{width: "40vw"}} alt="Adjacency list	 illustration"></img>
+									<li>Represents a graph as an array of linked lists</li>
+									<li>The index of the array represents a vertex and each element in its linked list represents the other vertices that form an edge with the vertex</li>
+									<li>Efficient in terms of storage because we only need to store the values for the edges</li><br/>
+									<img src={require('../images/adj_list.png')} style={{width: "45vw"}} alt="Adjacency list	 illustration"></img>
 								</ul>
 							</li>
 						</ul>
