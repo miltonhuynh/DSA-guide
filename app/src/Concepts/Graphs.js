@@ -42,9 +42,16 @@ export default function Graphs() {
 									<li>Represents a graph as an array of linked lists</li>
 									<li>The index of the array represents a vertex and each element in its linked list represents the other vertices that form an edge with the vertex</li>
 									<li>Efficient in terms of storage because we only need to store the values for the edges</li><br/>
-									<img src={require('../images/adj_list.png')} style={{width: "45vw"}} alt="Adjacency list	 illustration"></img>
+									<img src={require('../images/adj_list.png')} style={{width: "45vw"}} alt="Adjacency list illustration"></img>
 								</ul>
-							</li>
+							</li><br/>
+              <li>Differences between Adjacency Matrices and Adjacency Lists</li>
+              <ul class="font-xsm">
+                <li>
+                  Big O<br/><br/>
+                  <img src={require('../images/adj_compare.png')} style={{width: "40vw"}} alt="Adjacency comparison illustration"></img>
+                </li>
+              </ul>
 						</ul>
 					</li>
 				</ul>
