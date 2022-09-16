@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/DSA-guide/static/css/main.7573b366.css",
-    "main.js": "/DSA-guide/static/js/main.0cf34b05.js",
+    "main.js": "/DSA-guide/static/js/main.750426cb.js",
     "static/media/BFS.png": "/DSA-guide/static/media/BFS.f1a2027cd6ed6ebd4818.png",
+    "static/media/adj_matrix.png": "/DSA-guide/static/media/adj_matrix.d5a6b6701a298328614d.png",
+    "static/media/adj_list.png": "/DSA-guide/static/media/adj_list.45feb2aea593a86bc9e1.png",
     "static/media/binarytree.png": "/DSA-guide/static/media/binarytree.8d62d2a3da2e0f5395c2.png",
     "static/media/DFSpostorder.png": "/DSA-guide/static/media/DFSpostorder.99f7cc6c8ba1519e93ed.png",
     "static/media/DFSinorder.png": "/DSA-guide/static/media/DFSinorder.421643fe7271cb33af33.png",
@@ -14,10 +16,10 @@
     "static/media/github-brands.svg": "/DSA-guide/static/media/github-brands.45a5f4c7412fa45fdbbcfbc1bff04f35.svg",
     "index.html": "/DSA-guide/index.html",
     "main.7573b366.css.map": "/DSA-guide/static/css/main.7573b366.css.map",
-    "main.0cf34b05.js.map": "/DSA-guide/static/js/main.0cf34b05.js.map"
+    "main.750426cb.js.map": "/DSA-guide/static/js/main.750426cb.js.map"
   },
   "entrypoints": [
     "static/css/main.7573b366.css",
-    "static/js/main.0cf34b05.js"
+    "static/js/main.750426cb.js"
   ]
 }
