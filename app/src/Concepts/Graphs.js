@@ -86,7 +86,18 @@ export default function Graphs() {
                 <li>Adjacency lists tend to be better for the real world since in most situations, there are more vertices and less connections</li>
               </ul>
 						</ul>
-					</li>
+					</li><br/>
+					<li>Implementation steps:</li>
+					<ul class="font-sm">
+						<li>
+							Add vertex
+							<ul class="font-xsm">
+								<li>Write a method that accepts the name of a vertex</li>
+								<li>It should add a key to the adjacency list with the name of the vertex and set its value to be an empty array</li>
+								<img src={require('../images/addvertex.png')} style={{width: "20vw"}} alt="Adding a vertex illustration"></img>
+							</ul>
+						</li>
+					</ul>
 				</ul>
         <div class="font-l">JavaScript Implementation</div>
         <div class="Code">
