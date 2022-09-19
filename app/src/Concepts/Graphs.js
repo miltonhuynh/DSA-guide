@@ -3,17 +3,18 @@ import React from 'react'
 export default function Graphs() {
   const implementation =
   `class Graph{
-    constructor(){
+    constructor() {
         this.adjacencyList = {};
     }
-    addVertex(vertex){
-        if(!this.adjacencyList[vertex]) this.adjacencyList[vertex] = [];
+    addVertex(vertex) {
+        if(!this.adjacencyList[vertex]) {
+          this.adjacencyList[vertex] = [];
     }
-    addEdge(v1,v2){
+    addEdge(v1,v2) {
         this.adjacencyList[v1].push(v2);
         this.adjacencyList[v2].push(v1);
     }
-    removeEdge(vertex1,vertex2){
+    removeEdge(vertex1,vertex2) {
         this.adjacencyList[vertex1] = this.adjacencyList[vertex1].filter(
             v => v !== vertex2
         );
@@ -21,8 +22,8 @@ export default function Graphs() {
             v => v !== vertex1
         );
     }
-    removeVertex(vertex){
-        while(this.adjacencyList[vertex].length){
+    removeVertex(vertex) {
+        while(this.adjacencyList[vertex].length) {
             const adjacentVertex = this.adjacencyList[vertex].pop();
             this.removeEdge(vertex, adjacentVertex);
         }
@@ -90,11 +91,20 @@ export default function Graphs() {
 					<li>Implementation steps:</li>
 					<ul class="font-sm">
 						<li>
-							Add vertex
+							Add vertex (data point)
 							<ul class="font-xsm">
 								<li>Write a method that accepts the name of a vertex</li>
 								<li>It should add a key to the adjacency list with the name of the vertex and set its value to be an empty array</li>
 								<img src={require('../images/addvertex.png')} style={{width: "20vw"}} alt="Adding a vertex illustration"></img>
+							</ul>
+						</li>
+						<li>
+							Add edge (connection between 2 vertices)
+							<ul class="font-xsm">
+								<li>The function should accept two vertices, you can call them vertex1 and vertex2</li>
+								<li>The function should find in the adjacency list the key of vertex1 and push vertex2 to the array</li>
+								<li>The function should find in the adjacency list the key of vertex2 and push vertex1 to the array</li>
+								<img src={require('../images/addedge.png')} style={{width: "25vw"}} alt="Adding a edge illustration"></img>
 							</ul>
 						</li>
 					</ul>
