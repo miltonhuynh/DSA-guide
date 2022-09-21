@@ -91,7 +91,7 @@ export default function Graphs() {
 					<li>Implementation steps:</li>
 					<ul class="font-sm">
 						<li>
-							Add vertex (data point)
+							<u>Add vertex (data point)</u>
 							<ul class="font-xsm">
 								<li>Write a method that accepts the name of a vertex</li>
 								<li>It should add a key to the adjacency list with the name of the vertex and set its value to be an empty array</li>
@@ -99,12 +99,21 @@ export default function Graphs() {
 							</ul>
 						</li>
 						<li>
-							Add edge (connection between 2 vertices)
+							<u>Add edge (connection between 2 vertices)</u>
 							<ul class="font-xsm">
 								<li>The function should accept two vertices, you can call them vertex1 and vertex2</li>
 								<li>The function should find in the adjacency list the key of vertex1 and push vertex2 to the array</li>
 								<li>The function should find in the adjacency list the key of vertex2 and push vertex1 to the array</li>
 								<img src={require('../images/addedge.png')} style={{width: "25vw"}} alt="Adding a edge illustration"></img>
+							</ul>
+						</li>
+						<li>
+							<u>Remove edge</u>
+							<ul class="font-xsm">
+								<li>The function should accept two vertices, you can call them vertex1 and vertex2</li>
+								<li>The function should reassign the key of vertex1 to be an array that does not contain vertex2</li>
+								<li>The function should reassign the key of vertex2 to be an array that does not contain vertex1</li>
+								<img src={require('../images/removeedge.png')} style={{width: "25vw"}} alt="Remove a edge illustration"></img>
 							</ul>
 						</li>
 					</ul>
