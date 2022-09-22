@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DSA-guide/static/css/main.7573b366.css",
-    "main.js": "/DSA-guide/static/js/main.9d907f4d.js",
+    "main.js": "/DSA-guide/static/js/main.d37f3c08.js",
     "static/media/addedge.png": "/DSA-guide/static/media/addedge.cbd6d1a18e7a37b8fddd.png",
     "static/media/removeedge.png": "/DSA-guide/static/media/removeedge.7d195fc3037f04fd044d.png",
     "static/media/BFS.png": "/DSA-guide/static/media/BFS.f1a2027cd6ed6ebd4818.png",
@@ -16,14 +16,15 @@
     "static/media/DFSpreorder.png": "/DSA-guide/static/media/DFSpreorder.edbc030ef2a7db3e0b39.png",
     "static/media/bigo.jpg": "/DSA-guide/static/media/bigo.5a65b3028ec37aebe878.jpg",
     "static/media/merge.jpg": "/DSA-guide/static/media/merge.6448ecb706563c28e232.jpg",
+    "static/media/removevertex.png": "/DSA-guide/static/media/removevertex.12bcd5c4b6ddb1f186dd.png",
     "static/media/sll.png": "/DSA-guide/static/media/sll.c3385580bb4b96b03756.png",
     "static/media/github-brands.svg": "/DSA-guide/static/media/github-brands.45a5f4c7412fa45fdbbcfbc1bff04f35.svg",
     "index.html": "/DSA-guide/index.html",
     "main.7573b366.css.map": "/DSA-guide/static/css/main.7573b366.css.map",
-    "main.9d907f4d.js.map": "/DSA-guide/static/js/main.9d907f4d.js.map"
+    "main.d37f3c08.js.map": "/DSA-guide/static/js/main.d37f3c08.js.map"
   },
   "entrypoints": [
     "static/css/main.7573b366.css",
-    "static/js/main.9d907f4d.js"
+    "static/js/main.d37f3c08.js"
   ]
 }
