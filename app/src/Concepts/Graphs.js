@@ -116,6 +116,16 @@ export default function Graphs() {
 								<img src={require('../images/removeedge.png')} style={{width: "25vw"}} alt="Remove a edge illustration"></img>
 							</ul>
 						</li>
+						<li>
+							<u>Remove vertex</u>
+							<ul class="font-xsm">
+								<li>The function should accept a vertex to remove</li>
+								<li>The function should loop as long as there are any other vertices in the adjacency list for that vortex</li>
+								<li>Inside of the loop, call the Remove Edge function with the vertex you are removing and any values in the adjacency list for that vertex</li>
+								<li>Delete the key in the adjacency list for that vertex</li>
+								<img src={require('../images/removevertex.png')} style={{width: "30vw"}} alt="Remove a vertex illustration"></img>
+							</ul>
+						</li>
 					</ul>
 				</ul>
         <div class="font-l">JavaScript Implementation</div>
