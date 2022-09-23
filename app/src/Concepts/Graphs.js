@@ -38,7 +38,7 @@ export default function Graphs() {
 				<ul>
 					<li>A graph data structure consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph</li><br/>
 					<li>
-						Uses for graphs:
+						<u>Uses for graphs:</u>
 						<ul class="font-sm">
 							<li>Social Networks</li>
 							<li>Location / Mapping</li>
@@ -48,7 +48,7 @@ export default function Graphs() {
 						</ul>
 					</li><br/>
 					<li>
-						Some definitions:
+						<u>Some definitions:</u>
 						<ul class="font-sm">
 							<li><u>Vertex</u>: a node</li>
 							<li><u>Edge</u>: connection between nodes</li>
@@ -88,6 +88,21 @@ export default function Graphs() {
               </ul>
 						</ul>
 					</li><br/>
+					<li>
+						<u>Graph Traversal</u>
+						<ul class="font-sm">
+							<li>Visiting, updating or checking each vertex in a graph</li>
+							<li>
+								<ul class="font-xsm">
+									<li>Peer to peer networking</li>
+									<li>Web crawlers</li>
+									<li>Finding closest matches or recommendations</li>
+									<li>Shortest path problems (GPS, solving mazes)</li>
+									<li></li>
+								</ul>
+							</li>
+						</ul>
+					</li><br/>
 					<li>Implementation steps:</li>
 					<ul class="font-sm">
 						<li>
@@ -125,10 +140,17 @@ export default function Graphs() {
 								<li>Delete the key in the adjacency list for that vertex</li>
 								<img src={require('../images/removevertex.png')} style={{width: "30vw"}} alt="Remove a vertex illustration"></img>
 							</ul>
+						</li><br/>
+						<li>
+							<u>DFS</u>
+							<ul class="font-xsm">
+								<li>The function should accept a vertex to remove</li>
+								<img src={require('../images/removevertex.png')} style={{width: "30vw"}} alt="Remove a vertex illustration"></img>
+							</ul>
 						</li>
 					</ul>
 				</ul>
-        <div class="font-l">JavaScript Implementation</div>
+        <div>JavaScript Implementation (includes how to create Graph and BFS/DFS traversal)</div>
         <div class="Code">
           <pre>
             <code>
