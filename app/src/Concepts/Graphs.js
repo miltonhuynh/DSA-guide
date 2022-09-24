@@ -3,18 +3,17 @@ import React from 'react'
 export default function Graphs() {
   const implementation =
   `class Graph{
-    constructor() {
+    constructor(){
         this.adjacencyList = {};
     }
-    addVertex(vertex) {
-        if(!this.adjacencyList[vertex]) {
-          this.adjacencyList[vertex] = [];
+    addVertex(vertex){
+        if(!this.adjacencyList[vertex]) this.adjacencyList[vertex] = [];
     }
-    addEdge(v1,v2) {
+    addEdge(v1,v2){
         this.adjacencyList[v1].push(v2);
         this.adjacencyList[v2].push(v1);
     }
-    removeEdge(vertex1,vertex2) {
+    removeEdge(vertex1,vertex2){
         this.adjacencyList[vertex1] = this.adjacencyList[vertex1].filter(
             v => v !== vertex2
         );
@@ -22,12 +21,71 @@ export default function Graphs() {
             v => v !== vertex1
         );
     }
-    removeVertex(vertex) {
-        while(this.adjacencyList[vertex].length) {
+    removeVertex(vertex){
+        while(this.adjacencyList[vertex].length){
             const adjacentVertex = this.adjacencyList[vertex].pop();
             this.removeEdge(vertex, adjacentVertex);
         }
         delete this.adjacencyList[vertex]
+    }
+    depthFirstRecursive(start){
+        const result = [];
+        const visited = {};
+        const adjacencyList = this.adjacencyList;
+
+        (function dfs(vertex){
+            if(!vertex) return null;
+            visited[vertex] = true;
+            result.push(vertex);
+            adjacencyList[vertex].forEach(neighbor => {
+                if(!visited[neighbor]){
+                    return dfs(neighbor)
+                }
+            });
+        })(start);
+
+        return result;
+    }
+    depthFirstIterative(start){
+        const stack = [start];
+        const result = [];
+        const visited = {};
+        let currentVertex;
+
+        visited[start] = true;
+        while(stack.length){
+            currentVertex = stack.pop();
+            result.push(currentVertex);
+
+            this.adjacencyList[currentVertex].forEach(neighbor => {
+               if(!visited[neighbor]){
+                   visited[neighbor] = true;
+                   stack.push(neighbor)
+               } 
+            });
+        }
+        return result;
+    }
+    breadthFirst(start){
+        const queue = [start];
+        const result = [];
+        const visited = {};
+        let currentVertex;
+        visited[start] = true;
+
+        while(queue.length){
+            currentVertex = queue.shift();
+            result.push(currentVertex);
+           
+
+            this.adjacencyList[currentVertex].forEach(neighbor => {
+                if(!visited[neighbor]){
+                    visited[neighbor] = true;
+                    queue.push(neighbor);
+                }
+            });
+        }
+        return result;
     }
 }`
 
@@ -89,16 +147,22 @@ export default function Graphs() {
 						</ul>
 					</li><br/>
 					<li>
-						<u>Graph Traversal</u>
+						Graph Traversal
 						<ul class="font-sm">
 							<li>Visiting, updating or checking each vertex in a graph</li>
 							<li>
+								Uses:
 								<ul class="font-xsm">
 									<li>Peer to peer networking</li>
 									<li>Web crawlers</li>
 									<li>Finding closest matches or recommendations</li>
 									<li>Shortest path problems (GPS, solving mazes)</li>
-									<li></li>
+								</ul>
+							</li>
+							<li>
+								<u>Depth First Traversal:</u>
+								<ul class="font-xsm">
+									<li>Explore as far down as possible down one branch before backtracking</li>
 								</ul>
 							</li>
 						</ul>
