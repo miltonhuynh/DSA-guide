@@ -211,7 +211,21 @@ export default function Graphs() {
 								<li>The function should accept a vertex to remove</li>
 								<img src={require('../images/removevertex.png')} style={{width: "30vw"}} alt="Remove a vertex illustration"></img>
 							</ul>
-						</li>
+						</li><br/>
+						<li>Depth First Search (recursive method)</li>
+						<ul class="font-xsm">
+							<li>The function should accept a starting node</li>
+							<li>Create a list to store the end result to be returned at the very end</li>
+							<li>Create an object to store visited vertices</li>
+							<li>
+								Create a helper function which accepts a vertex
+								<ul class="font-xxsm">
+									<li>The helper function should return early if the vertex is empty</li>
+									<li>The helper function should place the vertex it accepts into the visited object and push that vertex into the result array</li>
+									<li></li>
+								</ul>
+							</li>
+						</ul>
 					</ul>
 				</ul>
         <div>JavaScript Implementation (includes how to create Graph and BFS/DFS traversal)</div>
