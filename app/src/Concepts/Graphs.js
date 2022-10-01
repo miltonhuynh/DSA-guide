@@ -212,7 +212,7 @@ export default function Graphs() {
 								<img src={require('../images/removevertex.png')} style={{width: "30vw"}} alt="Remove a vertex illustration"></img>
 							</ul>
 						</li><br/>
-						<li>Depth First Search (recursive method)</li>
+						<li><u>Depth First Search (recursive method)</u></li>
 						<ul class="font-xsm">
 							<li>The function should accept a starting node</li>
 							<li>Create a list to store the end result to be returned at the very end</li>
@@ -222,8 +222,11 @@ export default function Graphs() {
 								<ul class="font-xxsm">
 									<li>The helper function should return early if the vertex is empty</li>
 									<li>The helper function should place the vertex it accepts into the visited object and push that vertex into the result array</li>
-									<li></li>
+									<li>Loop over all of the values in the adjacencyList for that vertex</li>
+									<li>If any of those values have not been visited, recursively invoke the helper function with that vertex</li>
 								</ul>
+								<li>Invoke the helper function with the starting vertex</li>
+								<li>Return the result array</li>
 							</li>
 						</ul>
 					</ul>
