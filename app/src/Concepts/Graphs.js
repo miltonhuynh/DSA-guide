@@ -228,6 +228,22 @@ export default function Graphs() {
 								<li>Invoke the helper function with the starting vertex</li>
 								<li>Return the result array</li>
 							</li>
+						</ul><br/>
+						<li><u>Depth First Search (iterative method)</u></li>
+						<ul class="font-xsm">
+							<li>The function should accept a starting node</li>
+							<li>Create a stack to help keep track of vertices (use a list or array)</li>
+							<li>Create a list to store the end result, to be returned at the very end</li>
+							<li>Create an object to store visited vertices</li>
+							<li>Add the starting vertex to the stack, and mark it visited</li>
+							<li>
+								While the stack has something in it: 
+								<ul class="font-xxsm">
+									<li>Pop the next vertex from the stack</li>
+									<li>If that vertex hasn't been visited yet, mark it as visited, add it to the result list and push all of its neighbors into the stack</li>
+								</ul>
+							</li>
+							<li>Return the result array</li>
 						</ul>
 					</ul>
 				</ul>
