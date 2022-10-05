@@ -250,6 +250,19 @@ export default function Graphs() {
 								</ul>
 							</li>
 							<li>Return the result array</li>
+						</ul><br/>
+						<li><u>Breadth First Search</u></li>
+						<ul class="font-xsm">
+							<li>The function should accept a starting vertex</li>
+							<li>Create a queue and place the starting vertex in it</li>
+							<li>Create an array to store the nodes visited</li>
+							<li>Create an object to store nodes visited</li>
+							<li>Mark the starting vertex as visited</li>
+							<li>Loop as long as there is anything in the queue</li>
+							<li>Remove the first vertex from the queue and push it into the array that stores nodes visited</li>
+							<li>Loop over each vertex in the adjacency list for the vertex you are visiting.</li>
+							<li>If it is not inside the object that stores nodes visited, mark it as visited and enqueue that vertex</li>
+							<li>Once looping is finished, return the array of visited nodes</li>
 						</ul>
 					</ul>
 				</ul>
