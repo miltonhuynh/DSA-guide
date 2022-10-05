@@ -165,6 +165,12 @@ export default function Graphs() {
 									<li>Explore as far down as possible down one branch before backtracking</li>
 								</ul>
 							</li>
+							<li>
+								<u>Breadth First Traversal:</u>
+								<ul class="font-xsm">
+									<li>Visit neighbors at current depth before traversing down a branch</li>
+								</ul>
+							</li>
 						</ul>
 					</li><br/>
 					<li>Implementation steps:</li>
