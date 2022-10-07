@@ -10,7 +10,8 @@ export default function Dijkstra() {
       <div class="Concept_title">Dijkstra's algorithm</div>
       <div class="Container font-m">
         <ul>
-          <li>Dijkstra's algorithm is used to traverse <ref class="Link" onClick={() => navigate("../Graphs")}><u>Graphs</u></ref> and uses a <ref class="Link" onClick={() => navigate("../PriorityQueue")}><u>Priority Queue</u></ref></li>
+          <li>Dijkstra's algorithm is used to traverse <ref class="Link" onClick={() => navigate("../Graphs")}><u>Graphs</u></ref> and uses a <ref class="Link" onClick={() => navigate("../PriorityQueue")}><u>Priority Queue</u></ref></li><br/>
+          <li>Finds the shortest path between two vertices on a graph</li>
         </ul>
       </div>
     </div>
