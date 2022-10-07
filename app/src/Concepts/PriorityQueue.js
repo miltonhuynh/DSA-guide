@@ -83,7 +83,7 @@ class Node {
           <li>A data structure where each element has a priority</li><br/>
           <li>Elements with higher priorities are served before elements with lower priorities</li><br/>
           <li>A naive version of implementation is to use a list to store all the elements, each with a priority number, but we would have to iterate over the whole list to find the highest priority element</li><br/>
-          <li>A more efficient way is to use <ref onClick={() => navigate("../BinaryHeap")}><u>Binary Heaps</u></ref> to store our elements</li><br/>
+          <li>A more efficient way is to use <ref class="Link" onClick={() => navigate("../BinaryHeap")}><u>Binary Heaps</u></ref> to store our elements</li><br/>
           <li>
             Implementation Steps: 
             <ul class="font-sm">

@@ -157,6 +157,10 @@ body,html {
   margin-top: 1.5rem;
 }
 
+.Link {
+  cursor: pointer;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 1vw;
