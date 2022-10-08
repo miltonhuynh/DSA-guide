@@ -20,8 +20,15 @@ export default function Dijkstra() {
               <li>Biology: used to model the spread of viruses among humans</li>
               <li>Airline tickets: finding cheapest route to your destination</li>
             </ul>
+          </li><br/>
+          <li>
+            Implementation steps:
+            <ul class="font-sm">
+              <li>Make sure your graph implementation has weighted edges</li>
+            </ul>
           </li>
         </ul>
+        <div class="font-l">JavaScript Implementation</div>
       </div>
     </div>
   )
