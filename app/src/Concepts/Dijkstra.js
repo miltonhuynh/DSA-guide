@@ -22,6 +22,15 @@ export default function Dijkstra() {
             </ul>
           </li><br/>
           <li>
+            The approach:
+            <ul class="font-sm">
+              <li>1) Every time we want to visit a new node, pick the node with the smallest known distance to visit first</li>
+              <li>2) Once we moved to the node we're going to visit, we look at each of its neighbors</li>
+              <li>3) For each neighboring node, we calculate the distance by summing the total edges that lead to the node we're checking from the starting node</li>
+              <li>4) If the new total distance to a node is less than the previous total, we store the new shorter distance for that node</li>
+            </ul>
+          </li><br/>
+          <li>
             Implementation steps:
             <ul class="font-sm">
               <li>Make sure your graph implementation has weighted edges</li>
