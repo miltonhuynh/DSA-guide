@@ -11,6 +11,7 @@ export default function Dijkstra() {
       <div class="Container font-m">
         <ul>
           <li>Dijkstra's algorithm is used to traverse <ref class="Link" onClick={() => navigate("../Graphs")}><u>Graphs</u></ref> and uses a <ref class="Link" onClick={() => navigate("../PriorityQueue")}><u>Priority Queue</u></ref></li><br/>
+          <li>It is a single source shortest path algorithm for graphs with non-negative edge weights</li><br/>
           <li>Finds the shortest path between two vertices on a graph</li><br/>
           <li>
             Common uses:
@@ -28,6 +29,15 @@ export default function Dijkstra() {
               <li>2) Once we moved to the node we're going to visit, we look at each of its neighbors</li>
               <li>3) For each neighboring node, we calculate the distance by summing the total edges that lead to the node we're checking from the starting node</li>
               <li>4) If the new total distance to a node is less than the previous total, we store the new shorter distance for that node</li>
+            </ul>
+          </li><br/>
+          <li>
+            Algorithm overview:
+            <ul class="font-sm">
+              <li>1) Maintain a distance array where the distance to every node is positive infinity. Distance to start node is 0</li>
+              <li>2) Maintain a Priority Queue of key-value pairs (index, distance) which tell you which node to visit next based on sorted minimum value</li>\
+              <li>3) Start by inserting the key-value pair (s,0) into the Priority Queue and loop while it is not empty pulling out the next most promising (index, distance) pair</li>
+              <li>4) Interate over all edges outwards from the current node and relax each edge apprending a new (index, distance) key-value pair to the Priority Queue for every relaxation</li>
             </ul>
           </li><br/>
           <li>
