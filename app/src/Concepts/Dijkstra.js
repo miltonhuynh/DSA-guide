@@ -35,7 +35,7 @@ export default function Dijkstra() {
             Algorithm overview:
             <ul class="font-sm">
               <li>1) Maintain a distance array where the distance to every node is positive infinity. Distance to start node is 0</li>
-              <li>2) Maintain a Priority Queue of key-value pairs (index, distance) which tell you which node to visit next based on sorted minimum value</li>\
+              <li>2) Maintain a Priority Queue of key-value pairs (index, distance) which tell you which node to visit next based on sorted minimum value</li>
               <li>3) Start by inserting the key-value pair (s,0) into the Priority Queue and loop while it is not empty pulling out the next most promising (index, distance) pair</li>
               <li>4) Interate over all edges outwards from the current node and relax each edge apprending a new (index, distance) key-value pair to the Priority Queue for every relaxation</li>
             </ul>
