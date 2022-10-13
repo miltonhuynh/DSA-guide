@@ -171,6 +171,10 @@ class Node {
             Implementation steps:
             <ul class="font-sm">
               <li>Make sure your graph implementation has weighted edges</li>
+              <li>Create a function that accepts a starting and ending vertex</li>
+              <li>Create an object (for distances) and set each key to be every vertex in the adjacency list with a value of infinity, except for the starting vertex which should have a value of 0</li>
+              <li>After setting a value in the distances object, add each vertex with a priority of infinity to the priority queue, except the starting vertex, which should have a priority of 0 because that's where we began</li>
+              <li>Create another object called previous and set each key to be every vertex in the adjacency list with a value of null</li>
             </ul>
           </li>
         </ul>
