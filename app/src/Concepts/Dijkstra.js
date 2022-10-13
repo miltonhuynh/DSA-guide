@@ -141,7 +141,7 @@ class Node {
           <li>It is a single source shortest path algorithm for graphs with non-negative edge weights</li><br/>
           <li>Finds the shortest path between two vertices on a graph</li><br/>
           <li>
-            Common uses:
+            <u>Common uses</u>:
             <ul class="font-sm">
               <li>GPS: finding the fastest route</li>
               <li>Network routing: finds open shortest path for data</li>
@@ -150,7 +150,7 @@ class Node {
             </ul>
           </li><br/>
           <li>
-            The approach:
+            <u>The approach</u>:
             <ul class="font-sm">
               <li>1) Every time we want to visit a new node, pick the node with the smallest known distance to visit first</li>
               <li>2) Once we moved to the node we're going to visit, we look at each of its neighbors</li>
@@ -159,7 +159,7 @@ class Node {
             </ul>
           </li><br/>
           <li>
-            Algorithm overview:
+            <u>Algorithm overview</u>:
             <ul class="font-sm">
               <li>1) Maintain a distance array where the distance to every node is positive infinity. Distance to start node is 0</li>
               <li>2) Maintain a Priority Queue of key-value pairs (index, distance) which tell you which node to visit next based on sorted minimum value</li>
@@ -168,7 +168,7 @@ class Node {
             </ul>
           </li><br/>
           <li>
-            Implementation steps:
+            <u>Implementation steps</u>:
             <ul class="font-sm">
               <li>Make sure your graph implementation has weighted edges</li>
               <li>Create a function that accepts a starting and ending vertex</li>
