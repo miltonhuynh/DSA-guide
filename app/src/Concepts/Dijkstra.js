@@ -175,6 +175,18 @@ class Node {
               <li>Create an object (for distances) and set each key to be every vertex in the adjacency list with a value of infinity, except for the starting vertex which should have a value of 0</li>
               <li>After setting a value in the distances object, add each vertex with a priority of infinity to the priority queue, except the starting vertex, which should have a priority of 0 because that's where we began</li>
               <li>Create another object called previous and set each key to be every vertex in the adjacency list with a value of null</li>
+              <li>
+                Start looping as long as there is anything in the priority queue
+                <ul class="font-xsm">
+                  <li>Dequeue a vertex from the priority queue</li>
+                  <li>If that vertex is the same as the ending vertex, we are done</li>
+                  <li>Otherwise loop through each value in the adjacency list at that vertex</li>
+                  <ul class="font-xxsm">
+                    <li>Calculate the distance to that vertex from the starting vertex</li>
+                    <li>If the distance is less than what is currently stored in our distances object, (1) Update the distances object with the new lower distance, (2) Update the previous object to contain that vertex and (3) Enqueue that vertex with the total distance from the start node</li>
+                  </ul>
+                </ul>
+              </li>
             </ul>
           </li>
         </ul>
