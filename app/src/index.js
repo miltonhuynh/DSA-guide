@@ -31,6 +31,7 @@ import Queue from './Concepts/Queue';
 import BinaryTree from './Concepts/BinaryTree';
 import BinaryHeap from './Concepts/BinaryHeap';
 import Graphs from './Concepts/Graphs';
+import DynamicProgramming from './Concepts/DynamicProgramming';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -65,6 +66,8 @@ root.render(
         <Route path="/DSA-guide/BinaryTree" element={<BinaryTree />} />
         <Route path="/DSA-guide/BinaryHeap" element={<BinaryHeap />} />
         <Route path="/DSA-guide/Graphs" element={<Graphs />} />
+        <Route path="/DSA-guide/DynamicProgramming" element={<DynamicProgramming />} />
+
       </Route>
     </Routes>
   </BrowserRouter>
