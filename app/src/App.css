@@ -10,31 +10,31 @@ body,html {
 }
 
 .font-xxsm {
-  font-size: 1.3vw;
+  font-size: 1.25vw;
 }
 
 .font-xsm {
-  font-size: 1.45vw;
+  font-size: 1.35vw;
 }
 
 .font-sm {
-  font-size: 1.6vw
+  font-size: 1.45vw
 }
 
 .font-m {
-  font-size: 1.75vw;
+  font-size: 1.55vw;
 }
 
 .font-l {
-  font-size: 2vw;
+  font-size: 1.8vw;
 }
 
 .font-xl {
-  font-size: 2.5vw;
+  font-size: 2.2vw;
 }
 
 .font-xxl {
-  font-size: 3.25rem;
+  font-size: 2.7vw;
 }
 
 .indent {
@@ -47,7 +47,6 @@ body,html {
 
 #header {
   background-color: black;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,16 +56,16 @@ body,html {
 }
 
 #Brand {
-  font-size: 2vw;
+  font-size: 1.6vw;
   cursor: pointer;
 }
 
 #Github-icon {
   color: white;
-  width: 2.3vw;
+  width: 2vw;
   transition: 0.3s;
   position: fixed;
-  top: 0.3vw;
+  top: 0.5vw;
   right: 1vw;
 }
 
