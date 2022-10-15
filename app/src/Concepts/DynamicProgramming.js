@@ -13,6 +13,11 @@ export default function DynamicProgramming() {
             <u>Overlapping subproblems</u>
             <ul class="font-sm">
               <li>A problem is said to have overlapping subproblems if it can be broken down into subproblems which are reused several times</li>
+              <li>
+                An example is the Fibonacci sequence, "every number after the first two is the sum of the two preceding ones", we are able to break down the problem into smaller steps<br/>
+                <img src={require('../images/fibnum.png')} style={{width: "40vw"}} alt="Fibonacci illustration"></img>
+              </li>
+
             </ul>
           </li>
         </ul>
