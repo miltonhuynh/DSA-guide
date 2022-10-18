@@ -2,6 +2,27 @@ import React from 'react'
 
 export default function DynamicProgramming() {
 
+  const recursive_fib = 
+  `function fibonacci_recursive() {
+    if (n <= 2) {
+      return 1;
+    }
+    return fibonacci_recursive(n - 1) + fibonacci_recursive(n-2)
+  }`
+
+  const memoized_fib = 
+  `function memoized_fib(n, store=[]) {
+    if(store[n] !== undefined) {
+      return store[n];
+    }
+    if(n <= 2) {
+      return 1;
+    }
+    var result = memoized_fib(n - 1, store) + memoized_fib(n - 2, store);
+    store[n] = result;
+    return result;
+  } `
+
   return (
     <div class="Concept_page">
       <div class="Concept_title">Dynamic Programming</div>
@@ -31,6 +52,29 @@ export default function DynamicProgramming() {
                 </li>
               </ul>
             </div>
+          </li><br/>
+          <li>
+            For example, we can use recursion to solve the Fibonacci problem for the n-th input, but this solution is not ideal and we can implement Dynamic Programming to optimize it
+            <ul class="font-sm">
+              <div class="Code">
+                <pre>
+                  <code>
+                    {recursive_fib}
+                  </code>
+                </pre>
+              </div>
+              <li>The issue with this method is the growth rate is O(2^n), this solution repeats calculations that have already been done, the function does not know this</li>
+              <img src={require('../images/fibgrowth.png')} style={{width: "50vw"}} alt="Big O fibonacci recursive illustration"></img><br/><br/>
+              <li>We can use <u>memoization</u> to store the result of functions calls and use them when they show up again</li>
+              <div class="Code">
+                <pre>
+                  <code>
+                    {memoized_fib}
+                  </code>
+                </pre>
+              </div>
+              The time complexity of this solution is O(n), much better than using recursion alone
+            </ul>
           </li>
         </ul>
       </div>
