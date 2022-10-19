@@ -73,7 +73,8 @@ export default function DynamicProgramming() {
                   </code>
                 </pre>
               </div>
-              The time complexity of this solution is O(n), much better than using recursion alone
+              The time complexity of this solution is O(n), much better than using recursion alone<br/><br/>
+              <li>We can also use <u>tabulation</u> which has a better space complexity.</li>
             </ul>
           </li>
         </ul>
