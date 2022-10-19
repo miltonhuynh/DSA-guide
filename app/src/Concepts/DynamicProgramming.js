@@ -23,6 +23,17 @@ export default function DynamicProgramming() {
     return result;
   } `
 
+
+  const tabulated_fib = 
+  `function tabulated_fib(n){
+    if(n <= 2) return 1;
+    var fibNums = [0,1,1];
+    for(var i = 3; i <= n; i++){
+        fibNums[i] = fibNums[i-1] + fibNums[i-2];
+    }
+    return fibNums[n];
+}`
+
   return (
     <div class="Concept_page">
       <div class="Concept_title">Dynamic Programming</div>
@@ -74,7 +85,14 @@ export default function DynamicProgramming() {
                 </pre>
               </div>
               The time complexity of this solution is O(n), much better than using recursion alone<br/><br/>
-              <li>We can also use <u>tabulation</u> which has a better space complexity.</li>
+              <li>We can also use <u>tabulation</u> which has a better space complexity than memoization, we store previous results in an array</li>
+              <div class="Code">
+                <pre>
+                  <code>
+                    {tabulated_fib}
+                  </code>
+                </pre>
+              </div>
             </ul>
           </li>
         </ul>
