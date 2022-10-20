@@ -16,7 +16,6 @@ import SelectionSort from './Concepts/SelectionSort';
 import InsertionSort from './Concepts/InsertionSort';
 import PriorityQueue from './Concepts/PriorityQueue';
 import Stack from './Concepts/Stack';
-import HeapSort from './Concepts/HeapSort';
 import TimeComplexity from './Concepts/TimeComplexity';
 import Definitions from './Concepts/Definitions';
 import SpaceComplexity from './Concepts/SpaceComplexity';
@@ -47,7 +46,6 @@ root.render(
         <Route path="/DSA-guide/BubbleSort" element={<BubbleSort />} />
         <Route path="/DSA-guide/QuickSort" element={<QuickSort />} />
         <Route path="/DSA-guide/MergeSort" element={<MergeSort />} />
-        <Route path="/DSA-guide/HeapSort" element={<HeapSort />} />
         <Route path="/DSA-guide/SelectionSort" element={<SelectionSort />} />
         <Route path="/DSA-guide/InsertionSort" element={<InsertionSort />} />
         <Route path="/DSA-guide/HashTables" element={<HashTables />} />
