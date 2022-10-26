@@ -25,9 +25,22 @@ const javascript_snippet =
     <div class="Concept_title">Binary Search</div>
     <div class="Container">
       <ul class="font-m">
-        <li><div>Binary search is a much faster form of search than linear search.</div></li><br/>
-        <li><div>Rather than eliminating one element at a time, you can elimate half of the remaining elements at at time.</div></li><br/>
-        <li><div>Binary search only works on sorted arrays.</div></li><br/>
+        <li>Binary search is a much faster form of search than linear search.</li><br/>
+        <li>Rather than eliminating one element at a time, you can elimate half of the remaining elements at at time.</li><br/>
+        <li>Binary search only works on sorted arrays.</li><br/>
+        <li>Binary search works by repeatedly dividing the search interval in half, depending on whether the guess was lower or higher than the correct value</li><br/>
+
+        <li>
+          Implementation steps:
+          <ul class="font-m">
+            <li>Begin with the mid element of the whole array as a search key</li>
+            <li>If the value of the search key is equal to the item then return an index of the search key</li>
+            <li>Or if the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half</li>
+            <li>Otherwise, narrow it to the upper half</li>
+            <li>Repeatedly check from the second point until the value is found or the interval is empty</li>
+          </ul>
+        </li>
+  
       </ul>
       <div class="font-l">JavaScript Implementation:</div>
       <div class="Code">
