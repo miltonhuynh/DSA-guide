@@ -23,6 +23,7 @@ export default function BreadthFirstSearch() {
       <div class="Concept_title">Breadth First Search</div>
       <div class="Container font-m">
         <ul>
+          <li>An algorithm for searching a tree data structure for a node that satisfies a given property</li><br/>
           <li>Goes through every node at the same level from the root before traversing down a level</li><br/>
           <img src={require('../images/BFS.png')} style={{width: "50vw"}} alt="Breadth First Search illustration"></img><br/><br/>
           <li>
