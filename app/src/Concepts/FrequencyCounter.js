@@ -53,14 +53,14 @@ export default function FrequencyCounter() {
           <li>This pattern uses objects or sets to collect values and frequencies of values.</li><br/>
           <li>Used to avoid using nested loops or O(n^2) with arrays and strings</li><br/>
         </ul>
-        <div class="font-l">Naive solution</div>
+        <div class="font-l">Naive solution [uses a nested loop and has a time complexity of O(n^2)]</div>
         <div class="Code">
           <pre>
             <code>
               {naive}
             </code>
           </pre>
-        </div>
+        </div><br/>
         <div class="font-l">Optimal solution</div>
         <div class="Code">
           <pre>
