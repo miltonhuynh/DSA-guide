@@ -53,8 +53,8 @@ class Stack {
         <ul>
           <div class="font-m">
             <li>A last in first out data structure, the last element added to the stack will be the first element removed from the stack.</li><br/>
-            <li>Stacks are used to handle function invocations (the call stack), for operations like undo/redo, and for routing and much more</li>
-            <li>Not a built in structure in JavaScript</li>
+            <li>Stacks are used to handle function invocations (the call stack), for operations like undo/redo, and for routing and much more</li><br/>
+            <li>Not a built in structure in JavaScript</li><br/>
             <li>
               Big O of Stacks
               <div class="indent-extra font-sm">
