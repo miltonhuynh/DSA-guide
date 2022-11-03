@@ -136,7 +136,7 @@ export default function Graphs() {
               <li>Differences between Adjacency Matrices and Adjacency Lists</li>
               <ul class="font-xsm">
                 <li>
-                  Big O<br/><br/>
+                  Big O<br/>
                   <img src={require('../images/adj_compare.png')} style={{width: "40vw"}} alt="Adjacency comparison illustration"></img>
                 </li>
                 <li>Adjacency lists take up less space in sparse graphs in comparison to matrices</li>
