@@ -1,6 +1,10 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
+
 
 export default function BinaryTree() {
+	
+	let navigate = useNavigate();
 
 	const implementation =
 	`class Node {
@@ -159,6 +163,15 @@ class BinarySearchTree {
 						</code>
 					</pre>
 				</div>
+				<div class="font-l">
+          LeetCode examples
+          <div class="font-m indent">
+              <li><ref class="Link-green" onClick={() => navigate("../https://leetcode.com/problems/root-equals-sum-of-children/")}><u>Root Equals Sum of Children [Easy]</u></ref></li>
+              <li><ref class="Link-yellow" onClick={() => navigate("../https://leetcode.com/problems/unique-binary-search-trees/")}><u>Unique Binary Search Trees [Medium]</u></ref></li>
+              <li><ref class="Link-red" onClick={() => navigate("../https://leetcode.com/problems/binary-tree-maximum-path-sum/")}><u>Binary Tree Maximum Path Sum [Hard]</u></ref></li>
+          </div>
+        </div><br/>
+
       </div>
     </div>
   )

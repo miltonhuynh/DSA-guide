@@ -1,6 +1,10 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export default function BinaryHeap() {
+
+  let navigate = useNavigate();
+
   const implementaton =
   `class MaxBinaryHeap {
     constructor() {
@@ -158,7 +162,15 @@ export default function BinaryHeap() {
               {implementaton}
             </code>
           </pre>
-        </div>
+        </div><br/>
+        <div class="font-l">
+          LeetCode examples
+          <div class="font-m indent">
+              <li><ref class="Link-green" onClick={() => navigate("../https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/")}><u>Maximum Product of Two Elements in an Array [Easy]</u></ref></li>
+              <li><ref class="Link-yellow" onClick={() => navigate("../https://leetcode.com/problems/kth-largest-element-in-an-array/")}><u>Kth Largest Element in an Array [Medium]</u></ref></li>
+              <li><ref class="Link-red" onClick={() => navigate("../https://leetcode.com/problems/merge-k-sorted-lists/")}><u>Merge k sorted lists [Hard]</u></ref></li>
+          </div>
+        </div><br/>
       </div>
     </div>
   )

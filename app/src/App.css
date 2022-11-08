@@ -160,6 +160,21 @@ body,html {
   cursor: pointer;
 }
 
+.Link-green {
+  cursor: pointer;
+  color: rgb(9, 255, 0);
+}
+
+.Link-yellow {
+  cursor: pointer;
+  color: yellow;
+}
+
+.Link-red {
+  cursor: pointer;
+  color: red;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 1vw;
