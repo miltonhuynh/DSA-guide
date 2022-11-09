@@ -1,6 +1,9 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export default function DoublyLinkedList() {
+
+  let navigate = useNavigate();
 
   const Implementation = 
   `class Node{
@@ -8,7 +11,7 @@ export default function DoublyLinkedList() {
         this.val = val;
         this.next = null;
         this.prev = null;
-    }
+    };
 }
 
 
@@ -227,6 +230,13 @@ class DoublyLinkedList {
             </pre>
           </div>
           </ul>
+          <div class="font-l">
+          LeetCode examples
+          <div class="font-m indent">
+              <li><ref class="Link-yellow" onClick={() => navigate("../https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/")}><u>Flatten a Multilevel Doubly Linked List [Medium]</u></ref></li>
+              <li><ref class="Link-red" onClick={() => navigate("../https://leetcode.com/problems/design-a-text-editor/")}><u>Design a Text Editor [Hard]</u></ref></li>
+          </div>
+        </div><br/>
       </div>
     </div>
   )
