@@ -171,7 +171,6 @@ class BinarySearchTree {
               <li><ref class="Link-red" onClick={() => navigate("../https://leetcode.com/problems/binary-tree-maximum-path-sum/")}><u>Binary Tree Maximum Path Sum [Hard]</u></ref></li>
           </div>
         </div><br/>
-
       </div>
     </div>
   )
