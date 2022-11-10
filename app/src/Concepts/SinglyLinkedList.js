@@ -251,12 +251,19 @@ class SinglyLinkedList {
         <img src={require('../images/sll.png')} style={{width: "60vw"}} alt="Singly linked list illustration"></img><br/><br/><br/>
         <div class="font-l">Implementation</div>
         <div class="Code">
-              <pre>
-                <code>
-                  {implementation}
-                </code>
-              </pre>
-            </div>
+          <pre>
+            <code>
+              {implementation}
+            </code>
+          </pre>
+        </div>
+        <div class="font-l">LeetCode examples</div>
+          <div class="font-m indent">
+            <li><a class="Link-green" href="https://leetcode.com/problems/merge-two-sorted-lists/">Merge Two Sorted Lists [Easy]</a></li>
+            <li><a class="Link-yellow" href="https://leetcode.com/problems/add-two-numbers/">Add Two Numbers [Medium]</a></li>
+            <li><a class="Link-red" href="https://leetcode.com/problems/merge-k-sorted-lists/">Merge k sorted lists [Hard]</a></li>
+        </div><br/>
+
       </div>
     </div>
   )
