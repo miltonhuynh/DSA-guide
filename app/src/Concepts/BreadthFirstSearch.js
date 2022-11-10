@@ -43,7 +43,7 @@ export default function BreadthFirstSearch() {
             </ul>
           </li>
         </ul>
-    <div class="font-l">JavaScript Implementation:</div>
+        <div class="font-l">JavaScript Implementation:</div>
         <div class="Code">
           <pre>
             <code>

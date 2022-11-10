@@ -135,17 +135,25 @@ export default function DepthFirstSearch() {
                 <li>Return the array of values</li>
                 </li>
               </ul><br/>
-              JavaScript Implementation:
-              <div class="Code">
-                <pre>
-                  <code>
-                    {inorder}
-                  </code>
-                </pre>
-              </div>
             </li>
           </ul>
         </ul>
+        <div class="font-l">JavaScript Implementation:</div>
+        <div class="Code">
+          <pre>
+            <code>
+              {inorder}
+            </code>
+          </pre>
+        </div>
+        <div class="font-l">
+          LeetCode examples
+          <div class="font-m indent">
+              <li><a class="Link-green" href="https://leetcode.com/problems/invert-binary-tree/">Invert Binary Tree [Easy]</a></li>
+              <li><a class="Link-yellow" href="https://leetcode.com/problems/balance-a-binary-search-tree/">Balance a Binary Search Tree [Medium]</a></li>
+              <li><a class="Link-red" href="https://leetcode.com/problems/sum-of-distances-in-tree/">Sum of Distances in Tree [Hard]</a></li>
+          </div>
+        </div><br/>
       </div>
     </div>
   )
