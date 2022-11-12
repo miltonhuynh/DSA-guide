@@ -102,7 +102,6 @@ export default function DynamicProgramming() {
 						<li><a class="Link-yellow" href="https://leetcode.com/problems/coin-change/">Coin Change [Medium]</a></li>
 						<li><a class="Link-yellow" href="https://leetcode.com/problems/word-break/">Word Break [Medium]</a></li>
         </div><br/>
-
       </div>
     </div>
   )

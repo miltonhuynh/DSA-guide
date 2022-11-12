@@ -274,6 +274,18 @@ export default function Graphs() {
             </code>
           </pre>
         </div>
+				<div class="font-l">LeetCode examples</div>
+				<div class="font-m indent">
+						<li><a class="Link-green" href="https://leetcode.com/problems/find-if-path-exists-in-graph/">Find if Path Exists in Graph [Easy]</a></li>
+						<li><a class="Link-green" href="https://leetcode.com/problems/find-center-of-star-graph/">Find Center of Star Graph [Easy]</a></li>
+						<li><a class="Link-yellow" href="https://leetcode.com/problems/longest-consecutive-sequence/">Longest Consecutive Sequence [Medium]</a></li>
+						<li><a class="Link-yellow" href="https://leetcode.com/problems/number-of-islands/">Number of Islands [Medium]</a></li>
+						<li><a class="Link-yellow" href="https://leetcode.com/problems/pacific-atlantic-water-flow/">Pacific Atlantic Water Flow [Medium]</a></li>
+						<li><a class="Link-yellow" href="https://leetcode.com/problems/course-schedule/">Course Schedule [Medium]</a></li>
+						<li><a class="Link-yellow" href="https://leetcode.com/problems/clone-graph/">Clone Graph [Medium]</a></li>
+						<li><a class="Link-red" href="https://leetcode.com/problems/reconstruct-itinerary/">Reconstruct Itinerary [Hard]</a></li>
+        </div><br/>
+
 			</div>
 		</div>
 	)
