@@ -163,11 +163,6 @@ export default function BinaryHeap() {
         </div><br/>
         <div class="font-l">
           LeetCode examples
-          <div class="font-m indent">
-              <li><a href="https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/">Maximum Product of Two Elements in an Array [Easy]</a></li>
-              <li><a href="https://leetcode.com/problems/kth-largest-element-in-an-array/">Kth Largest Element in an Array [Medium]</a></li>
-              <li><a href="https://leetcode.com/problems/merge-k-sorted-lists/">Merge k sorted lists [Hard]</a></li>
-          </div>
         </div><br/>
       </div>
     </div>

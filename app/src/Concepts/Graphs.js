@@ -285,7 +285,6 @@ export default function Graphs() {
 						<li><a class="Link-yellow" href="https://leetcode.com/problems/clone-graph/">Clone Graph [Medium]</a></li>
 						<li><a class="Link-red" href="https://leetcode.com/problems/reconstruct-itinerary/">Reconstruct Itinerary [Hard]</a></li>
         </div><br/>
-
 			</div>
 		</div>
 	)
