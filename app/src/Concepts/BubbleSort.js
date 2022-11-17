@@ -32,7 +32,7 @@ export default function BubbleSort() {
             <div>4) Return the sorted array.</div><br/>
           </div>
         </ul>
-        <div class="font-l">JavaScript Implementation</div>
+        <div class="font-l">Javascript Implementation</div>
           <div class="Code">
             <pre>
               <code>
