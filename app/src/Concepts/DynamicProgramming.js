@@ -100,6 +100,8 @@ export default function DynamicProgramming() {
 				<div class="font-m indent">
 						<li><a class="Link-green" href="https://leetcode.com/problems/climbing-stairs/">Climbing Stairs [Easy]</a></li>
 						<li><a class="Link-yellow" href="https://leetcode.com/problems/coin-change/">Coin Change [Medium]</a></li>
+            <li><a class="Link-yellow" href="https://leetcode.com/problems/unique-paths/">Unique Paths [Medium]</a></li>
+            <li><a class="Link-yellow" href="https://leetcode.com/problems/jump-game/">Jump Game [Medium]</a></li>
 						<li><a class="Link-yellow" href="https://leetcode.com/problems/word-break/">Word Break [Medium]</a></li>
         </div><br/>
       </div>
