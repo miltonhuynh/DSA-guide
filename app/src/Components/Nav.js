@@ -20,8 +20,10 @@ export default function Nav() {
       <div class="Concept_Links" onClick={() => navigate("FrequencyCounter")}>Frequency Counter</div>
       <div class="Concept_Links" onClick={() => navigate("Graphs")}>Graphs</div>
       <div class="Concept_Links" onClick={() => navigate("HashTables")}>Hash Tables</div>
+      <div class="Concept_Links" onClick={() => navigate("Kruskal")}>Kruskal's Algorithm</div>
       <div class="Concept_Links" onClick={() => navigate("MergeSort")}>Merge Sort</div>
       <div class="Concept_Links" onClick={() => navigate("InsertionSort")}>Insertion Sort</div>
+      <div class="Concept_Links" onClick={() => navigate("Prim")}>Prim's Algorithm</div>
       <div class="Concept_Links" onClick={() => navigate("PriorityQueue")}>Priority Queue</div>
       <div class="Concept_Links" onClick={() => navigate("Queue")}>Queue</div>
       <div class="Concept_Links" onClick={() => navigate("QuickSort")}>Quick Sort</div>

@@ -31,6 +31,8 @@ import BinaryTree from './Concepts/BinaryTree';
 import BinaryHeap from './Concepts/BinaryHeap';
 import Graphs from './Concepts/Graphs';
 import DynamicProgramming from './Concepts/DynamicProgramming';
+import Prim from './Concepts/Prim';
+import Kruskal from './Concepts/Kruskal';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -65,7 +67,8 @@ root.render(
         <Route path="/DSA-guide/BinaryHeap" element={<BinaryHeap />} />
         <Route path="/DSA-guide/Graphs" element={<Graphs />} />
         <Route path="/DSA-guide/DynamicProgramming" element={<DynamicProgramming />} />
-
+        <Route path="/DSA-guide/Prim" element={<Prim />} />
+        <Route path="/DSA-guide/Kruskal" element={<Kruskal />} />
       </Route>
     </Routes>
   </BrowserRouter>
