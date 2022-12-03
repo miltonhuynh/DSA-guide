@@ -61,12 +61,21 @@ body,html {
 }
 
 #Github-icon {
-  color: white;
   width: 2vw;
   transition: 0.3s;
   position: fixed;
   top: 0.5vw;
   right: 1vw;
+}
+
+#Home-icon {
+  color: white;
+  width: 1.75vw;
+  transition: 0.3s;
+  position: fixed;
+  top: 0.6vw;
+  left: 1vw;
+  cursor: pointer;
 }
 
 #Page_container {

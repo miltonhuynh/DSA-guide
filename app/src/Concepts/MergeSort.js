@@ -62,7 +62,6 @@ function mergeSort(arr){
             <li><a class="Link-yellow" href="https://leetcode.com/problems/sort-an-array/">Sort an Array [Medium]</a></li>
 						<li><a class="Link-red" href="https://leetcode.com/problems/reverse-pairs/">Reverse Pairs [Hard]</a></li>
         </div><br/>
-
       </div>
     </div>
   )
