@@ -95,7 +95,7 @@ body,html {
   border: 0.2vw solid black;
   margin: 0.5vw 1vw 0.75vw 0.5vw;
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.35s;
   text-align: center;
   background: rgb(138, 133, 0);
   color: white;
