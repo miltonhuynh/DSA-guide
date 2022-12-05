@@ -50,30 +50,30 @@ body,html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5vh;
+  height: 3vh;
   padding-top: 0.5vw;
   font-family: 'Manjari', sans-serif;
 }
 
 #Brand {
-  font-size: 1.6vw;
+  font-size: 1.2vw;
   cursor: pointer;
 }
 
 #Github-icon {
-  width: 2vw;
+  width: 1.5vw;
   transition: 0.3s;
   position: fixed;
-  top: 0.5vw;
+  top: 0.25vw;
   right: 1vw;
 }
 
 #Home-icon {
   color: white;
-  width: 1.75vw;
+  width: 1.3vw;
   transition: 0.3s;
   position: fixed;
-  top: 0.6vw;
+  top: 0.4vw;
   left: 1vw;
   cursor: pointer;
 }
