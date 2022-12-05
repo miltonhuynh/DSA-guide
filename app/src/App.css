@@ -87,20 +87,20 @@ body,html {
 }
 
 #Navigator {
-  width: 22vw;
+  width: 19vw;
   overflow-y: scroll;
 }
 
 .Concept_Links {
   border: 0.2vw solid black;
-  margin: 0.5vw 1vw 0.75vw 0.5vw;
+  margin: 0.6vw 1vw 0.6vw 1vw;
+  padding: 0.2vw;
   cursor: pointer;
   transition: 0.35s;
   text-align: center;
   background: rgb(138, 133, 0);
   color: white;
-  font-size: 1.6vw;
-  padding: 0.3vw;
+  font-size: 1.35vw;
   font-family: 'Mandali', sans-serif;
 }
 
@@ -186,7 +186,7 @@ body,html {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 1vw;
+  width: 0.75vw;
 }
 
 /* Track */
