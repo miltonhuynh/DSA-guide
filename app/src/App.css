@@ -5,7 +5,7 @@
 
 body,html {
   height: 100%;
-  background-color: rgb(15, 15, 70);
+  background-color: rgb(230, 230, 230);
   color: white;
 }
 
@@ -50,30 +50,28 @@ body,html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3vh;
+  height: 3.5vh;
   padding-top: 0.5vw;
   font-family: 'Manjari', sans-serif;
 }
 
 #Brand {
-  font-size: 1.2vw;
+  font-size: 1.4vw;
   cursor: pointer;
 }
 
 #Github-icon {
-  width: 1.5vw;
-  transition: 0.3s;
+  width: 1.7vw;
   position: fixed;
-  top: 0.25vw;
+  top: 0.3vw;
   right: 1vw;
 }
 
 #Home-icon {
   color: white;
-  width: 1.3vw;
-  transition: 0.3s;
+  width: 1.6vw;
   position: fixed;
-  top: 0.4vw;
+  top: 0.45vw;
   left: 1vw;
   cursor: pointer;
 }
@@ -88,35 +86,39 @@ body,html {
 
 #Navigator {
   width: 19vw;
+  background-color: rgb(200,200,200);
   overflow-y: scroll;
 }
 
 .Concept_Links {
-  border: 0.2vw solid black;
+  box-shadow: 2px 2px 3px black;
   margin: 0.6vw 1vw 0.6vw 1vw;
   padding: 0.2vw;
   cursor: pointer;
   transition: 0.35s;
   text-align: center;
-  background: rgb(138, 133, 0);
-  color: white;
+  background-color: white;
+  color: black;
   font-size: 1.35vw;
   font-family: 'Mandali', sans-serif;
 }
 
 .Concept_Links:hover {
-  background: rgb(251, 255, 0);
-  color: black;
+  background: white;
+  color: white;
+  background-color: rgb(130,130,130);
 }
 
 .Concept_title {
   color: white;
   text-align: center;
   margin: 2vw 10vw 2vw 10vw;
-  border: 0.2vw solid white;
+  background-color: rgb(190,190,190);
+  border: 0.3px solid black;
   padding: 1vw;
   font-size: 4vw;
   font-family: 'Comfortaa', cursive;
+  box-shadow: 2px 2px 3px black;
 }
 
 .Concept_page {
@@ -126,15 +128,18 @@ body,html {
 }
 
 .Container {
-  color: white;
+  color: black;
   font-family: 'Didact Gothic', sans-serif;
-  margin: 0vw 10vw 0vw 10vw;
+  margin: 0vw 10vw 3vw 10vw;
+  background-color: white;
+  box-shadow: 2px 2px 3px black;
+  padding: 2vw 4vw 2vw 4vw;
 }
 
 .Code {
   font-size: 1vw;
-  color: white;
-  border: 0.1vw solid white;
+  color: black;
+  border: 0.1vw solid black;
   padding: 2vw 5vw 2vw 5vw;
   margin: 1vw 0vw 1vw 0vw;
 }
@@ -176,7 +181,7 @@ body,html {
 
 .Link-yellow {
   cursor: pointer;
-  color: yellow;
+  color: orange;
 }
 
 .Link-red {
@@ -196,7 +201,7 @@ body,html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(181, 184, 0);
+  background: white;
   transition: 1s;
   border: 0.2vw solid black;
 }
