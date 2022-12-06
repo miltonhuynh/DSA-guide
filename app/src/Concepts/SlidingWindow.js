@@ -38,14 +38,14 @@ export default function SlidingWindow() {
   return (
     <div class="Concept_page">
     <div class="Concept_title">Sliding Window</div>
-    <div class="Container">
-    <ul><div class="font-m">
-        <li>This pattern involves creating a window which can either be an array or number from one position to another.</li><br/>
-        <li>Depending on a certain condition, the window either increases or closes and a new window is created.</li><br/>
-        <li>Very useful for keeping track of a subset of data in an array/string etc.</li>
-      </div></ul><br/>
+    <div class="Container font-m">
+      <ul>
+          <div class="Section"><li>This pattern involves creating a window which can either be an array or number from one position to another.</li></div><br/>
+          <div class="Section"><li>Depending on a certain condition, the window either increases or closes and a new window is created.</li></div><br/>
+          <div class="Section"><li>Very useful for keeping track of a subset of data in an array/string etc.</li></div>
+      </ul><br/>
       <div class="font-l">Naive solution</div>
-      <div class="Code">
+      <div class="Code Section">
         <pre>
           <code>
             {naive}
@@ -53,20 +53,21 @@ export default function SlidingWindow() {
         </pre>
       </div>
       <div class="font-l">Refactored solution</div>
-      <div class="Code">
+      <div class="Code Section">
         <pre>
           <code>
             {refactored}
           </code>
         </pre>
-      </div>
+      </div><br/>
+      <div class="Section">
       <div class="font-l">LeetCode examples</div>
-          <div class="font-m indent">
-            <li><a class="Link-green" href="https://leetcode.com/problems/longest-nice-substring/">Longest Nice Substring [Easy]</a></li>
-            <li><a class="Link-yellow" href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Longest Substring Without Repeating Characters [Medium]</a></li>
-            <li><a class="Link-red" href="https://leetcode.com/problems/longest-duplicate-substring/">Longest Duplicate Substring [Hard]</a></li>
-        </div><br/>
-
+        <div class="font-m indent">
+          <li><a class="Link-green" href="https://leetcode.com/problems/longest-nice-substring/">Longest Nice Substring [Easy]</a></li>
+          <li><a class="Link-yellow" href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Longest Substring Without Repeating Characters [Medium]</a></li>
+          <li><a class="Link-red" href="https://leetcode.com/problems/longest-duplicate-substring/">Longest Duplicate Substring [Hard]</a></li>
+        </div>
+      </div>
     </div>
   </div>
   )

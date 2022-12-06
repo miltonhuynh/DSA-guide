@@ -6,7 +6,7 @@
 body,html {
   height: 100%;
   background-color: rgb(230, 230, 230);
-  color: white;
+  color: black;
 }
 
 .font-xxsm {
@@ -128,9 +128,13 @@ body,html {
 }
 
 .Container {
+  margin: -1vw 7vw 3vw 7vw;
+  padding: 1vw 4vw 2vw 2vw;
+}
+
+.Section {
   color: black;
   font-family: 'Didact Gothic', sans-serif;
-  margin: 0vw 10vw 3vw 10vw;
   background-color: white;
   box-shadow: 2px 2px 3px black;
   padding: 2vw 4vw 2vw 4vw;
@@ -191,7 +195,7 @@ body,html {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 0.75vw;
+  width: 0.8vw;
 }
 
 /* Track */
