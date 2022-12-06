@@ -91,33 +91,35 @@ body,html {
 }
 
 .Concept_Links {
-  box-shadow: 2px 2px 3px black;
   margin: 0.6vw 1vw 0.6vw 1vw;
   padding: 0.2vw;
   cursor: pointer;
-  transition: 0.35s;
   text-align: center;
   background-color: white;
   color: black;
   font-size: 1.35vw;
   font-family: 'Mandali', sans-serif;
+  box-shadow: inset 1px 1px 2px black, 0 0 0px black;
+  transition: box-shadow 0.4s, transform 0.4s, background-color 0.4s, color 0.4s;
 }
 
 .Concept_Links:hover {
-  background: white;
+  transform: translateY(-5px);
+  box-shadow: inset 0 0 0px black, 5px 5px 3px black;
+  background-color: rgb(80,80,80);
   color: white;
-  background-color: rgb(130,130,130);
 }
 
 .Concept_title {
   text-align: center;
   margin: 2vw 10vw 2vw 10vw;
-  background-color: rgb(230,230,230);
+  background-color: rgb(40,40,40);
   border: 0.3px solid black;
+  color: white;
   padding: 1vw;
   font-size: 4vw;
   font-family: 'Comfortaa', cursive;
-  box-shadow: 2px 2px 3px black;
+  box-shadow: 4px 4px 3px black;
 }
 
 .Concept_page {
@@ -135,9 +137,11 @@ body,html {
   color: black;
   font-family: 'Didact Gothic', sans-serif;
   background-color: white;
-  box-shadow: 2px 2px 3px black;
+  box-shadow: inset 2px 2px 1px black;
+  transition: box-shadow 0.3s, transform 0.3s;
   padding: 2vw 4vw 2vw 4vw;
 }
+
 
 .Code {
   font-size: 1vw;
