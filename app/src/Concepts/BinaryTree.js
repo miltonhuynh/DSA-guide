@@ -76,7 +76,7 @@ class BinarySearchTree {
       <div class="Concept_title">Binary Trees</div>
       <div class="Container font-m">
 				<ul>
-					<div class="Section"><li>A tree is a data structure that consists of nodes in a parent/child relationship, nodes can only point to a child and cannot have more than one parent</li></div><br/>
+					<div class="Section"><li>A tree is a data structure that consists of nodes in a parent/child relationship, nodes can only point to a child and cannot have more than one parent</li></div>
 					<div class="Section">
 						<li> Some uses of trees:</li>
 							<ul class="font-sm">
@@ -87,7 +87,7 @@ class BinarySearchTree {
 								<li>Folders in Operating Systems</li>
 								<li>Computer File Systems</li>
 							</ul>
-						</div><br/>
+						</div>
 					<div class="Section">
 						<li>Common Definitions:</li>
 						<ul class="font-sm">
@@ -96,7 +96,7 @@ class BinarySearchTree {
 							<li>Sibling: a group of nodes with the same parent</li>
 							<li>Leaf: a is node with no children</li>
 						</ul>
-					</div><br/>
+					</div>
 					<div class="Section">
 						<li>A Binary Search tree is a special type of tree in which: </li>
 						<ul class="font-sm">
@@ -104,8 +104,8 @@ class BinarySearchTree {
 							<li>Every node to the left of a parent node is always less than the parent</li>
 							<li>Every node to the right of a parent node is always greater than the parent</li>
 						</ul>
-					</div><br/>
-					<div class="Section"><li>The complexity of Insertion and Searching is O(log n) in the best case and O(n) in the worst case</li></div><br/>
+					</div>
+					<div class="Section"><li>The complexity of Insertion and Searching is O(log n) in the best case and O(n) in the worst case</li></div>
 					<div class="Section">
 						<li>Implementation Steps</li>
 						<ul class="font-sm">
