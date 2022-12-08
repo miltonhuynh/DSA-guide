@@ -58,6 +58,7 @@ body,html {
 #Brand {
   font-size: 1.4vw;
   cursor: pointer;
+  color: white;
 }
 
 #Github-icon {
@@ -119,7 +120,7 @@ body,html {
   padding: 1vw;
   font-size: 4vw;
   font-family: 'Comfortaa', cursive;
-  box-shadow: 4px 4px 3px black;
+  box-shadow: 8px 8px 4px rgb(50,50,50);
 }
 
 .Concept_page {
