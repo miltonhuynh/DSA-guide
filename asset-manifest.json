@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DSA-guide/static/css/main.6e593282.css",
+    "main.css": "/DSA-guide/static/css/main.abb96622.css",
     "main.js": "/DSA-guide/static/js/main.cedb5c8e.js",
     "static/media/addedge.png": "/DSA-guide/static/media/addedge.cbd6d1a18e7a37b8fddd.png",
     "static/media/removeedge.png": "/DSA-guide/static/media/removeedge.7d195fc3037f04fd044d.png",
@@ -23,11 +23,11 @@
     "static/media/github-brands.svg": "/DSA-guide/static/media/github-brands.45a5f4c7412fa45fdbbcfbc1bff04f35.svg",
     "static/media/home.svg": "/DSA-guide/static/media/home.719346216886929043a03dfc811b7c5d.svg",
     "index.html": "/DSA-guide/index.html",
-    "main.6e593282.css.map": "/DSA-guide/static/css/main.6e593282.css.map",
+    "main.abb96622.css.map": "/DSA-guide/static/css/main.abb96622.css.map",
     "main.cedb5c8e.js.map": "/DSA-guide/static/js/main.cedb5c8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e593282.css",
+    "static/css/main.abb96622.css",
     "static/js/main.cedb5c8e.js"
   ]
 }
