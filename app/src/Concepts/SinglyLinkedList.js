@@ -259,9 +259,9 @@ class SinglyLinkedList {
         </div>
         <div class="font-l">LeetCode examples</div>
           <div class="font-m indent">
-            <li><a class="Link-green" href="https://leetcode.com/problems/merge-two-sorted-lists/">Merge Two Sorted Lists [Easy]</a></li>
-            <li><a class="Link-yellow" href="https://leetcode.com/problems/add-two-numbers/">Add Two Numbers [Medium]</a></li>
-            <li><a class="Link-red" href="https://leetcode.com/problems/merge-k-sorted-lists/">Merge k sorted lists [Hard]</a></li>
+            <li><a class="Link-green" target="_blank" href="https://leetcode.com/problems/merge-two-sorted-lists/">Merge Two Sorted Lists [Easy]</a></li>
+            <li><a class="Link-yellow" target="_blank" href="https://leetcode.com/problems/add-two-numbers/">Add Two Numbers [Medium]</a></li>
+            <li><a class="Link-red" target="_blank" href="https://leetcode.com/problems/merge-k-sorted-lists/">Merge k sorted lists [Hard]</a></li>
         </div><br/>
 
       </div>

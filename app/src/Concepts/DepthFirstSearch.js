@@ -148,9 +148,9 @@ export default function DepthFirstSearch() {
         </div>
         <div class="font-l">LeetCode examples</div>
           <div class="font-m indent">
-            <li><a class="Link-green" href="https://leetcode.com/problems/invert-binary-tree/">Invert Binary Tree [Easy]</a></li>
-            <li><a class="Link-yellow" href="https://leetcode.com/problems/balance-a-binary-search-tree/">Balance a Binary Search Tree [Medium]</a></li>
-            <li><a class="Link-red" href="https://leetcode.com/problems/sum-of-distances-in-tree/">Sum of Distances in Tree [Hard]</a></li>
+            <li><a class="Link-green" target="_blank" href="https://leetcode.com/problems/invert-binary-tree/">Invert Binary Tree [Easy]</a></li>
+            <li><a class="Link-yellow" target="_blank" href="https://leetcode.com/problems/balance-a-binary-search-tree/">Balance a Binary Search Tree [Medium]</a></li>
+            <li><a class="Link-red" target="_blank" href="https://leetcode.com/problems/sum-of-distances-in-tree/">Sum of Distances in Tree [Hard]</a></li>
         </div><br/>
       </div>
     </div>
