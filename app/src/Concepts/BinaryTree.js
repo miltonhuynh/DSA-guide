@@ -178,7 +178,7 @@ class BinarySearchTree {
 							<li><a class="Link-yellow" href="https://leetcode.com/problems/unique-binary-search-trees/">Unique Binary Search Trees [Medium]</a></li>
 							<li><a class="Link-yellow" href="hhttps://leetcode.com/problems/sum-root-to-leaf-numbers/">Sum Root to Leaf Numbers [Medium]</a></li>
 							<li><a class="Link-red" href="https://leetcode.com/problems/binary-tree-maximum-path-sum/">Binary Tree Maximum Path Sum [Hard]</a></li>
-					</div><br/>
+					</div>
 				</div>
       </div>
     </div>

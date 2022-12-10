@@ -63,7 +63,7 @@ export default function BreadthFirstSearch() {
             <li><a class="Link-green" href="https://leetcode.com/problems/minimum-depth-of-binary-tree/">Minimum Depth of Binary Tree [Easy]</a></li>
             <li><a class="Link-yellow" href="https://leetcode.com/problems/binary-tree-level-order-traversal/">Binary Tree Level Order Traversal [Medium]</a></li>
             <li><a class="Link-red" href="https://leetcode.com/problems/word-ladder/">Word Ladder [Hard]</a></li>
-          </div><br />
+          </div>
         </div>
       </div>
     </div>
