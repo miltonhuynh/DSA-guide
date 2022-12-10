@@ -58,9 +58,9 @@ function mergeSort(arr){
         </div>
         <div class="font-l">LeetCode examples</div>
 				<div class="font-m indent">
-            <li><a class="Link-yellow" href="https://leetcode.com/problems/sort-list/ ">Sort List [Medium]</a></li>
-            <li><a class="Link-yellow" href="https://leetcode.com/problems/sort-an-array/">Sort an Array [Medium]</a></li>
-						<li><a class="Link-red" href="https://leetcode.com/problems/reverse-pairs/">Reverse Pairs [Hard]</a></li>
+            <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/sort-list/ ">Sort List [Medium]</a></li>
+            <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/sort-an-array/">Sort an Array [Medium]</a></li>
+						<li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/reverse-pairs/">Reverse Pairs [Hard]</a></li>
         </div><br/>
       </div>
     </div>

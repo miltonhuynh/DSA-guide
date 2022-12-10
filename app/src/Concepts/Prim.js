@@ -89,8 +89,8 @@ export default function Prim() {
         </div>
         <div class="font-l">LeetCode examples</div>
           <div class="font-m indent">
-            <li><a class="Link-yellow" href="https://leetcode.com/problems/min-cost-to-connect-all-points/">Min Cost to Connect All Points [Medium]</a></li>
-            <li><a class="Link-red" href="https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/">Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree [Hard]</a></li>
+            <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/min-cost-to-connect-all-points/">Min Cost to Connect All Points [Medium]</a></li>
+            <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/">Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree [Hard]</a></li>
         </div><br/>
       </div>
     </div>

@@ -152,11 +152,11 @@ export default function Dijkstra() {
         <div class="Section">
           <div class="font-l">LeetCode examples</div>
             <div class="font-m indent">
-              <li><a class="Link-yellow" target="_blank" href="https://leetcode.com/problems/path-with-minimum-effort/">Path With Minimum Effort [Medium]</a></li>
-              <li><a class="Link-yellow" target="_blank" href="https://leetcode.com/problems/cheapest-flights-within-k-stops/">Cheapest Flights Within K Stops [Medium]</a></li>
-              <li><a class="Link-yellow" target="_blank" href="https://leetcode.com/problems/network-delay-time/">Network Delay Time [Medium]</a></li>
-              <li><a class="Link-red" target="_blank" href="https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/">Reachable Nodes In Subdivided Graph [Medium]</a></li>
-              <li><a class="Link-red" target="_blank" href="https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/">Minimum Cost to Make at Least One Valid Path in a Grid [Hard]</a></li>
+              <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/path-with-minimum-effort/">Path With Minimum Effort [Medium]</a></li>
+              <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/cheapest-flights-within-k-stops/">Cheapest Flights Within K Stops [Medium]</a></li>
+              <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/network-delay-time/">Network Delay Time [Medium]</a></li>
+              <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/">Reachable Nodes In Subdivided Graph [Medium]</a></li>
+              <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/">Minimum Cost to Make at Least One Valid Path in a Grid [Hard]</a></li>
           </div>
         </div>
       </div>

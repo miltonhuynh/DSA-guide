@@ -63,9 +63,9 @@ export default function SlidingWindow() {
       <div class="Section">
       <div class="font-l">LeetCode examples</div>
         <div class="font-m indent">
-          <li><a class="Link-green" href="https://leetcode.com/problems/longest-nice-substring/">Longest Nice Substring [Easy]</a></li>
-          <li><a class="Link-yellow" href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Longest Substring Without Repeating Characters [Medium]</a></li>
-          <li><a class="Link-red" href="https://leetcode.com/problems/longest-duplicate-substring/">Longest Duplicate Substring [Hard]</a></li>
+          <li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/longest-nice-substring/">Longest Nice Substring [Easy]</a></li>
+          <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Longest Substring Without Repeating Characters [Medium]</a></li>
+          <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/longest-duplicate-substring/">Longest Duplicate Substring [Hard]</a></li>
         </div>
       </div>
     </div>

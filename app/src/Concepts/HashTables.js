@@ -187,9 +187,9 @@ export default function HashTables() {
         <div class="font-l">
           LeetCode examples
           <div class="font-m indent">
-              <li><a class="Link-green" href="https://leetcode.com/problems/two-sum/">Two Sum [Easy]</a></li>
-              <li><a class="Link-yellow" href="https://leetcode.com/problems/reduce-array-size-to-the-half/">Reduce Array Size to The Half [Medium]</a></li>
-              <li><a class="Link-red" href="https://leetcode.com/problems/word-ladder/">Word Ladder [Hard]</a></li>
+              <li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/two-sum/">Two Sum [Easy]</a></li>
+              <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/reduce-array-size-to-the-half/">Reduce Array Size to The Half [Medium]</a></li>
+              <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/word-ladder/">Word Ladder [Hard]</a></li>
           </div>
         </div><br/>
       </div>
