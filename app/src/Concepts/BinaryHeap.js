@@ -1,10 +1,12 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export default function BinaryHeap() {
 
+  let navigate = useNavigate();
 
   const implementaton =
-  `class MaxBinaryHeap {
+    `class MaxBinaryHeap {
     constructor() {
       this.values = [41, 39, 33, 18, 27, 12];
     }
@@ -80,41 +82,52 @@ export default function BinaryHeap() {
       <div class="Concept_title">Binary Heap</div>
       <div class="Container font-m">
         <ul>
+          Prerequisites:
+          <ref class="Link" onClick={() => navigate("../BinarySearch")}> <u>Binary Search</u></ref>
+          <div class="Section">
             <li>
               Very similar to a Binary Search Tree, but with some different rules
               <ul class="font-sm">
                 <li>In a Max Binary Heap, parent nodes are always larger than child nodes</li>
                 <li>In a Min Binary Heap, parent nodes are always smaller than child nodes</li>
               </ul>
-            </li><br/>
+            </li>
+          </div>
+          <div class="Section">
             <li>
-              Max Binary Heaps: 
+              Max Binary Heaps:
               <ul class="font-sm">
                 <li>Each parent has at most two nodes</li>
                 <li>The value of each parent node is always greater than its child nodes</li>
                 <li>As compact as possible, all children of each node are as full as they can be and left children are filled first</li>
-              </ul><br/>
+              </ul>
             </li>
-            <li>Binary Heaps are used to implement Priority Queues, which are very commonly used data structures</li><br/>
-            <li>Also used with graph traversal algorithms</li><br/>
+          </div>
+          <div class="Section"><li>Binary Heaps are used to implement Priority Queues, which are very commonly used data structures</li></div>
+          <div class="Section"><li>Also used with graph traversal algorithms</li></div>
+          <div class="Section">
             <li>
-              Binary Heaps can be stored in a list or an array: 
-              <img src={require('../images/BinaryHeapArray.png')} style={{width: "50vw"}} alt="Binary Heap array illustration"></img><br/>
+              Binary Heaps can be stored in a list or an array:
+              <img src={require('../images/BinaryHeapArray.png')} style={{ width: "50vw" }} alt="Binary Heap array illustration"></img><br />
               <ul class="font-sm">
                 <li>For any index of array n, the left child is stored at 2n + 1 and the right child is stored at 2n + 2</li>
                 <li>For any child at index n, its parent is at index (n - 1) / 2, floored</li>
               </ul>
-            </li><br/>
+            </li><br />
+          </div>
+          <div class="Section">
             <li>
-            Big O of Binary Heaps
-            <ul class="font-sm"> 
-              <li>Insertion: O(log N)</li>
-              <li>Removal: O(log N)</li>
-              <li>Search: O(N)</li>
-            </ul>
-          </li><br/>
+              Big O of Binary Heaps
+              <ul class="font-sm">
+                <li>Insertion: O(log N)</li>
+                <li>Removal: O(log N)</li>
+                <li>Search: O(N)</li>
+              </ul>
+            </li>
+          </div>
+          <div class="Section">
             <li>
-              Max Binary Heaps implementation: 
+              Max Binary Heaps implementation:
               <ul class="font-sm">
                 <li>
                   Insert:
@@ -137,7 +150,7 @@ export default function BinaryHeap() {
                     <li>Swap the first value in the values property with the last one</li>
                     <li>Pop the values property, so you can return the value at the end</li>
                     <li>
-                      Have the new root "sink down" to the correct spot: 
+                      Have the new root "sink down" to the correct spot:
                       <ul class="font-xsm">
                         <li>Parent index starts at 0 (root)</li>
                         <li>Find the index of the left child: 2 * (index + 1)</li>
@@ -152,18 +165,19 @@ export default function BinaryHeap() {
                 </li>
               </ul>
             </li>
+          </div>
         </ul>
         <div class="font-l">JavaScript Implementation</div>
-        <div class="Code">
+        <div class="Code Section">
           <pre>
             <code>
               {implementaton}
             </code>
           </pre>
-        </div><br/>
+        </div><br />
         <div class="font-l">
           LeetCode examples
-        </div><br/>
+        </div><br />
       </div>
     </div>
   )

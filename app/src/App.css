@@ -58,7 +58,7 @@ body,html {
 #Brand {
   font-size: 1.4vw;
   cursor: pointer;
-  color: white;
+  color: white; 
 }
 
 #Github-icon {
@@ -100,8 +100,8 @@ body,html {
   color: black;
   font-size: 1.35vw;
   font-family: 'Mandali', sans-serif;
-  box-shadow: inset 1px 1px 1px black, 0 0 0px black;
-  transition: box-shadow 0.5s, transform 0.5s, background-color 0.5s, color 0.5s;
+  box-shadow: inset 2px 2px 1px black, 0 0 0px black;
+  transition: box-shadow 0.4s, transform 0.4s, background-color 0.4s, color 0.4s;
 }
 
 .Concept_Links:hover {
