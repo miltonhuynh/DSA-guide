@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DSA-guide/static/css/main.0119e51e.css",
-    "main.js": "/DSA-guide/static/js/main.c4329b00.js",
+    "main.css": "/DSA-guide/static/css/main.31a7fbe0.css",
+    "main.js": "/DSA-guide/static/js/main.d7d4ae2b.js",
     "static/media/addedge.png": "/DSA-guide/static/media/addedge.cbd6d1a18e7a37b8fddd.png",
     "static/media/removeedge.png": "/DSA-guide/static/media/removeedge.7d195fc3037f04fd044d.png",
     "static/media/BFS.png": "/DSA-guide/static/media/BFS.f1a2027cd6ed6ebd4818.png",
@@ -23,11 +23,11 @@
     "static/media/github-brands.svg": "/DSA-guide/static/media/github-brands.45a5f4c7412fa45fdbbcfbc1bff04f35.svg",
     "static/media/home.svg": "/DSA-guide/static/media/home.719346216886929043a03dfc811b7c5d.svg",
     "index.html": "/DSA-guide/index.html",
-    "main.0119e51e.css.map": "/DSA-guide/static/css/main.0119e51e.css.map",
-    "main.c4329b00.js.map": "/DSA-guide/static/js/main.c4329b00.js.map"
+    "main.31a7fbe0.css.map": "/DSA-guide/static/css/main.31a7fbe0.css.map",
+    "main.d7d4ae2b.js.map": "/DSA-guide/static/js/main.d7d4ae2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0119e51e.css",
-    "static/js/main.c4329b00.js"
+    "static/css/main.31a7fbe0.css",
+    "static/js/main.d7d4ae2b.js"
   ]
 }
