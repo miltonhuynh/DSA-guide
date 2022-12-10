@@ -28,7 +28,7 @@ export default function BreadthFirstSearch() {
             <li>
               Goes through every node at the same level from the root before traversing down a level
             </li>
-            <img src={require('../images/BFS.png')} style={{ width: "50vw" }} alt="Breadth First Search illustration"></img><br /><br />
+            <img src={require('../images/BFS.png')} style={{ width: "50vw" }} alt="Breadth First Search illustration"></img><br />
           </div>
           <div class="Section">
             <li>
