@@ -169,15 +169,15 @@ class BinarySearchTree {
 				<div class="Section">
 					<div class="font-l">LeetCode examples</div>
 					<div class="font-m indent">
-							<li><a class="Link-green" target="_blank" href="https://leetcode.com/problems/binary-tree-inorder-traversal/">Binary Tree Inorder Traversal [Easy]</a></li>
-							<li><a class="Link-green" target="_blank" href="https://leetcode.com/problems/binary-tree-preorder-traversal/">Binary Tree Preorder Traversal [Easy]</a></li>
-							<li><a class="Link-green" target="_blank" href="https://leetcode.com/problems/binary-tree-postorder-traversal/">Binary Tree Postorder Traversal [Easy]</a></li>
-							<li><a class="Link-green" target="_blank" href="https://leetcode.com/problems/binary-tree-level-order-traversal/">Binary Tree Level Order Traversal [Easy]</a></li>
-							<li><a class="Link-green" target="_blank" href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">Maximum Depth of Binary Tree [Easy]</a></li>
-							<li><a class="Link-green" target="_blank" href="https://leetcode.com/problems/root-equals-sum-of-children/">Root Equals Sum of Children [Easy]</a></li>
-							<li><a class="Link-yellow" target="_blank" href="https://leetcode.com/problems/unique-binary-search-trees/">Unique Binary Search Trees [Medium]</a></li>
-							<li><a class="Link-yellow" target="_blank" href="hhttps://leetcode.com/problems/sum-root-to-leaf-numbers/">Sum Root to Leaf Numbers [Medium]</a></li>
-							<li><a class="Link-red" target="_blank" href="https://leetcode.com/problems/binary-tree-maximum-path-sum/">Binary Tree Maximum Path Sum [Hard]</a></li>
+							<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-inorder-traversal/">Binary Tree Inorder Traversal [Easy]</a></li>
+							<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-preorder-traversal/">Binary Tree Preorder Traversal [Easy]</a></li>
+							<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-postorder-traversal/">Binary Tree Postorder Traversal [Easy]</a></li>
+							<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-level-order-traversal/">Binary Tree Level Order Traversal [Easy]</a></li>
+							<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">Maximum Depth of Binary Tree [Easy]</a></li>
+							<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/root-equals-sum-of-children/">Root Equals Sum of Children [Easy]</a></li>
+							<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/unique-binary-search-trees/">Unique Binary Search Trees [Medium]</a></li>
+							<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="hhttps://leetcode.com/problems/sum-root-to-leaf-numbers/">Sum Root to Leaf Numbers [Medium]</a></li>
+							<li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-maximum-path-sum/">Binary Tree Maximum Path Sum [Hard]</a></li>
 					</div>
 				</div>
       </div>

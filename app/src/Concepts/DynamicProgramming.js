@@ -58,7 +58,7 @@ export default function DynamicProgramming() {
               <ul class="font-sm">
                 <li>A problem is said to have optimal substructure if an optimal solution can be constructed from optimal solutions of its subproblems</li>
                 <li>
-                  An example is the Shortest Path Problem, if we know that A -> B -> C -> D is the shortest path from A to D, then A -> B -> C is the shortest path from A to C and A -> B is the shortest path from A to B
+                  An example is the Shortest Path Problem, if we know that A -&gt; B -&gt; C -&gt; D is the shortest path from A to D, then A -&gt; B -&gt; C is the shortest path from A to C and A -&gt; B is the shortest path from A to B
                   <img src={require('../images/shortestpath.png')} style={{ width: "40vw" }} alt="Shortest path illustration"></img>
                 </li>
               </ul>
@@ -98,11 +98,11 @@ export default function DynamicProgramming() {
         </ul>
         <div class="font-l">LeetCode examples</div>
         <div class="font-m indent">
-          <li><a class="Link-green" target="_blank" href="https://leetcode.com/problems/climbing-stairs/">Climbing Stairs [Easy]</a></li>
-          <li><a class="Link-yellow" target="_blank" href="https://leetcode.com/problems/coin-change/">Coin Change [Medium]</a></li>
-          <li><a class="Link-yellow" target="_blank" href="https://leetcode.com/problems/unique-paths/">Unique Paths [Medium]</a></li>
-          <li><a class="Link-yellow" target="_blank" href="https://leetcode.com/problems/jump-game/">Jump Game [Medium]</a></li>
-          <li><a class="Link-yellow" target="_blank" href="https://leetcode.com/problems/word-break/">Word Break [Medium]</a></li>
+          <li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/climbing-stairs/">Climbing Stairs [Easy]</a></li>
+          <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/coin-change/">Coin Change [Medium]</a></li>
+          <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/unique-paths/">Unique Paths [Medium]</a></li>
+          <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/jump-game/">Jump Game [Medium]</a></li>
+          <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/word-break/">Word Break [Medium]</a></li>
         </div><br />
       </div>
     </div>
