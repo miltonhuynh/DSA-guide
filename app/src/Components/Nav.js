@@ -35,6 +35,7 @@ export default function Nav() {
       <div class="Concept_Links" onClick={() => navigate("Stack")}>Stack</div>
       <div class="Concept_Links" onClick={() => navigate("StringSearch")}>String Search</div>
       <div class="Concept_Links" onClick={() => navigate("TimeComplexity")}>Time Complexity</div>
+      <div class="Concept_Links" onClick={() => navigate("UnionFind")}>Union Find</div>
     </div>
   )
 }
