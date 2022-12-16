@@ -16,13 +16,16 @@ export default function BubbleSort() {
     console.log(array);
   }`
 
+  const n_squared = 
+  `\u00B2`
+
   return (
     <div class="Concept_page">
       <div class="Concept_title">Bubble Sort</div>
       <div class="Container font-m">
         <ul>
           <div class="Section"><li>Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order</li></div>
-          <div class="Section"><li>This algorithm is not suitable for large data sets as its average and worst case time complexity is quite high</li></div>
+          <div class="Section"><li>This algorithm is not suitable for large data sets as its average and worst case time complexity is O(n{n_squared})</li></div>
           <div class="Section"><li>With each iteration, the largest number "bubbles" to the top</li></div>
           <div class="Section">
             <li>Implementation steps:</li>

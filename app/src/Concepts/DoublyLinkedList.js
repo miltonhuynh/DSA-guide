@@ -229,8 +229,8 @@ class DoublyLinkedList {
           <div class="font-l">
           LeetCode examples
           <div class="font-m indent">
-            <li><a class="Link-yellow" target="_blank" href="https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/">Flatten a Multilevel Doubly Linked List [Medium]</a></li>
-            <li><a class="Link-red" target="_blank" href="https://leetcode.com/problems/design-a-text-editor/">Design a Text Editor [Hard]</a></li>
+            <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/">Flatten a Multilevel Doubly Linked List [Medium]</a></li>
+            <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/design-a-text-editor/">Design a Text Editor [Hard]</a></li>
           </div>
         </div><br/>
           </ul>
