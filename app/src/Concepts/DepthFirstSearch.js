@@ -60,7 +60,7 @@ export default function DepthFirstSearch() {
               <li>Traverses the left subtree and then the right subtree</li>
               <li>Useful for searching for an element within a tree</li><br/>
               <img src={require('../images/DFSpreorder.png')} style={{width: "30vw"}} alt="DFS pre-order illustration"></img><br/>
-              <li><br/>
+              <li>
                 Implementation steps:
                 <ul class="font-xsm">
                   <li>Create a variable to store the values of nodes visited</li>
