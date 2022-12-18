@@ -50,11 +50,11 @@ export default function FrequencyCounter() {
       <div class="Concept_title">Frequency Counter</div>
       <div class="Container font-m">
         <ul>
-          <li>This pattern uses objects or sets to collect values and frequencies of values.</li><br/>
-          <li>Used to avoid using nested loops or O(n^2) with arrays and strings</li><br/>
+        <div class="Section"><li>This pattern uses objects or sets to collect values and frequencies of values.</li></div>
+        <div class="Section"><li>Used to avoid using nested loops or O(n^2) with arrays and strings</li></div>
         </ul>
         <div class="font-l">Naive solution [uses a nested loop and has a time complexity of O(n^2)]</div>
-        <div class="Code">
+        <div class="Code Section">
           <pre>
             <code>
               {naive}
@@ -62,7 +62,7 @@ export default function FrequencyCounter() {
           </pre>
         </div><br/>
         <div class="font-l">Optimal solution</div>
-        <div class="Code">
+        <div class="Code Section">
           <pre>
             <code>
               {refactored}
