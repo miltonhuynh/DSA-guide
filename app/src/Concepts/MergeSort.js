@@ -40,28 +40,30 @@ function mergeSort(arr){
       <div class="Concept_title">Merge sort</div>
       <div class="Container">
         <ul class="font-m">
-            <li>This sorting algorithm uses a divide and conquer strategy.</li><br/>
-            <li>Splits an array in half until it can no longer be divided.</li><br/>
-            <li>During merging, iterates through both arrays and adds the smaller value, when one array is exhausted, adds the remaining elements in the other array.</li><br/>
-            <li>Exploits the fact that arrays of 0 or 1 elements are always sorted.</li><br/>
-            <li>Merge operation is applied once array is fully split.</li><br/>
-            <li>The time complexity of this sorting algorithm is O(n log(n)) and takes n space.</li><br/>
+            <div class="Section"><li>This sorting algorithm uses a divide and conquer strategy.</li></div>
+            <div class="Section"><li>Splits an array in half until it can no longer be divided.</li></div>
+            <div class="Section"><li>During merging, iterates through both arrays and adds the smaller value, when one array is exhausted, adds the remaining elements in the other array.</li></div>
+            <div class="Section"><li>Exploits the fact that arrays of 0 or 1 elements are always sorted.</li></div>
+            <div class="Section"><li>Merge operation is applied once array is fully split.</li></div>
+            <div class="Section"><li>The time complexity of this sorting algorithm is O(n log(n)) and takes n space.</li></div>
           <img src={require('../images/merge.jpg')} style={{width: "40vw"}} alt="Merge sort illustration"></img>
         </ul>
         <div class="font-l">JavaScript Implementation</div>
-        <div class="Code">
+        <div class="Code Section">
           <pre>
             <code>
               {Implementation}
             </code>
           </pre>
         </div>
-        <div class="font-l">LeetCode examples</div>
-				<div class="font-m indent">
-            <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/sort-list/ ">Sort List [Medium]</a></li>
-            <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/sort-an-array/">Sort an Array [Medium]</a></li>
-						<li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/reverse-pairs/">Reverse Pairs [Hard]</a></li>
-        </div><br/>
+        <div class="Section">
+          <div class="font-l">LeetCode examples</div>
+          <div class="font-m indent">
+              <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/sort-list/ ">Sort List [Medium]</a></li>
+              <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/sort-an-array/">Sort an Array [Medium]</a></li>
+              <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/reverse-pairs/">Reverse Pairs [Hard]</a></li>
+          </div>
+        </div>
       </div>
     </div>
   )
