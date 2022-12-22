@@ -183,16 +183,19 @@ body,html {
 
 .Link-green {
   cursor: pointer;
+  font-size: 1.35vw;
   color: rgb(9, 255, 0);
 }
 
 .Link-yellow {
   cursor: pointer;
+  font-size: 1.35vw;
   color: orange;
 }
 
 .Link-red {
   cursor: pointer;
+  font-size: 1.35vw;
   color: red;
 }
 
