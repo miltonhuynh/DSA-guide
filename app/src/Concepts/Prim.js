@@ -70,7 +70,6 @@ export default function Prim() {
               <li>3) Contains no cycles</li>
             </ul>
           </div>
-          <br />
           <div class="Section"><li>Prim's algorithm is a greedy algorithm which selects the best option at each step, it always starts with a single node and it moves through several adjacent nodes, in order to explore all of the connected edges along the way.</li></div>
           <div class="Section">
             <li>
