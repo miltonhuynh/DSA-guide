@@ -22,7 +22,7 @@ queue.shift()`
 										<li>Background tasks</li>
 										<li>Uploading resources</li>
 										<li>Printing</li>
-										<li>Task processing</li><br />
+										<li>Task processing</li>
 									</ul>
 								</div>
 							</li>
