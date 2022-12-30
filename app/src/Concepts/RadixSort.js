@@ -3,7 +3,7 @@ import React from 'react'
 export default function RadixSort() {
 
   const implementation =
-  `  function getDigit(num, i) {
+    `  function getDigit(num, i) {
     return Math.floor(Math.abs(num) / Math.pow(10, i)) % 10;
   }
   
@@ -38,31 +38,33 @@ export default function RadixSort() {
       <div class="Concept_title">Radix Sort</div>
       <div class="Container">
         <div class="font-m">
-            <ul>
-                <li>Radix sort is a special sorting algorithm that works on lists of numbers</li><br/>
-                <li>Never makes comparisons between elements</li><br/>
-                <li>It exploits the fact that information about the size of the number is in the number of digits</li><br/>
-                <li>The time complexity of this sorting algorithm is O(nk), k being the number of digits</li><br/>
-                <li>Implementation steps:</li>
-                <div class="indent font-sm">
-                  <div>1) Define a function that accepts a list of numbers</div>
-                  <div>2) Figure out how many digits the largest number has</div>
-                  <div>3) Loop from k=0 up to this largest number of digits</div>
-                  <div>4) For each iteration of the loop, create buckets for each digit and place each number in its corresponding bucket based on its kth digit</div>
-                  <div>5) Replace our existing array with values from the buckets, starting with 0 and going up to 9</div>
-                  <div>6) Return list at the end</div>
-                </div>
-            </ul>
+          <ul>
+            <div class="Section"><li>Radix sort is a special sorting algorithm that works on lists of numbers</li></div>
+            <div class="Section"><li>Never makes comparisons between elements</li></div>
+            <div class="Section"><li>It exploits the fact that information about the size of the number is in the number of digits</li></div>
+            <div class="Section"><li>The time complexity of this sorting algorithm is O(nk), k being the number of digits</li></div>
+            <div class="Section">
+              <li>Implementation steps:</li>
+              <div class="indent font-sm">
+                <div>1) Define a function that accepts a list of numbers</div>
+                <div>2) Figure out how many digits the largest number has</div>
+                <div>3) Loop from k=0 up to this largest number of digits</div>
+                <div>4) For each iteration of the loop, create buckets for each digit and place each number in its corresponding bucket based on its kth digit</div>
+                <div>5) Replace our existing array with values from the buckets, starting with 0 and going up to 9</div>
+                <div>6) Return list at the end</div>
+              </div>
+            </div>
+          </ul>
         </div>
         <div class="font-l">JavaScript Implementation:</div>
-        <div class="Code">
+        <div class="Code Section">
           <pre>
             <code>
               {implementation}
             </code>
           </pre>
         </div>
-        </div>
+      </div>
     </div>
   )
 }
