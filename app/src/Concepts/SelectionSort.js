@@ -19,21 +19,29 @@ export default function SelectionSort() {
     return arr;
 }
 `
-  
+const n_squared = 
+  `\u00B2`
+
   return (
   <div class="Concept_page">
     <div class="Concept_title">Selection sort</div>
     <div class="Container">
       <ul><div class="font-m">
-        <li>Selection sort works by repeatedly finding the smallest element in the array and putting it at the beginning.</li><br/>
-        <li>The algorithm mains two subarrays in any given array.</li><br/>
-        <li>This method of sorting has a time complexity of n^2.</li>
-        <div class="indent font-sm">1) The subarray that is already sorted.</div>
-        <div class="indent font-sm">2) The remaining subarray which is unsorted.</div><br/>
-        <li>In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray. </li>
+        <div class="Section"><li>Selection sort works by repeatedly finding the smallest element in the array and putting it at the beginning.</li></div>
+        <div class="Section">
+          <li>
+            The algorithm mains two subarrays in any given array:
+            <ul>
+              <li>1) The subarray that is already sorted</li>
+              <li>2) The remaining subarray which is unsorted</li>
+            </ul>
+          </li>
+        </div>
+        <div class="Section"><li>This method of sorting has a time complexity of n{n_squared}.</li></div>
+        <div class="Section"><li>In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray. </li></div>
       </div></ul>
       <div class="font-l">JavaScript Implementation</div>
-      <div class="Code">
+      <div class="Code Section">
         <pre>
           <code>
             {selection}
