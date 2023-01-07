@@ -20,12 +20,9 @@ export default function BigO() {
     <div class="Concept_page">
       <div class="Concept_title">Time Complexity</div>
       <div class="Container font-m">
-        <div class="Section">Time complexity describes how long it takes a computer to run an algorithm. There are many ways to 
-        solve a problem but some methods will take less time than others. It is important to consider
-        run time as the amount of data grows so will how long it will take the function to return an answer.</div>
-        <br /><br />
-        <div class="font-m">For example, consider a function that adds all the numbers from 1 to some number n.</div>
-        <br /><br />
+        <div class="Section">Time complexity describes how long it takes a computer to run an algorithm. There are many ways to solve a problem but some methods will take less time than others. It is important to consider run time as the amount of data grows so will how long it will take the function to return an answer.</div>
+        
+        <div class="Section">For example, consider a function that adds all the numbers from 1 to some number n.</div>  
         <div class="font-m">Method 1:</div>
         <br />
         <pre>
