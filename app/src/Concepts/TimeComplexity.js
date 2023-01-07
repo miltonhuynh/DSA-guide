@@ -15,6 +15,9 @@ const fast_snippet =
 }
 `
 
+const n_squared = 
+  `\u00B2`
+
 export default function BigO() {
   return (
     <div class="Concept_page">
@@ -89,7 +92,7 @@ export default function BigO() {
                 </div>
               </li>
               <li>
-                <div class="font-l">O n2</div>
+                <div class="font-l">O(n{n_squared})</div>
                 <div class="Code">
                   <pre>
                     <code>
