@@ -139,7 +139,7 @@ class SinglyLinkedList {
       <div class="Concept_title">Singly Linked List</div>
       <div class="Container font-m">
         <ul>
-          <li>Each node points to the next item, unlike doubly linked list which points to the previous and next item.</li><br/>
+          <div class="Section"><li>Each node points to the next item, unlike doubly linked list which points to the previous and next item.</li></div>
           <li>Does not have indexes, connected via nodes with a next pointer, random access is not allowed.</li><br/>
           <li>Unlike arrays, insertion and deletion is not as time consuming, don't need to re-index every element.</li><br/>
           <li>
