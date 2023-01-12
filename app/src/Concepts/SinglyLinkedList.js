@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function SinglyLinkedList() {
 
-  const implementation = 
-  `class Node {
+  const implementation =
+    `class Node {
     constructor(val) {
         this.val = val;
         this.next = null;
@@ -142,23 +142,24 @@ class SinglyLinkedList {
           <div class="Section"><li>Each node points to the next item, unlike doubly linked list which points to the previous and next item.</li></div>
           <div class="Section"><li>Does not have indexes, connected via nodes with a next pointer, random access is not allowed.</li></div>
           <div class="Section"><li>Unlike arrays, insertion and deletion is not as time consuming, don't need to re-index every element.</li></div>
-          <li>
-            Big O of Singly Linked Lists
-            <div class="font-sm">
-              <ul>
-                <li>Insertion: O(1)</li>
-                <li>Removal: O(1) or O(n)</li>
-                <li>Searching: O(n) *Technically O(n/2) but still in general O(n)</li>
-                <li>Access: O(n)</li>
-              </ul>
-            </div>
-          </li><br/>
-
+          <div class="Section">
+            <li>
+              Big O of Singly Linked Lists
+              <div class="font-sm">
+                <ul>
+                  <li>Insertion: O(1)</li>
+                  <li>Removal: O(1) or O(n)</li>
+                  <li>Searching: O(n) *Technically O(n/2) but still in general O(n)</li>
+                  <li>Access: O(n)</li>
+                </ul>
+              </div>
+            </li>
+          </div>
           <li>Implementation steps:</li>
 
           <ul class="font-sm">
             <li>Create a node that contains a variable that holds a value and a pointer to the next node.</li>
-          
+
             <li>Push (Adding a node to the beginning of list)</li>
             <ul class="font-xsm">
               <li>Let this function accept a value</li>
@@ -168,7 +169,7 @@ class SinglyLinkedList {
               <li>Increment the length by 1</li>
               <li>Return the linked list</li>
             </ul>
-            
+
             <li>Pop (Removing a node from the end of the list)</li>
             <ul class="font-xsm">
               <li>If there are no nodes in the list, return undefined</li>
@@ -178,7 +179,7 @@ class SinglyLinkedList {
               <li>Decrement the length of the list by 1</li>
               <li>Return the value of the node removed</li>
             </ul>
-        
+
             <li>Shift (Removing a node from the beginning of the linked list)</li>
             <ul class="font-xsm">
               <li>If there are no nodes, return undefined</li>
@@ -234,7 +235,7 @@ class SinglyLinkedList {
               <li>Decrement the length</li>
               <li>Return the value of the node removed</li>
             </ul>
-            
+
             <li>Reverse (Reversing the Linked List in place)</li>
             <ul class="font-xsm">
               <li>Swap the head and the tail</li>
@@ -248,7 +249,7 @@ class SinglyLinkedList {
             </ul>
           </ul>
         </ul>
-        <img src={require('../images/sll.png')} style={{width: "60vw"}} alt="Singly linked list illustration"></img><br/><br/><br/>
+        <img src={require('../images/sll.png')} style={{ width: "60vw" }} alt="Singly linked list illustration"></img><br /><br /><br />
         <div class="font-l">Implementation</div>
         <div class="Code">
           <pre>
@@ -258,11 +259,11 @@ class SinglyLinkedList {
           </pre>
         </div>
         <div class="font-l">LeetCode examples</div>
-          <div class="font-m indent">
-            <li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/merge-two-sorted-lists/">Merge Two Sorted Lists [Easy]</a></li>
-            <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/add-two-numbers/">Add Two Numbers [Medium]</a></li>
-            <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/merge-k-sorted-lists/">Merge k sorted lists [Hard]</a></li>
-        </div><br/>
+        <div class="font-m indent">
+          <li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/merge-two-sorted-lists/">Merge Two Sorted Lists [Easy]</a></li>
+          <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/add-two-numbers/">Add Two Numbers [Medium]</a></li>
+          <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/merge-k-sorted-lists/">Merge k sorted lists [Hard]</a></li>
+        </div><br />
 
       </div>
     </div>
