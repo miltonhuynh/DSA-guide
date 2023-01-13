@@ -40,7 +40,7 @@ export default function Kruskal() {
     <div class="Concept_page">
       <div class="Concept_title">Kruskal's Algorithm</div>
       <div class="Container font-m">
-        <li>
+        <br /><li>
           Prerequisites:
           <ref class="Link" onClick={() => navigate("../Prim")}> <u>Prim's Algorithm</u></ref>
         </li>
