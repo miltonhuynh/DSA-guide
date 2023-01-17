@@ -44,7 +44,7 @@ export default function BreadthFirstSearch() {
                     <li>If there is a right property on the node dequeued, add it to the queue</li>
                   </ul>
                 </li>
-                <li>Return the variable that stores the values</li><br />
+                <li>Return the variable that stores the values</li>
               </ul>
             </li>
           </div>
