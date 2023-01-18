@@ -89,7 +89,7 @@ export default function HashTables() {
                 <li>Finding values</li>
                 <li>Adding new values</li>
                 <li>Removing values</li>
-              </ul><br/>
+              </ul>
             </li>
           </div>
           <div class="Section"><li>Nearly every programming language has some sort of hash table data structure</li></div>
@@ -127,8 +127,7 @@ export default function HashTables() {
                     <li>Fast (constant time)</li>
                     <li>Doesn't cluster outputs at specific indices, but distributes uniformly</li>
                     <li>Deterministic (same input yields same output)</li>
-                  </ul><br/>
-                
+                  </ul>
                   <li>
                     Example of a hash function that takes in a string and returns a key:
                     <div class="Code-sm">
