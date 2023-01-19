@@ -5,7 +5,7 @@ export default function Nav() {
   let navigate = useNavigate();
 
   return (
-    <div id="Navigator">
+    <nav id="Navigator">
       <div class="Concept_Links" onClick={() => navigate("Definitions")}>Common Terms</div>
       <div class="Concept_Links" onClick={() => navigate("BinaryHeap")}>Binary Heap</div>
       <div class="Concept_Links" onClick={() => navigate("BinarySearch")}>Binary Search</div>
@@ -36,6 +36,6 @@ export default function Nav() {
       <div class="Concept_Links" onClick={() => navigate("StringSearch")}>String Search</div>
       <div class="Concept_Links" onClick={() => navigate("TimeComplexity")}>Time Complexity</div>
       <div class="Concept_Links" onClick={() => navigate("UnionFind")}>Union Find</div>
-    </div>
+    </nav>
   )
 }
