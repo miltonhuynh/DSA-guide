@@ -84,7 +84,7 @@ export default function BinaryHeap() {
         <ul>
           Prerequisites:
           <ref class="Link" onClick={() => navigate("../BinarySearch")}> <u>Binary Search</u></ref>
-          <div class="Section">
+          <section>
             <li>
               Very similar to a Binary Search Tree, but with some different rules
               <ul class="font-sm">
@@ -92,8 +92,8 @@ export default function BinaryHeap() {
                 <li>In a Min Binary Heap, parent nodes are always smaller than child nodes</li>
               </ul>
             </li>
-          </div>
-          <div class="Section">
+          </section>
+          <section>
             <li>
               Max Binary Heaps:
               <ul class="font-sm">
@@ -102,10 +102,10 @@ export default function BinaryHeap() {
                 <li>As compact as possible, all children of each node are as full as they can be and left children are filled first</li>
               </ul>
             </li>
-          </div>
-          <div class="Section"><li>Binary Heaps are used to implement Priority Queues, which are very commonly used data structures</li></div>
-          <div class="Section"><li>Also used with graph traversal algorithms</li></div>
-          <div class="Section">
+          </section>
+          <section><li>Binary Heaps are used to implement Priority Queues, which are very commonly used data structures</li></section>
+          <section><li>Also used with graph traversal algorithms</li></section>
+          <section>
             <li>
               Binary Heaps can be stored in a list or an array:
               <img src={require('../images/BinaryHeapArray.png')} style={{ width: "50vw" }} alt="Binary Heap array illustration"></img><br />
@@ -114,8 +114,8 @@ export default function BinaryHeap() {
                 <li>For any child at index n, its parent is at index (n - 1) / 2, floored</li>
               </ul>
             </li><br />
-          </div>
-          <div class="Section">
+          </section>
+          <section>
             <li>
               Big O of Binary Heaps
               <ul class="font-sm">
@@ -124,8 +124,8 @@ export default function BinaryHeap() {
                 <li>Search: O(N)</li>
               </ul>
             </li>
-          </div>
-          <div class="Section">
+          </section>
+          <section>
             <li>
               Max Binary Heaps implementation:
               <ul class="font-sm">
@@ -165,7 +165,7 @@ export default function BinaryHeap() {
                 </li>
               </ul>
             </li>
-          </div>
+          </section>
         </ul>
         <div class="font-l">JavaScript Implementation</div>
         <div class="Code Section">
