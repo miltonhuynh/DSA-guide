@@ -174,10 +174,7 @@ export default function BinaryHeap() {
               {implementaton}
             </code>
           </pre>
-        </div><br />
-        <div class="font-l">
-          LeetCode examples
-        </div><br />
+        </div>
       </div>
     </div>
   )
