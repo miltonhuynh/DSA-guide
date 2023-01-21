@@ -133,7 +133,7 @@ header {
   padding: 1vw 4vw 2vw 2vw;
 }
 
-section {
+section, .Section {
   color: black;
   font-family: 'Didact Gothic', sans-serif;
   background-color: white;
