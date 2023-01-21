@@ -8,14 +8,14 @@ export default function HeaderFooter(props) {
 
   return (
     <>
-        <div id="header">
+        <header>
           <div id="Github-icon"><a href="https://github.com/miltonhuynh/DSA-guide"><Githubicon/></a></div>
           <div id="Home-icon" onClick={() => navigate("")}><Homeicon/></div>
 
           <div id="Brand" onClick={() => navigate("")}>Milton's DS&A Crash Course</div>
-        </div>
+        </header>
             {props.children}
-        <div id="footer">Created by Milton Huynh with React.js</div>
+        <footer>Created by Milton Huynh with React.js</footer>
     </>
   )
 }

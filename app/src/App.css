@@ -45,7 +45,7 @@ body,html {
   margin-left: 3vw;
 }
 
-#header {
+header {
   background-color: black;
   display: flex;
   justify-content: center;
@@ -216,7 +216,7 @@ body,html {
   border: 0.2vw solid black;
 }
 
-#footer {
+footer {
   background-color: black;
   color: white;
   display: flex;
