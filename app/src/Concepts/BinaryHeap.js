@@ -79,7 +79,7 @@ export default function BinaryHeap() {
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">Binary Heap</div>
+      <h1>Binary Heap</h1>
       <div class="Container font-m">
         <ul>
           Prerequisites:

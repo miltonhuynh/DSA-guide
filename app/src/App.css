@@ -110,7 +110,7 @@ header {
   color: white;
 }
 
-.Concept_title {
+.Concept_title, h1 {
   text-align: center;
   margin: 2vw 10vw 1vw 10vw;
   background-color: rgb(40,40,40);
