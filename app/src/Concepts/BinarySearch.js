@@ -22,14 +22,14 @@ const javascript_snippet =
 
   return (
   <div class="Concept_page">
-    <div class="Concept_title">Binary Search</div>
+    <h1>Binary Search</h1>
     <div class="Container">
       <ul class="font-m">
-        <div class="Section"><li>Binary search is a much faster form of search than linear search</li></div>
-        <div class="Section"><li>Rather than eliminating one element at a time, you can elimate half of the remaining elements at at time</li></div>
-        <div class="Section"><li>Binary search only works on sorted arrays</li></div>
-        <div class="Section"><li>Binary search works by repeatedly dividing the search interval in half, depending on whether the guess was lower or higher than the correct value</li></div>
-        <div class="Section"> 
+        <section><li>Binary search is a much faster form of search than linear search</li></section>
+        <section><li>Rather than eliminating one element at a time, you can elimate half of the remaining elements at at time</li></section>
+        <section><li>Binary search only works on sorted arrays</li></section>
+        <section><li>Binary search works by repeatedly dividing the search interval in half, depending on whether the guess was lower or higher than the correct value</li></section>
+        <section> 
           <li>
             Implementation steps:
             <ul class="font-m">
@@ -40,7 +40,7 @@ const javascript_snippet =
               <li>Repeatedly check from the second point until the value is found or the interval is empty</li>
             </ul>
           </li>
-        </div>
+        </section>
       </ul>
       <div class="font-l">JavaScript Implementation:</div>
         <div class="Code Section">
