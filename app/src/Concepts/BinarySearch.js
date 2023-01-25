@@ -23,7 +23,7 @@ const javascript_snippet =
   return (
   <div class="Concept_page">
     <h1>Binary Search</h1>
-    <div class="Container">
+    <main>
       <ul class="font-m">
         <section><li>Binary search is a much faster form of search than linear search</li></section>
         <section><li>Rather than eliminating one element at a time, you can elimate half of the remaining elements at at time</li></section>
@@ -50,7 +50,7 @@ const javascript_snippet =
               </code>
             </pre>
         </div>
-    </div>
+    </main>
   </div>
   )
 }
