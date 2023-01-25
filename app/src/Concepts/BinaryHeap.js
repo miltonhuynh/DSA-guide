@@ -80,7 +80,7 @@ export default function BinaryHeap() {
   return (
     <div class="Concept_page">
       <h1>Binary Heap</h1>
-      <div class="Container font-m">
+      <main>
         <ul>
           Prerequisites:
           <ref class="Link" onClick={() => navigate("../BinarySearch")}> <u>Binary Search</u></ref>
@@ -175,7 +175,7 @@ export default function BinaryHeap() {
             </code>
           </pre>
         </div>
-      </div>
+      </main>
     </div>
   )
 }
