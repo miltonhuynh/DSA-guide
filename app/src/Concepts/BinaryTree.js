@@ -73,7 +73,7 @@ class BinarySearchTree {
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">Binary Trees</div>
+      <h1>Binary Trees</h1>
       <div class="Container font-m">
 				<ul>
 					<div class="Section"><li>A tree is a data structure that consists of nodes in a parent/child relationship, nodes can only point to a child and cannot have more than one parent</li></div>
