@@ -76,8 +76,8 @@ class BinarySearchTree {
       <h1>Binary Trees</h1>
       <div class="Container font-m">
 				<ul>
-					<div class="Section"><li>A tree is a data structure that consists of nodes in a parent/child relationship, nodes can only point to a child and cannot have more than one parent</li></div>
-					<div class="Section">
+					<section><li>A tree is a data structure that consists of nodes in a parent/child relationship, nodes can only point to a child and cannot have more than one parent</li></section>
+					<section>
 						<li> Some uses of trees:</li>
 							<ul class="font-sm">
 								<li>HTML DOM</li>
@@ -87,8 +87,8 @@ class BinarySearchTree {
 								<li>Folders in Operating Systems</li>
 								<li>Computer File Systems</li>
 							</ul>
-						</div>
-					<div class="Section">
+						</section>
+					<section>
 						<li>Common Definitions:</li>
 						<ul class="font-sm">
 							<li>Root: the top node in a tree</li>
@@ -96,17 +96,17 @@ class BinarySearchTree {
 							<li>Sibling: a group of nodes with the same parent</li>
 							<li>Leaf: a is node with no children</li>
 						</ul>
-					</div>
-					<div class="Section">
+					</section>
+					<section>
 						<li>A Binary Search tree is a special type of tree in which: </li>
 						<ul class="font-sm">
 							<li>Every parent node has at most two children</li>
 							<li>Every node to the left of a parent node is always less than the parent</li>
 							<li>Every node to the right of a parent node is always greater than the parent</li>
 						</ul>
-					</div>
-					<div class="Section"><li>The complexity of Insertion and Searching is O(log n) in the best case and O(n) in the worst case</li></div>
-					<div class="Section">
+					</section>
+					<section><li>The complexity of Insertion and Searching is O(log n) in the best case and O(n) in the worst case</li></section>
+					<section>
 						<li>Implementation Steps</li>
 						<ul class="font-sm">
 							<li>Create a Node class with a constructor to create properties value, left and right</li>
@@ -156,7 +156,7 @@ class BinarySearchTree {
 								</ul>
 							</li>
 						</ul>
-					</div>
+					</section>
 				</ul>
 				<div class="font-l">JavaScript Implementation</div>
 				<div class="Code Section">
@@ -166,7 +166,7 @@ class BinarySearchTree {
 						</code>
 					</pre>
 				</div>
-				<div class="Section">
+				<section>
 					<div class="font-l">LeetCode examples</div>
 					<div class="font-m indent">
 							<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-inorder-traversal/">Binary Tree Inorder Traversal [Easy]</a></li>
@@ -179,7 +179,7 @@ class BinarySearchTree {
 							<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="hhttps://leetcode.com/problems/sum-root-to-leaf-numbers/">Sum Root to Leaf Numbers [Medium]</a></li>
 							<li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-maximum-path-sum/">Binary Tree Maximum Path Sum [Hard]</a></li>
 					</div>
-				</div>
+				</section>
       </div>
     </div>
   )
