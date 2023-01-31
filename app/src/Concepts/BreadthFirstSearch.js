@@ -20,17 +20,17 @@ export default function BreadthFirstSearch() {
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">Breadth First Search</div>
+      <h1>Breadth First Search</h1>
       <div class="Container font-m">
         <ul>
-          <div class="Section"><li>An algorithm for searching a tree data structure for a node that satisfies a given property</li></div>
-          <div class="Section">
+          <section><li>An algorithm for searching a tree data structure for a node that satisfies a given property</li></section>
+          <section>
             <li>
               Goes through every node at the same level from the root before traversing down a level
             </li>
             <img src={require('../images/BFS.png')} style={{ width: "50vw" }} alt="Breadth First Search illustration"></img><br />
-          </div>
-          <div class="Section">
+          </section>
+          <section>
             <li>
               Implementation Steps
               <ul class="font-sm">
@@ -47,7 +47,7 @@ export default function BreadthFirstSearch() {
                 <li>Return the variable that stores the values</li>
               </ul>
             </li>
-          </div>
+          </section>
         </ul>
         <div class="font-l">JavaScript Implementation:</div>
         <div class="Code Section">
@@ -57,14 +57,14 @@ export default function BreadthFirstSearch() {
             </code>
           </pre>
         </div>
-        <div class="Section">
+        <section>
           <div class="font-l">LeetCode examples</div>
           <div class="font-m indent">
             <li><a class="Link-green" rel="noreferrer" href="https://leetcode.com/problems/minimum-depth-of-binary-tree/">Minimum Depth of Binary Tree [Easy]</a></li>
             <li><a class="Link-yellow" rel="noreferrer" href="https://leetcode.com/problems/binary-tree-level-order-traversal/">Binary Tree Level Order Traversal [Medium]</a></li>
             <li><a class="Link-red" rel="noreferrer" href="https://leetcode.com/problems/word-ladder/">Word Ladder [Hard]</a></li>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   )
