@@ -40,7 +40,7 @@ export default function DepthFirstSearch() {
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">Depth First Search</div>
+      <h1>Depth First Search</h1>
       <div class="Container font-m">
         <ul>
           <div class="Section"><li>Starts at the root node and explores as far as possible along each branch before backtracking</li></div>
