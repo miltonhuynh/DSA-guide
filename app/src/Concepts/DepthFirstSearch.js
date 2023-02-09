@@ -43,17 +43,17 @@ export default function DepthFirstSearch() {
       <h1>Depth First Search</h1>
       <div class="Container font-m">
         <ul>
-          <div class="Section"><li>Starts at the root node and explores as far as possible along each branch before backtracking</li></div>
-          <div class="Section"><li>Time Complexity is the same as BFS, but takes up less space in trees with less depth</li></div>
-          <div class="Section">
+          <section><li>Starts at the root node and explores as far as possible along each branch before backtracking</li></section>
+          <section><li>Time Complexity is the same as BFS, but takes up less space in trees with less depth</li></section>
+          <section>
             <li>There are three variations of Depth First Search: </li>
             <ul class="font-sm">
               <li>Pre-order</li>
               <li>Post-order</li>
               <li>In-order</li>
             </ul>
-          </div>
-          <div class="Section">
+          </section>
+          <section>
             <li>1) <u>Pre-order</u></li>
             <ul class="font-sm">
               <li>Visits the root first</li>
@@ -86,8 +86,8 @@ export default function DepthFirstSearch() {
                 </div>
               </li>
             </ul>
-          </div>
-          <div class="Section">
+          </section>
+          <section>
             <li>2) <u>Post-order</u></li>
             <ul class="font-sm">
               <li>Traverses the left subtree and then the right subtree, and lastly the root</li>
@@ -119,8 +119,8 @@ export default function DepthFirstSearch() {
                 </div>
               </li>
             </ul>
-          </div>
-          <div class="Section">
+          </section>
+          <section>
             <li>3) <u>In-order</u></li>
             <ul class="font-sm">
               <li>Traverses the left subtree and then the root and lastly the right subtree</li>
@@ -144,7 +144,7 @@ export default function DepthFirstSearch() {
                 </ul><br/>
               </li>
             </ul>
-          </div></ul>
+          </section></ul>
         <div class="font-l">JavaScript Implementation:</div>
         <div class="Code Section">
           <pre>
