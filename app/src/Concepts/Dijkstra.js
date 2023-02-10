@@ -77,7 +77,7 @@ export default function Dijkstra() {
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">Dijkstra's algorithm</div>
+      <h1>Dijkstra's algorithm</h1>
       <div class="Container font-m">
         <ul>
           <div class="Section"><li>Dijkstra's algorithm is used to traverse <ref class="Link" onClick={() => navigate("../Graphs")}><u>Graphs</u></ref> and uses a <ref class="Link" onClick={() => navigate("../PriorityQueue")}><u>Priority Queue</u></ref></li></div>
