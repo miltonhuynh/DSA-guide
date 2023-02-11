@@ -80,10 +80,10 @@ export default function Dijkstra() {
       <h1>Dijkstra's algorithm</h1>
       <div class="Container font-m">
         <ul>
-          <div class="Section"><li>Dijkstra's algorithm is used to traverse <ref class="Link" onClick={() => navigate("../Graphs")}><u>Graphs</u></ref> and uses a <ref class="Link" onClick={() => navigate("../PriorityQueue")}><u>Priority Queue</u></ref></li></div>
-          <div class="Section"><li>It is a single source shortest path algorithm for graphs with non-negative edge weights</li></div>
-          <div class="Section"><li>Finds the shortest path between two vertices on a graph</li></div>
-          <div class="Section">
+          <section><li>Dijkstra's algorithm is used to traverse <ref class="Link" onClick={() => navigate("../Graphs")}><u>Graphs</u></ref> and uses a <ref class="Link" onClick={() => navigate("../PriorityQueue")}><u>Priority Queue</u></ref></li></section>
+          <section><li>It is a single source shortest path algorithm for graphs with non-negative edge weights</li></section>
+          <section><li>Finds the shortest path between two vertices on a graph</li></section>
+          <section>
             <li>
               <u>Common uses</u>:
               <ul class="font-sm">
@@ -93,8 +93,8 @@ export default function Dijkstra() {
                 <li>Airline tickets: finding cheapest route to your destination</li>
               </ul>
             </li>
-          </div>
-          <div class="Section">
+          </section>
+          <section>
             <li>
               <u>The approach</u>:
               <ul class="font-sm">
@@ -104,8 +104,8 @@ export default function Dijkstra() {
                 <li>4) If the new total distance to a node is less than the previous total, we store the new shorter distance for that node (a.k.a. relaxation)</li>
               </ul>
             </li>
-          </div>
-          <div class="Section">
+          </section>
+          <section>
             <li>
               <u>Algorithm overview</u>:
               <ul class="font-sm">
@@ -115,8 +115,8 @@ export default function Dijkstra() {
                 <li>4) Interate over all edges outwards from the current node and relax each edge apprending a new (index, distance) key-value pair to the Priority Queue for every relaxation</li>
               </ul>
             </li>
-          </div>
-          <div class="Section">
+          </section>
+          <section>
             <li>
               <u>Implementation steps</u>:
               <ul class="font-sm">
@@ -139,7 +139,7 @@ export default function Dijkstra() {
                 </li>
               </ul>
             </li>
-          </div>
+          </section>
         </ul>
         <div class="font-l">JavaScript Implementation</div>
         <div class="Code Section">
@@ -149,7 +149,7 @@ export default function Dijkstra() {
             </code>
           </pre>
         </div>
-        <div class="Section">
+        <section>
           <div class="font-l">LeetCode examples</div>
             <div class="font-m indent">
               <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/path-with-minimum-effort/">Path With Minimum Effort [Medium]</a></li>
@@ -158,7 +158,7 @@ export default function Dijkstra() {
               <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/">Reachable Nodes In Subdivided Graph [Medium]</a></li>
               <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/">Minimum Cost to Make at Least One Valid Path in a Grid [Hard]</a></li>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   )
