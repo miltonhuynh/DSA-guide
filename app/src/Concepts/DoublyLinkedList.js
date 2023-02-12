@@ -121,7 +121,7 @@ class DoublyLinkedList {
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">Doubly Linked List</div>
+      <h1>Doubly Linked List</h1>
       <div class="Container font-m">
         <br /><li>
             Prerequisites:
