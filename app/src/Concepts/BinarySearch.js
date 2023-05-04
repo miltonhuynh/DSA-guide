@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function BinarySearch() {
-const javascript_snippet = 
+const py_snippet = 
   `def binary_search(list, item):
   low = 0
   high = len(list) - 1
@@ -45,7 +45,7 @@ const javascript_snippet =
         <div class="Code Section">
             <pre>
               <code>
-                {javascript_snippet}
+                {py_snippet}
               </code>
             </pre>
         </div>
