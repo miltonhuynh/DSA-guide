@@ -128,10 +128,10 @@ class DoublyLinkedList {
             <ref class="Link" onClick={() => navigate("../SinglyLinkedList")}> <u>Singly Linked List</u></ref>
           </li>
         <ul>
-          <div class="Section"><li>Almost identical to Singly Linked Lists, except every node has another pointer to the previous node</li></div>
-          <div class="Section"><li>Can be traversed in both forward and backward directions, can quickly remove or add a new node before a given node</li></div>
-          <div class="Section"><li>Every node of requires extra space for a previous pointer</li></div>
-          <div class="Section">
+          <section><li>Almost identical to Singly Linked Lists, except every node has another pointer to the previous node</li></section>
+          <section><li>Can be traversed in both forward and backward directions, can quickly remove or add a new node before a given node</li></section>
+          <section><li>Every node of requires extra space for a previous pointer</li></section>
+          <section>
             <li>
               Big O of Doubly Linked Lists
               <ul class="font-sm">
@@ -141,8 +141,8 @@ class DoublyLinkedList {
                 <li>Access: O(n)</li>
               </ul>
             </li>
-          </div>
-          <div class="Section">
+          </section>
+          <section>
             <li>Implementation Steps:</li>
             <ul class="font-sm">
               <li>Create a node that contains a variable that holds a value and a pointer to the next and previous node.</li>
@@ -227,7 +227,7 @@ class DoublyLinkedList {
                 <li>Return the removed node</li><br />
               </ul>
             </ul>
-          </div>
+          </section>
           <div class="font-l">JavaScript Implementation</div>
           <div class="Code Section">
             <pre>
