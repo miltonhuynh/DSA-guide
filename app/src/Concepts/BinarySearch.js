@@ -2,23 +2,22 @@ import React from 'react'
 
 export default function BinarySearch() {
 const javascript_snippet = 
-  `function binarySearch(arr, elem) {
-    var start = 0;
-    var end = arr.length - 1;
-    var middle = Math.floor((start + end) / 2);
-    while(arr[middle] !== elem && start <= end) {
-        if(elem < arr[middle]){
-            end = middle;
-        } else {
-            start = middle;
-        }
-        middle = Math.floor((start + end) / 2);
-    }
-    if(arr[middle] === elem){
-        return middle;
-    }
-    return -1;
-}`
+  `def binary_search(list, item):
+  low = 0
+  high = len(list) - 1
+  
+  while low <= high:
+      mid = (low + high)
+      guess = list[mid]
+      if guess == item:
+          return mid
+      if guess > item:
+          high = mid - 1
+      else:
+          low = mid + 1
+  
+  return None
+`
 
   return (
   <div class="Concept_page">
@@ -42,7 +41,7 @@ const javascript_snippet =
           </li>
         </section>
       </ul>
-      <div class="font-l">JavaScript Implementation:</div>
+      <div class="font-l">Python Implementation:</div>
         <div class="Code Section">
             <pre>
               <code>
