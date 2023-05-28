@@ -6,75 +6,64 @@ export default function BinaryHeap() {
   let navigate = useNavigate();
 
   const implementaton =
-    `class MaxBinaryHeap {
-    constructor() {
-      this.values = [41, 39, 33, 18, 27, 12];
-    }
-    insert(element) {
-      this.values.push(element);
-      this.bubbleUp();
-    }
-    bubbleUp() {
-      let idx = this.values.length - 1;
-      const element = this.values[idx];
-  
-      while (idx > 0) {
-        let parentIdx = Math.floor((idx - 1) / 2);
-        let parent = this.values[parentIdx];
-        if (element <= parent) {
-          break;
-        }
-        this.values[parentIdx] = element;
-        this.values[idx] = parent;
-        idx = parentIdx;
-      }
-    }
-  }
-  
-  extractMax() {
-    const max = this.values[0];
-    const end = this.values.pop();
-  
-    if (this.values.length > 0) {
-      this.values[0] = end;
-      this.sinkDown();
-    }
-  
-  }
-  sinkDown() {
-    let index = 0;
-    const length = this.values.length;
-    const element = this.values[0];
-  
-    while (true) {
-      let leftChildIndex = (2 * index) + 1;
-      let rightChildIndex = (2 * index) + 2;
-      let swap = null;
-  
-      if (leftChildIndex < length) {
-        let leftChild = this.values[leftChildIndex];
-  
-        if (leftChild > element) {
-          swap = leftChildIndex;
-        }
-      }
-  
-      if (rightChildIndex < length) {
-        let rightChild = this.values[rightChildIndex];
-        if ((swap === null && rightChild > element) || 
-            (swap !== null && rightChild > leftChild)) {
-          swap = rightChildIndex;
-        }
-      }
-  
-      if (swap === null) {
-        break;
-      }
-      this.values[index] = this.values[swap];
-      this.values[swap] = element;
-      index = swap;
-    }
-  }
+    `class MaxBinaryHeap:
+    def __init__(self):
+        self.values = [41, 39, 33, 18, 27, 12]
+
+    def insert(self, element):
+        self.values.append(element)
+        self.bubble_up()
+
+    def bubble_up(self):
+        idx = len(self.values) - 1
+        element = self.values[idx]
+
+        while idx > 0:
+            parent_idx = (idx - 1) // 2
+            parent = self.values[parent_idx]
+            if element <= parent:
+                break
+            self.values[parent_idx] = element
+            self.values[idx] = parent
+            idx = parent_idx
+
+    def extract_max(self):
+        max_val = self.values[0]
+        end = self.values.pop()
+
+        if len(self.values) > 0:
+            self.values[0] = end
+            self.sink_down()
+
+        return max_val
+
+    def sink_down(self):
+        index = 0
+        length = len(self.values)
+        element = self.values[0]
+
+        while True:
+            left_child_index = 2 * index + 1
+            right_child_index = 2 * index + 2
+            swap = None
+
+            if left_child_index < length:
+                left_child = self.values[left_child_index]
+                if left_child > element:
+                    swap = left_child_index
+
+            if right_child_index < length:
+                right_child = self.values[right_child_index]
+                if swap is None and right_child > element or (swap is not None and right_child > left_child):
+                    swap = right_child_index
+
+            if swap is None:
+                break
+
+            self.values[index] = self.values[swap]
+            self.values[swap] = element
+            index = swap
+
   `
 
   return (
@@ -167,7 +156,7 @@ export default function BinaryHeap() {
             </li>
           </section>
         </ul>
-        <div class="font-l">JavaScript Implementation</div>
+        <div class="font-l">Python Implementation</div>
         <div class="Code Section">
           <pre>
             <code>
