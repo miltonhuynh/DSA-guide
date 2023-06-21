@@ -3,20 +3,24 @@ import React from 'react'
 export default function BreadthFirstSearch() {
 
   const implementation =
-    `BFS(){
-    var node = this.root,
-        data = [],
-        queue = [];
-    queue.push(node);
+    `def BreadthFirstSearch(self):
+    if self.root is None:
+        return []
 
-    while(queue.length){
-       node = queue.shift();
-       data.push(node.value);
-       if(node.left) queue.push(node.left);
-       if(node.right) queue.push(node.right);
-    }
-    return data;
-}`
+    data = []
+    queue = [self.root]
+
+    while queue:
+        node = queue.pop(0)
+        data.append(node.value)
+
+        if node.left:
+            queue.append(node.left)
+        if node.right:
+            queue.append(node.right)
+
+    return data
+`
 
   return (
     <div class="Concept_page">
@@ -49,7 +53,7 @@ export default function BreadthFirstSearch() {
             </li>
           </section>
         </ul>
-        <div class="font-l">JavaScript Implementation:</div>
+        <div class="font-l">Python Implementation:</div>
         <div class="Code Section">
           <pre>
             <code>

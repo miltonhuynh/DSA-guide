@@ -3,73 +3,65 @@ import React from 'react'
 export default function BinaryTree() {
 	
 	const implementation =
-	`class Node {
-    constructor(value){
-        this.value = value;
-        this.left = null;
-        this.right = null;
-    }
-}
+	`class Node:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
 
-class BinarySearchTree {
-    constructor(){
-        this.root = null;
-    }
-    insert(value){
-        var newNode = new Node(value);
-        if(this.root === null){
-            this.root = newNode;
-            return this;
-        }
-        var current = this.root;
-        while(true){
-            if(value === current.value) return undefined;
-            if(value < current.value){
-                if(current.left === null){
-                    current.left = newNode;
-                    return this;
-                }
-                current = current.left;
-            } else {
-                if(current.right === null){
-                    current.right = newNode;
-                    return this;
-                } 
-                current = current.right;
-            }
-        }
-    }
-    find(value){
-        if(this.root === null) return false;
-        var current = this.root,
-            found = false;
-        while(current && !found){
-            if(value < current.value){
-                current = current.left;
-            } else if(value > current.value){
-                current = current.right;
-            } else {
-                found = true;
-            }
-        }
-        if(!found) return undefined;
-        return current;
-    }
-    contains(value){
-        if(this.root === null) return false;
-        var current = this.root,
-            found = false;
-        while(current && !found){
-            if(value < current.value){
-                current = current.left;
-            } else if(value > current.value){
-                current = current.right;
-            } else {
-                return true;
-            }
-        }
-        return false;
-    }`
+class BinarySearchTree:
+    def __init__(self):
+        self.root = None
+
+    def insert(self, value):
+        new_node = Node(value)
+        if self.root is None:
+            self.root = new_node
+            return self
+        current = self.root
+        while True:
+            if value == current.value:
+                return None
+            if value < current.value:
+                if current.left is None:
+                    current.left = new_node
+                    return self
+                current = current.left
+            else:
+                if current.right is None:
+                    current.right = new_node
+                    return self
+                current = current.right
+
+    def find(self, value):
+        if self.root is None:
+            return False
+        current = self.root
+        found = False
+        while current and not found:
+            if value < current.value:
+                current = current.left
+            elif value > current.value:
+                current = current.right
+            else:
+                found = True
+        if not found:
+            return None
+        return current
+
+    def contains(self, value):
+        if self.root is None:
+            return False
+        current = self.root
+        while current:
+            if value < current.value:
+                current = current.left
+            elif value > current.value:
+                current = current.right
+            else:
+                return True
+        return False
+`
 
   return (
     <div class="Concept_page">
@@ -158,7 +150,7 @@ class BinarySearchTree {
 						</ul>
 					</section>
 				</ul>
-				<div class="font-l">JavaScript Implementation</div>
+				<div class="font-l">Python Implementation</div>
 				<div class="Code Section">
 					<pre>
 						<code>
