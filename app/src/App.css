@@ -222,17 +222,17 @@ section, .Section {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 0.6vw;
+  width: 0.7vw;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(150, 150, 150);
+  background: rgb(230,230,230);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: white;
+  background: rgb(240,240,240);
   transition: 1s;
   border: 0.1vw solid rgb(150, 150, 150);
 }
