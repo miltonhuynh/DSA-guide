@@ -100,16 +100,17 @@ header {
   color: rgb(130, 130, 130);
   font-size: 1.2vw;
   font-family: 'Mandali', sans-serif;
-  transition: 0.2s;
+  transition: 0.15s;
   text-decoration: none;
   border: 0.001em solid rgb(220, 220, 220);
 }
 
 .Inactive_Link:hover {
-  background-color: rgb(220, 220, 220);
+  background-color: rgb(225, 225, 225);
   color: white;
   border: 0.001em solid rgb(220, 220, 220);
-  color: black; 
+  color: black;
+  font-weight: 550; 
 }
 
 .Active_Link {
@@ -120,11 +121,12 @@ header {
   background-color: white;
   font-size: 1.2vw;
   font-family: 'Mandali', sans-serif;
-  background-color: rgb(210, 210, 210);
-  border: 0.001em solid rgb(180, 180, 180);
+  background-color: rgb(180, 180, 180);
+  border-top: 0.001em solid rgb(130, 130, 130);
+  border-bottom: 0.001em solid rgb(130, 130, 130);
   color: black;
   text-decoration: none;
-  font-weight: 550;
+  font-weight: 600;
 }
 
 .Concept_title, h1 {
@@ -220,19 +222,19 @@ section, .Section {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 0.8vw;
+  width: 0.6vw;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(0, 0, 0);
+  background: rgb(150, 150, 150);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: white;
   transition: 1s;
-  border: 0.2vw solid black;
+  border: 0.1vw solid rgb(150, 150, 150);
 }
 
 footer {
