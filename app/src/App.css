@@ -97,7 +97,7 @@ header {
   cursor: pointer;
   text-align: center;
   background-color: white;
-  color: rgb(130, 130, 130);
+  color: rgb(110, 110, 110);
   font-size: 1.2vw;
   font-family: 'Mandali', sans-serif;
   transition: 0.15s;
@@ -126,7 +126,7 @@ header {
   border-bottom: 0.001em solid rgb(130, 130, 130);
   color: black;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 .Concept_title, h1 {
