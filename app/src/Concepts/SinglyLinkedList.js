@@ -3,136 +3,122 @@ import React from 'react'
 export default function SinglyLinkedList() {
 
   const implementation =
-    `class Node {
-    constructor(val) {
-        this.val = val;
-        this.next = null;
-    }
-}
+    `class Node:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
 
-class SinglyLinkedList {
-    constructor() {
-        this.head = null;
-        this.tail = null;
-        this.length = 0;
-    }
+class SinglyLinkedList:
+    def __init__(self):
+        self.head = None
+        self.tail = None
+        self.length = 0
 
-    push(val) {
-        var newNode = new Node(val);
-        if(!this.head) {
-            this.head = newNode;
-            this.tail = this.head;
-        } else {
-            this.tail.next = newNode;
-            this.tail = newNode;
-        }
-        this.length++;
-        return this;
-    }
+    def push(self, val):
+        new_node = Node(val)
+        if not self.head:
+            self.head = new_node
+            self.tail = self.head
+        else:
+            self.tail.next = new_node
+            self.tail = new_node
+        self.length += 1
+        return self
 
-    pop() {
-        if(!this.head) return undefined;
-        var current = this.head;
-        var newTail = current;
-        while(current.next) {
-            newTail = current;
-            current = current.next;
-        }
-        this.tail = newTail;
-        this.tail.next = null;
-        this.length--;
-        if(this.length === 0) {
-            this.head = null;
-            this.tail = null;
-        }
-        return current;
-    }
+    def pop(self):
+        if not self.head:
+            return None
+        current = self.head
+        new_tail = current
+        while current.next:
+            new_tail = current
+            current = current.next
+        self.tail = new_tail
+        self.tail.next = None
+        self.length -= 1
+        if self.length == 0:
+            self.head = None
+            self.tail = None
+        return current
 
-    shift() {
-        if(!this.head) return undefined;
-        var currentHead = this.head;
-        this.head = currentHead.next;
-        this.length--;
-        if(this.length === 0) {
-            this.tail = null;
-        }
-        return currentHead;
-    }
+    def shift(self):
+        if not self.head:
+            return None
+        current_head = self.head
+        self.head = current_head.next
+        self.length -= 1
+        if self.length == 0:
+            self.tail = None
+        return current_head
 
-    unshift(val) {
-        var newNode = new Node(val);
-        if(!this.head) {
-            this.head = newNode;
-            this.tail = this.head;
-        }
-        newNode.next = this.head;
-        this.head = newNode;
-        this.length++;
-        return this;
-    }
+    def unshift(self, val):
+        new_node = Node(val)
+        if not self.head:
+            self.head = new_node
+            self.tail = self.head
+        new_node.next = self.head
+        self.head = new_node
+        self.length += 1
+        return self
 
-    get(index) {
-        if (index < 0 || index >= this.lenght) {
-          return null;
-        }
-        var counter = 0;
-        var current = this.head;
-        while(counter !== index) {
-            current = current.next;
-            counter++;
-        }
-        return current;
-    }
+    def get(self, index):
+        if index < 0 or index >= self.length:
+            return None
+        counter = 0
+        current = self.head
+        while counter != index:
+            current = current.next
+            counter += 1
+        return current
 
-    set(index, val) {
-        var foundNode = this.get(index);
-        if(foundNode) {
-            foundNode.val = val;
-            return true;
-        }
-        return false;
-    }
+    def set(self, index, val):
+        found_node = self.get(index)
+        if found_node:
+            found_node.val = val
+            return True
+        return False
 
-    insert(index, val) {
-        if(index < 0 || index > this.length) return false;
-        if(index === this.length) return !!this.push(val);
-        if(index === 0) return !!this.unshift(val);
-        
-        var newNode = new Node(val);
-        var prev = this.get(index - 1);
-        var temp = prev.next;
-        prev.next = newNode;
-        newNode.next = temp;
-        this.length++;
-        return true;
-    }
+    def insert(self, index, val):
+        if index < 0 or index > self.length:
+            return False
+        if index == self.length:
+            return bool(self.push(val))
+        if index == 0:
+            return bool(self.unshift(val))
 
-    remove(index) {
-        if(index < 0 || index >= this.length) return undefined;
-        if(index === 0) return this.shift();
-        if(index === this.length - 1) return this.pop();
-        var previousNode = this.get(index - 1);
-        var removed = previousNode.next;
-        previousNode.next = removed.next;
-        this.length--;
-        return removed;
-    }
-    
-    reverse() {
-      var node = this.head;
-      this.head = this.tail;
-      this.tail = node;
-      var next;
-      var prev = null;
-      for(var i = 0; i < this.length; i++) {
-        next = node.next;
-        node.next = prev;
-        prev = node;
-        node = next;
-      }
-      return this;
-    }
-}`
+        new_node = Node(val)
+        prev = self.get(index - 1)
+        temp = prev.next
+        prev.next = new_node
+        new_node.next = temp
+        self.length += 1
+        return True
+
+    def remove(self, index):
+        if index < 0 or index >= self.length:
+            return None
+        if index == 0:
+            return self.shift()
+        if index == self.length - 1:
+            return self.pop()
+        previous_node = self.get(index - 1)
+        removed = previous_node.next
+        previous_node.next = removed.next
+        self.length -= 1
+        return removed
+
+    def reverse(self):
+        node = self.head
+        self.head = self.tail
+        self.tail = node
+        prev = None
+        for _ in range(self.length):
+            next_node = node.next
+            node.next = prev
+            prev = node
+            node = next_node
+        return self
+`
 
   return (
     <div class="Concept_page">
@@ -251,7 +237,7 @@ class SinglyLinkedList {
           </div>
         </ul>
         <img src={require('../images/sll.png')} style={{ width: "60vw" }} alt="Singly linked list illustration"></img><br /><br /><br />
-        <div class="font-l">JavaScript Implementation</div>
+        <div class="font-l">Python Implementation</div>
         <div class="Code Section">
           <pre>
             <code>
