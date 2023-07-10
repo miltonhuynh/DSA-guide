@@ -97,7 +97,7 @@ header {
   cursor: pointer;
   text-align: center;
   background-color: white;
-  color: rgb(100, 100, 100);
+  color: rgb(130, 130, 130);
   font-size: 1.2vw;
   font-family: 'Mandali', sans-serif;
   transition: 0.2s;
@@ -106,7 +106,7 @@ header {
 }
 
 .Inactive_Link:hover {
-  background-color: rgb(225, 225, 225);
+  background-color: rgb(220, 220, 220);
   color: white;
   border: 0.001em solid rgb(220, 220, 220);
   color: black; 
@@ -120,8 +120,8 @@ header {
   background-color: white;
   font-size: 1.2vw;
   font-family: 'Mandali', sans-serif;
-  background-color: rgb(215, 215, 215);
-  border: 0.001em solid rgb(150, 150, 150);
+  background-color: rgb(210, 210, 210);
+  border: 0.001em solid rgb(180, 180, 180);
   color: black;
   text-decoration: none;
   font-weight: 550;
