@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <div class="Concept_page">
       <div class="Concept_title">Welcome!</div>
-      <div class="Container font-m">
-        <div class="Section">This website is meant to be used as refresher before an interview, please use other resources to learn new concepts for the first time</div>
+      <div class="Container">
+        <div class="Section font-sm">I created this website to be a quick reference while doing coding challenges, please use other resources to learn concepts for the first time!</div>
       </div>
     </div>
   )

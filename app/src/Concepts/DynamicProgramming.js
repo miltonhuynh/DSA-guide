@@ -60,7 +60,7 @@ export default function DynamicProgramming() {
                   <li>A problem is said to have optimal substructure if an optimal solution can be constructed from optimal solutions of its subproblems</li>
                   <li>
                     An example is the Shortest Path Problem, if we know that A -&gt; B -&gt; C -&gt; D is the shortest path from A to D, then A -&gt; B -&gt; C is the shortest path from A to C and A -&gt; B is the shortest path from A to B
-                    <img src={require('../images/shortestpath.png')} style={{ width: "40vw" }} alt="Shortest path illustration"></img>
+                    <div><img src={require('../images/shortestpath.png')} style={{ width: "40vw" }} alt="Shortest path illustration"></img></div>
                   </li>
                 </ul>
               </div>
