@@ -9,42 +9,42 @@ export default function HeaderFooter(props) {
 
   const [bodytheme, setbodyTheme] = useState('body_light');
   const [sectiontheme, setsectionTheme] = useState('section_light')
-  //const [navtheme, setnavTheme] = useState('nav_light')
+  //const [inactivetheme, setinactiveTheme] = useState('Inactive_Link')
+  //const [activetheme, setactiveTheme] = useState('active_Link')
 
   const toggleMode = () => {
     if (bodytheme === 'body_light') {
       setbodyTheme('body_dark');
+      setsectionTheme('section_dark');
+      //setinactiveTheme('Inactive_Link_dark');
+      //setactiveTheme('active_Link_dark');
     } else {
       setbodyTheme('body_light');
-    }
-
-    if (sectiontheme === 'section_light') {
-      setsectionTheme('section_dark');
-    } else {
       setsectionTheme('section_light');
+      //setinactiveTheme('Inactive_Link');
+      //setactiveTheme('active_Link');
     }
-    /*
-    if (navtheme === 'nav_light') {
-      setnavTheme('nav_dark');
-    } else {
-      setnavTheme('nav_light');
-    }
-    */
   }
   useEffect(() => {
     document.body.className = bodytheme;
-    /*
-    var links = document.getElementsByClassName("Inactive_Link");
-    for (var x = 0; x < links.length; x++) {
-      document.getElementsByClassName("Inactive_Link")[x].className = navtheme;
-    }
-    */
     
     var sections = document.getElementsByTagName("section");
     for (var i = 0; i < sections.length; i++) {
       document.getElementsByTagName("section")[i].className = sectiontheme;
     }
+    /*
+    var links = document.getElementsByClassName("Inactive_Link");
+    for (var x = 0; x < links.length; x++) {
+      document.getElementsByClassName("Inactive_Link")[x].className = inactivetheme;
+    }
 
+    if(document.getElementsByClassName("Active_Link") === true) {
+      var links2 = document.getElementsByClassName("Active_Link");
+      for (var y = 0; y < links2.length; y++) {
+        document.getElementsByClassName("Active_Link")[y].className = activetheme;
+      }
+    }
+    */
   })
 
 
