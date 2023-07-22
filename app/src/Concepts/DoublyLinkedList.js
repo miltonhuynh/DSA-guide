@@ -1,9 +1,6 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
 
 export default function DoublyLinkedList() {
-
-  let navigate = useNavigate();
 
   const Implementation =
     `class Node{
@@ -123,10 +120,6 @@ class DoublyLinkedList {
     <div class="Concept_page">
       <h1>Doubly Linked List</h1>
       <div class="Container font-m">
-        <br /><li>
-            Prerequisites:
-            <ref class="Link" onClick={() => navigate("../SinglyLinkedList")}> <u>Singly Linked List</u></ref>
-          </li>
         <ul>
           <section><li>Almost identical to Singly Linked Lists, except every node has another pointer to the previous node</li></section>
           <section><li>Can be traversed in both forward and backward directions, can quickly remove or add a new node before a given node</li></section>

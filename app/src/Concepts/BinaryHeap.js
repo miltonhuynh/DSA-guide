@@ -1,9 +1,6 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
 
 export default function BinaryHeap() {
-
-  let navigate = useNavigate();
 
   const implementaton =
     `class MaxBinaryHeap:
@@ -71,11 +68,9 @@ export default function BinaryHeap() {
       <h1>Binary Heap</h1>
       <main>
         <ul>
-          Prerequisites:
-          <ref class="Link" onClick={() => navigate("../BinarySearch")}> <u>Binary Search</u></ref>
           <section>
             <li>
-              Very similar to a Binary Search Tree, but with some different rules
+              <div class="font-m">Very similar to a Binary Search Tree, but with some different rules</div>
               <ul class="font-sm">
                 <li>In a Max Binary Heap, parent nodes are always larger than child nodes</li>
                 <li>In a Min Binary Heap, parent nodes are always smaller than child nodes</li>
@@ -84,7 +79,7 @@ export default function BinaryHeap() {
           </section>
           <section>
             <li>
-              Max Binary Heaps:
+            <div class="font-m">Max Binary Heaps:</div>
               <ul class="font-sm">
                 <li>Each parent has at most two nodes</li>
                 <li>The value of each parent node is always greater than its child nodes</li>
@@ -92,10 +87,10 @@ export default function BinaryHeap() {
               </ul>
             </li>
           </section>
-          <section><li>Binary Heaps are used to implement Priority Queues, which are very commonly used data structures</li></section>
-          <section><li>Also used with graph traversal algorithms</li></section>
+          <section><li class="font-m">Binary Heaps are used to implement Priority Queues, which are very commonly used data structures</li></section>
+          <section><li class="font-m">Also used with graph traversal algorithms</li></section>
           <section>
-            <li>
+            <li class="font-m">
               Binary Heaps can be stored in a list or an array:
               <img src={require('../images/BinaryHeapArray.png')} style={{ width: "50vw" }} alt="Binary Heap array illustration"></img><br />
               <ul class="font-sm">
@@ -105,7 +100,7 @@ export default function BinaryHeap() {
             </li><br />
           </section>
           <section>
-            <li>
+            <li class="font-m">
               Big O of Binary Heaps
               <ul class="font-sm">
                 <li>Insertion: O(log N)</li>
@@ -115,7 +110,7 @@ export default function BinaryHeap() {
             </li>
           </section>
           <section>
-            <li>
+            <li class="font-m">
               Max Binary Heaps implementation:
               <ul class="font-sm">
                 <li>
@@ -157,7 +152,7 @@ export default function BinaryHeap() {
           </section>
         </ul>
         <div class="font-l">Python Implementation</div>
-        <div class="Code Section">
+        <div class="Code Codebox">
           <pre>
             <code>
               {implementaton}

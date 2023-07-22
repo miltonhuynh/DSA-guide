@@ -39,9 +39,9 @@ export default function DynamicProgramming() {
       <div class="Concept_title">Dynamic Programming</div>
       <div class="Container font-m">
         <ul>
-          <div class="Section"><li>Dynamic programming is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions</li></div>
-          <div class="Section"><li>Wherever we see a recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic Programming. The idea is to simply store the results of subproblems, so that we do not have to re-compute them when needed later. This simple optimization reduces time complexities from exponential to polynomial.</li></div>
-          <div class="Section">
+          <section><li>Dynamic programming is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions</li></section>
+          <section class="Section"><li>Wherever we see a recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic Programming. The idea is to simply store the results of subproblems, so that we do not have to re-compute them when needed later. This simple optimization reduces time complexities from exponential to polynomial.</li></section>
+          <section class="Section">
             <li>
               There are two main properties that suggests that a problem can be solved using Dynamic programming:<br />
               <div class="indent">
@@ -65,8 +65,8 @@ export default function DynamicProgramming() {
                 </ul>
               </div>
             </li>
-          </div>
-          <div class="Section">
+          </section>
+          <section>
             <li>
               For example, we can use recursion to solve the Fibonacci problem for the n-th input, but this solution is not ideal and we can implement Dynamic Programming to optimize it
               <ul class="font-sm">
@@ -98,9 +98,9 @@ export default function DynamicProgramming() {
                 </div>
               </ul>
             </li>
-          </div>
+          </section>
         </ul>
-        <div class="Section">
+        <section>
           <div class="font-l">LeetCode examples</div>
           <div class="font-m indent">
             <li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/climbing-stairs/">Climbing Stairs [Easy]</a></li>
@@ -109,7 +109,7 @@ export default function DynamicProgramming() {
             <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/jump-game/">Jump Game [Medium]</a></li>
             <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/word-break/">Word Break [Medium]</a></li>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   )

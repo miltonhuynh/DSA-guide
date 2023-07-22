@@ -3,6 +3,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
 
+.body_light {
+  background-color: rgb(220, 220, 220);
+  transition: 1s;
+}
+
+.body_dark {
+  background-color: rgb(30, 30, 30);
+  transition: 1s;
+}
+
+.section_light {
+  background-color: white;
+  transition: 1s;
+}
+
+.section_dark {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  transition: 1s;
+}
+
 body,html {
   height: 100%;
   background-color: rgb(240, 240, 240);
@@ -10,31 +31,31 @@ body,html {
 }
 
 .font-xxsm {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .font-xsm {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .font-sm {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .font-m {
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .font-l {
-  font-size: 27.5px;
+  font-size: 25px;
 }
 
 .font-xl {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .font-xxl {
-  font-size: 33px;
+  font-size: 30px;
 }
 
 .indent {
@@ -50,7 +71,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3.5vh;
+  height: 30px;
   padding-top: 0.5vw;
   font-family: 'Manjari', sans-serif;
 }
@@ -62,18 +83,26 @@ header {
 }
 
 #Github-icon {
-  width: 1.7vw;
+  width: 28px;
   position: fixed;
-  top: 0.25vw;
+  top: 5px;
   right: 1vw;
 }
 
 #Home-icon {
   color: white;
-  width: 1.6vw;
+  width: 27.5px;
   position: fixed;
   top: 0.4vw;
   left: 1vw;
+  cursor: pointer;
+}
+
+#Light-icon {
+  color: white;
+  width: 25px;
+  right: 4vw;
+  position: fixed;
   cursor: pointer;
 }
 
@@ -96,8 +125,8 @@ header {
   display: block;
   cursor: pointer;
   text-align: center;
-  background-color: white;
-  color: rgb(110, 110, 110);
+  background-color: rgb(130, 130, 130);
+  color: white;
   font-size: 18px;
   font-family: 'Mandali', sans-serif;
   transition: 0.25s;
@@ -106,11 +135,7 @@ header {
 }
 
 .Inactive_Link:hover {
-  background-color: rgb(210, 210, 210);
-  color: white;
-  border: 0.001em solid rgb(220, 220, 220);
   color: black;
-  font-weight: 550; 
 }
 
 .Active_Link {
@@ -122,7 +147,7 @@ header {
   transition: .5s;
   font-size: 18px;
   font-family: 'Mandali', sans-serif;
-  background-color: rgb(90, 90, 90);
+  background-color: rgb(30, 30, 30);
   border-top: 0.001em solid rgb(130, 130, 130);
   border-bottom: 0.001em solid rgb(130, 130, 130);
   color: white;
@@ -154,7 +179,16 @@ header {
   padding: 1vw 4vw 2vw 2vw;
 }
 
-section, .Section {
+section {
+  color: black;
+  font-family: 'Didact Gothic', sans-serif;
+  background-color: white;
+  box-shadow: inset 0.075vw 0.075vw 0.05vw black;
+  padding: 1vw 4vw 1vw 4vw;
+  margin: 2.3vw 1vw 2.3vw 1vw;
+}
+
+.Codebox {
   color: black;
   font-family: 'Didact Gothic', sans-serif;
   background-color: white;
@@ -191,7 +225,6 @@ section, .Section {
 .BigO_example {
   margin-bottom: 4vw;
 }
-
 
 .Term {
   font-size: 1.5vw;
