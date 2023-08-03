@@ -3,18 +3,14 @@ import React from 'react'
 export default function BubbleSort() {
 
   const bubblesort =
-    `function bubble(array) {
-    for (let x = 0; x < array.length; x++) {
-      for (let y = 0; y < array.length - 1; y++) {
-        if (array[y] > array[y+1]) {
-          temp = array[y];
-          array[y] = array[y+1];
-          array[y+1] = temp;
-         } 
-      }
-    }
-    console.log(array);
-  }`
+    `def bubble_sort(list1):   
+    for i in range(0,len(list1)-1):  
+        for j in range(len(list1)-1):  
+            if(list1[j]>list1[j+1]):  
+                temp = list1[j]  
+                list1[j] = list1[j+1]  
+                list1[j+1] = temp  
+    return list1  `
 
   const n_squared =
     `\u00B2`
