@@ -35,15 +35,15 @@ export default function RadixSort() {
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">Radix Sort</div>
-      <div class="Container">
+      <h1>Radix Sort</h1>
+      <main>
         <div class="font-m">
           <ul>
-            <div class="Section"><li>Radix sort is a special sorting algorithm that works on lists of numbers</li></div>
-            <div class="Section"><li>Never makes comparisons between elements</li></div>
-            <div class="Section"><li>It exploits the fact that information about the size of the number is in the number of digits</li></div>
-            <div class="Section"><li>The time complexity of this sorting algorithm is O(nk), k being the number of digits</li></div>
-            <div class="Section">
+            <section><li>Radix sort is a special sorting algorithm that works on lists of numbers</li></section>
+            <section><li>Never makes comparisons between elements</li></section>
+            <section><li>It exploits the fact that information about the size of the number is in the number of digits</li></section>
+            <section><li>The time complexity of this sorting algorithm is O(nk), k being the number of digits</li></section>
+            <section>
               <li>Implementation steps:</li>
               <div class="indent font-sm">
                 <div>1) Define a function that accepts a list of numbers</div>
@@ -53,18 +53,18 @@ export default function RadixSort() {
                 <div>5) Replace our existing array with values from the buckets, starting with 0 and going up to 9</div>
                 <div>6) Return list at the end</div>
               </div>
-            </div>
+            </section>
           </ul>
         </div>
         <div class="font-l">JavaScript Implementation:</div>
-        <div class="Code Section">
+        <section>
           <pre>
             <code>
               {implementation}
             </code>
           </pre>
-        </div>
-      </div>
+        </section>
+      </main>
     </div>
   )
 }

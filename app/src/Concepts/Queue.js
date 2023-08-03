@@ -9,12 +9,12 @@ queue.shift()`
 
 	return (
 		<div class="Concept_page">
-			<div class="Concept_title">Queue</div>
-			<div class="Container">
+			<h1>Queue</h1>
+			<main>
 				<ul>
 					<div class="font-m">
-						<div class="Section"><li>A first in first out data structure</li></div>
-						<div class="Section">
+						<section><li>A first in first out data structure</li></section>
+						<section>
 							<li>
 								Used in programming in cases:<br />
 								<div class="font-sm">
@@ -26,9 +26,9 @@ queue.shift()`
 									</ul>
 								</div>
 							</li>
-						</div>
-						<div class="Section"><li>Useful for processing tasks and are foundational for more complex data structures</li></div>
-						<div class="Section">
+						</section>
+						<section><li>Useful for processing tasks and are foundational for more complex data structures</li></section>
+						<section>
 							<li>
 								Big O of Queues
 								<div class="indent-extra font-sm">
@@ -38,8 +38,8 @@ queue.shift()`
 									<div>Access: O(n)</div>
 								</div>
 							</li>
-						</div>
-						<div class="Section">
+						</section>
+						<section>
 							<li>
 								It is possible to implement a Queue with an array, for example:<br />
 								<div class="Code">
@@ -51,9 +51,9 @@ queue.shift()`
 								</div>
 								<div class="font-sm">The first element with value 5 will be removed since it was added first to the array, when removing from an array, every item would have to be re-indexed making this method less ideal</div>
 							</li>
-						</div>
-						<div class="Section"><li>A Queue can be implemented using a Linked List to avoid re-indexing every element in the list</li></div>
-						<div class="Section">
+						</section>
+						<section><li>A Queue can be implemented using a Linked List to avoid re-indexing every element in the list</li></section>
+						<section>
 							<li>Implementation steps using the Linked List method
 								<ul>
 									<li>
@@ -77,10 +77,10 @@ queue.shift()`
 									</li>
 								</ul>
 							</li>
-						</div>
+						</section>
 					</div>
 				</ul>
-			</div>
+			</main>
 		</div>
 	)
 }

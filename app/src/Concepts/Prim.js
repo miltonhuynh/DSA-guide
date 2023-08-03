@@ -59,19 +59,19 @@ export default function Prim() {
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">Prim's Algorithm</div>
-      <div class="Container font-m">
+      <h1>Prim's Algorithm</h1>
+      <main>
         <ul>
-          <div class="Section">
+          <section>
             <li>Solves the Minimal Cost Spanning Tree problem, which takes as input a connected, undirected Graph where each edge has a distance or weight measured attached, the Minimal Cost Spanning Tree is the graph containing the vertices of the Graph along with a subset of its edges that: </li>
             <ul class="font-sm">
               <li>1) Has minimum total cost as measured by summing the values for all of the edges in the subset</li>
               <li>2) Keeps the vertices connected</li>
               <li>3) Contains no cycles</li>
             </ul>
-          </div>
-          <div class="Section"><li>Prim's algorithm is a greedy algorithm which selects the best option at each step, it always starts with a single node and it moves through several adjacent nodes, in order to explore all of the connected edges along the way.</li></div>
-          <div class="Section">
+          </section>
+          <section><li>Prim's algorithm is a greedy algorithm which selects the best option at each step, it always starts with a single node and it moves through several adjacent nodes, in order to explore all of the connected edges along the way.</li></section>
+          <section>
             <li>
               We start from one vertex and keep adding edges with the lowest weight until we reach our goal.
               <ul class="font-sm">
@@ -80,24 +80,24 @@ export default function Prim() {
                 <li>3) Keep repeating step 2 until we get a minimum spanning tree, if there are multiple choices, choose one at random</li>
               </ul>
             </li>
-          </div>
+          </section>
         </ul>
         <div class="font-l">JavaScript Implementation</div>
-        <div class="Code Section">
+        <section>
           <pre>
             <code>
               {Implementation}
             </code>
           </pre>
-        </div>
-        <div class="Section">
+        </section>
+        <section>
           <div class="font-l">LeetCode examples</div>
           <div class="font-m indent">
             <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/min-cost-to-connect-all-points/">Min Cost to Connect All Points [Medium]</a></li>
             <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/">Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree [Hard]</a></li>
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
     </div>
   )
 }
