@@ -29,22 +29,22 @@ export default function StringSearch() {
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">Union Find</div>
-      <div class="Container font-m">
+      <h1>Union Find</h1>
+      <main>
         <ul>
-          <div class="Section"><li>Also known as the disjoint-set data structure</li></div>
-          <div class="Section"><li>A data structure that tracks a set of elements partitioned into a number of disjoint (non-overlapping) subsets</li></div>
-          <div class="Section"><li>Allows for efficient operations to find the subset a particular element belongs to, to determine whether two elements are in the same subset, and to merge two subsets into a single subset.</li></div>
+          <section><li>Also known as the disjoint-set data structure</li></section>
+          <section><li>A data structure that tracks a set of elements partitioned into a number of disjoint (non-overlapping) subsets</li></section>
+          <section><li>Allows for efficient operations to find the subset a particular element belongs to, to determine whether two elements are in the same subset, and to merge two subsets into a single subset.</li></section>
         </ul>
         <div class="font-l">JavaScript Implementation</div>
-        <div class="Code Section">
+        <section>
           <pre>
             <code>
               {Implementation}
             </code>
           </pre>
-        </div>
-      </div>
+        </section>
+      </main>
     </div>
   )
 }

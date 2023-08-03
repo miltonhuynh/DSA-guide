@@ -22,11 +22,11 @@ export default function StringSearch() {
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">String Search</div>
-      <div class="Container font-m">
+      <h1>String Search</h1>
+      <main>
         <ul>
-          <div class="Section"><li>This is a method to count a number of times a smaller string appears in a larger string.</li></div>
-          <div class="Section">
+          <section><li>This is a method to count a number of times a smaller string appears in a larger string.</li></section>
+          <section>
             <li>Implementation steps:
               <ul>
                 <li>1. Loop over the longer string.</li>
@@ -37,17 +37,17 @@ export default function StringSearch() {
                 <li>6. Return the count.</li>
               </ul>
             </li>
-          </div>
+          </section>
           <div class="font-l">JavaScript Implementation: </div>
-          <div class="Code Section">
+          <section>
             <pre>
               <code>
                 {implementation}
               </code>
             </pre>
-          </div>
+          </section>
         </ul>
-      </div>
+      </main>
     </div>
   )
 }

@@ -37,38 +37,42 @@ export default function SlidingWindow() {
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">Sliding Window</div>
-      <div class="Container font-m">
+      <h1>Sliding Window</h1>
+      <main>
         <ul>
-          <div class="Section"><li>This pattern involves creating a window which can either be an array or number from one position to another.</li></div>
-          <div class="Section"><li>Depending on a certain condition, the window either increases or closes and a new window is created.</li></div>
-          <div class="Section"><li>Very useful for keeping track of a subset of data in an array/string etc.</li></div>
+          <section><li>This pattern involves creating a window which can either be an array or number from one position to another.</li></section>
+          <section><li>Depending on a certain condition, the window either increases or closes and a new window is created.</li></section>
+          <section><li>Very useful for keeping track of a subset of data in an array/string etc.</li></section>
         </ul>
         <div class="font-l">Naive solution</div>
-        <div class="Code Section">
-          <pre>
-            <code>
-              {naive}
-            </code>
-          </pre>
-        </div>
+        <section>
+          <code>
+            <pre>
+              <code>
+                {naive}
+              </code>
+            </pre>
+          </code>
+        </section>
         <div class="font-l">Refactored solution</div>
-        <div class="Code Section">
-          <pre>
-            <code>
-              {refactored}
-            </code>
-          </pre>
-        </div><br />
-        <div class="Section">
+        <section>
+          <code>
+            <pre>
+              <code>
+                {refactored}
+              </code>
+            </pre>
+          </code>
+        </section>
+        <section>
           <div class="font-l">LeetCode examples</div>
           <div class="font-m indent">
             <li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/longest-nice-substring/">Longest Nice Substring [Easy]</a></li>
             <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Longest Substring Without Repeating Characters [Medium]</a></li>
             <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/longest-duplicate-substring/">Longest Duplicate Substring [Hard]</a></li>
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
     </div>
   )
 }
