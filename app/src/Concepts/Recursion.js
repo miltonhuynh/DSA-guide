@@ -40,43 +40,44 @@ const factorial_recursive =
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">Recursion</div>
-      <div class="Container">
+      <h1>Recursion</h1>
+      <main>
         <div class="font-m">
           <ul>
-            <div class="Section"><li>Recursion is simply a process (in our case a function) that calls itself.</li></div>
-            <div class="Section"><li>There are two essential parts of a recursive function:</li></div>
-            <ul class="Section">
-              <li class="font-sm">1) <u>Base Case</u>: The condition when the recursion ends.</li>
-              <li class="font-sm">2) <u>Different Input</u>: The function is called with a different input each time.</li>
-            </ul>
+            <section><li>Recursion is simply a process (in our case a function) that calls itself.</li></section>
+            <section><li>There are two essential parts of a recursive function:</li>
+              <ul class="Section">
+                <li class="font-sm">1) <u>Base Case</u>: The condition when the recursion ends.</li>
+                <li class="font-sm">2) <u>Different Input</u>: The function is called with a different input each time.</li>
+              </ul>
+            </section>
           </ul>
           <div class="font-l">A simple countdown example: </div>
-          <div class="Code Section">
+          <section>
             <pre>
               <code>
                 {countDown}
               </code>
             </pre>
-          </div>
+          </section>
           <div class="font-l">Factorial iterative: </div>
-          <div class="Code Section">
+          <section>
             <pre>
               <code>
                 {factorial_iterative}
               </code>
             </pre>
-          </div>
+          </section>
           <div class="font-l">Factorial recursive: </div>
-          <div class="Code Section">
+          <section>
             <pre>
               <code>
                 {factorial_recursive}
               </code>
             </pre>
-          </div>
+          </section>
         </div>
-      </div>
+      </main>
     </div>
   )
 }

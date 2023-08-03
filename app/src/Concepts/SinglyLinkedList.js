@@ -122,13 +122,13 @@ class SinglyLinkedList:
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">Singly Linked List</div>
-      <div class="Container font-m">
+      <h1>Singly Linked List</h1>
+      <main>
         <ul>
-          <div class="Section"><li>Each node points to the next item, unlike doubly linked list which points to the previous and next item.</li></div>
-          <div class="Section"><li>Does not have indexes, connected via nodes with a next pointer, random access is not allowed.</li></div>
-          <div class="Section"><li>Unlike arrays, insertion and deletion is not as time consuming, don't need to re-index every element.</li></div>
-          <div class="Section">
+          <section><li>Each node points to the next item, unlike doubly linked list which points to the previous and next item.</li></section>
+          <section><li>Does not have indexes, connected via nodes with a next pointer, random access is not allowed.</li></section>
+          <section><li>Unlike arrays, insertion and deletion is not as time consuming, don't need to re-index every element.</li></section>
+          <section>
             <li>
               Big O of Singly Linked Lists
               <div class="font-sm">
@@ -140,8 +140,8 @@ class SinglyLinkedList:
                 </ul>
               </div>
             </li>
-          </div>
-          <div class="Section">
+          </section>
+          <section>
             <li>Implementation steps:</li>
             <ul class="font-sm">
               <li>Create a node that contains a variable that holds a value and a pointer to the next node.</li>
@@ -234,26 +234,24 @@ class SinglyLinkedList:
                 <li>Set the node variable to be the value of the next variable</li>
               </ul>
             </ul>
-          </div>
+          </section>
         </ul>
         <img src={require('../images/sll.png')} style={{ width: "60vw" }} alt="Singly linked list illustration"></img><br /><br /><br />
         <div class="font-l">Python Implementation</div>
-        <div class="Code Section">
+        <section>
           <pre>
             <code>
               {implementation}
             </code>
           </pre>
-        </div>
-        <div class="Section">
+        </section>
+        <section>
           <div class="font-l">LeetCode examples</div>
-          <div class="font-m indent">
             <li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/merge-two-sorted-lists/">Merge Two Sorted Lists [Easy]</a></li>
             <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/add-two-numbers/">Add Two Numbers [Medium]</a></li>
             <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/merge-k-sorted-lists/">Merge k sorted lists [Hard]</a></li>
-          </div>
-        </div>
-      </div>
+        </section>
+      </main>
     </div>
   )
 }
