@@ -145,7 +145,7 @@ export default function DepthFirstSearch() {
               </li>
             </ul>
           </section></ul>
-        <div class="font-l">Python Implementation:</div>
+        <div class="font-l">JavaScript Implementation:</div>
         <section>
           <pre>
             <code>

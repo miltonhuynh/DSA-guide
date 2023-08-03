@@ -17,14 +17,14 @@ export default function InsertionSort() {
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">Insertion sort</div>
-      <div class="Container">
+      <h1>Insertion sort</h1>
+      <main>
         <div class="font-m">
           <ul>
-            <div class="Section"><li>Insertion sort works like organizing playing cards in your hands.</li></div>
-            <div class="Section"><li>Builds up the sort by gradually creating a larger left half which is always sorted.</li></div>
-            <div class="Section"><li>If data is almost sorted, time complexity is better than bubble sort and selection sort.</li></div>
-            <div class="Section">
+            <section><li>Insertion sort works like organizing playing cards in your hands.</li></section>
+            <section><li>Builds up the sort by gradually creating a larger left half which is always sorted.</li></section>
+            <section><li>If data is almost sorted, time complexity is better than bubble sort and selection sort.</li></section>
+            <section>
               <li>Implementation steps:</li>
               <div class="indent font-sm">
                 <div>1) Start by picking the second element in the array.</div>
@@ -32,18 +32,18 @@ export default function InsertionSort() {
                 <div>3) Continue to the next element and if it is in the incorrect order, iterate through the sorted portion to place the element in the correct place.</div>
                 <div>4) Repeat until the array is sorted.</div>
               </div>
-            </div>
+            </section>
             <div class="font-l">JavaScript Implementation</div>
-            <div class="Code Section">
+            <section>
                 <pre>
                   <code>
                     {insertion}
                   </code>
                 </pre>
-            </div>
+            </section>
           </ul>
         </div>
-      </div>
+      </main>
     </div>
   )
 }

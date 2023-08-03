@@ -37,34 +37,36 @@ function mergeSort(arr){
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">Merge sort</div>
-      <div class="Container">
+      <h1>Merge sort</h1>
+      <main>
         <ul class="font-m">
-            <div class="Section"><li>This sorting algorithm uses a divide and conquer strategy.</li></div>
-            <div class="Section"><li>Splits an array in half until it can no longer be divided.</li></div>
-            <div class="Section"><li>During merging, iterates through both arrays and adds the smaller value, when one array is exhausted, adds the remaining elements in the other array.</li></div>
-            <div class="Section"><li>Exploits the fact that arrays of 0 or 1 elements are always sorted.</li></div>
-            <div class="Section"><li>Merge operation is applied once array is fully split.</li></div>
-            <div class="Section"><li>The time complexity of this sorting algorithm is O(n log(n)) and takes n space.</li></div>
-          <img src={require('../images/merge.jpg')} style={{width: "40vw"}} alt="Merge sort illustration"></img>
+            <section><li>This sorting algorithm uses a divide and conquer strategy.</li></section>
+            <section><li>Splits an array in half until it can no longer be divided.</li></section>
+            <section><li>During merging, iterates through both arrays and adds the smaller value, when one array is exhausted, adds the remaining elements in the other array.</li></section>
+            <section><li>Exploits the fact that arrays of 0 or 1 elements are always sorted.</li></section>
+            <section><li>Merge operation is applied once array is fully split.</li></section>
+            <section><li>The time complexity of this sorting algorithm is O(n log(n)) and takes n space.</li></section>
+            <section>
+              <img src={require('../images/merge.jpg')} style={{width: "40vw"}} alt="Merge sort illustration"></img>
+            </section>
         </ul>
         <div class="font-l">JavaScript Implementation</div>
-        <div class="Code Section">
+        <section>
           <pre>
             <code>
               {Implementation}
             </code>
           </pre>
-        </div>
-        <div class="Section">
+        </section>
+        <section>
           <div class="font-l">LeetCode examples</div>
           <div class="font-m indent">
               <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/sort-list/ ">Sort List [Medium]</a></li>
               <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/sort-an-array/">Sort an Array [Medium]</a></li>
               <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/reverse-pairs/">Reverse Pairs [Hard]</a></li>
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
     </div>
   )
 }

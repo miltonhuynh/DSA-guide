@@ -119,7 +119,7 @@ class DoublyLinkedList {
   return (
     <div class="Concept_page">
       <h1>Doubly Linked List</h1>
-      <div class="Container font-m">
+      <main>
         <ul>
           <section><li>Almost identical to Singly Linked Lists, except every node has another pointer to the previous node</li></section>
           <section><li>Can be traversed in both forward and backward directions, can quickly remove or add a new node before a given node</li></section>
@@ -222,14 +222,14 @@ class DoublyLinkedList {
             </ul>
           </section>
           <div class="font-l">JavaScript Implementation</div>
-          <div class="Code Section">
+          <section>
             <pre>
               <code>
                 {Implementation}
               </code>
             </pre>
-          </div>
-          <div class="Code Section">
+          </section>
+          <section>
             <div class="font-l">
               LeetCode examples
               <div class="font-m indent">
@@ -237,9 +237,9 @@ class DoublyLinkedList {
                 <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/design-a-text-editor/">Design a Text Editor [Hard]</a></li>
               </div>
             </div>
-          </div>
+          </section>
         </ul>
-      </div>
-    </div >
+      </main>
+    </div>
   )
 }

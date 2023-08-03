@@ -1,8 +1,8 @@
 import React from 'react'
 
 export default function Graphs() {
-  const implementation =
-  `class Graph{
+	const implementation =
+		`class Graph{
     constructor(){
         this.adjacencyList = {};
     }
@@ -89,13 +89,13 @@ export default function Graphs() {
     }
 }`
 
-  return (
+	return (
 		<div class="Concept_page">
 			<h1>Graphs</h1>
-			<div class="Container font-m">
+			<main>
 				<ul>
-					<section class="Section"><li>A graph data structure consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph</li></section>
-					<section class="Section">
+					<section><li>A graph data structure consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph</li></section>
+					<section>
 						<li>
 							<u>Uses for graphs:</u>
 							<ul class="font-sm">
@@ -106,7 +106,7 @@ export default function Graphs() {
 								<li>File System Optimizations</li>
 							</ul>
 						</li></section>
-						<div class="Section">
+					<section class="Section">
 						<li>
 							<u>Some definitions:</u>
 							<ul class="font-sm">
@@ -116,16 +116,16 @@ export default function Graphs() {
 								<li><u>Directed/Undirected</u>: directions assigned to distances between vertices</li>
 							</ul>
 						</li>
-					</div>
-					<div class="Section">
+					</section>
+					<section>
 						<li>
-							There are two main ways to store a graph:<br/>
+							There are two main ways to store a graph:<br />
 							<ul class="font-sm">
 								<li>
 									1) <u>Adjacency Matrix</u>
 									<ul class="font-xsm">
-									<li>Stores a graph of N nodes with a two dimensional N x N array</li><br/>
-									<img src={require('../images/adj_matrix.png')} style={{width: "40vw"}} alt="Adjacency matrix illustration"></img><br/><br/>
+										<li>Stores a graph of N nodes with a two dimensional N x N array</li><br />
+										<img src={require('../images/adj_matrix.png')} style={{ width: "40vw" }} alt="Adjacency matrix illustration"></img><br /><br />
 									</ul>
 								</li>
 								<li>
@@ -133,15 +133,15 @@ export default function Graphs() {
 									<ul class="font-xsm">
 										<li>Represents a graph as an array of linked lists</li>
 										<li>The index of the array represents a vertex and each element in its linked list represents the other vertices that form an edge with the vertex</li>
-										<li>Efficient in terms of storage because we only need to store the values for the edges</li><br/>
-										<img src={require('../images/adj_list.png')} style={{width: "40vw"}} alt="Adjacency list illustration"></img>
+										<li>Efficient in terms of storage because we only need to store the values for the edges</li><br />
+										<img src={require('../images/adj_list.png')} style={{ width: "40vw" }} alt="Adjacency list illustration"></img>
 									</ul>
-								</li><br/>
+								</li><br />
 								<li>Differences between Adjacency Matrices and Adjacency Lists</li>
 								<ul class="font-xsm">
 									<li>
-										Big O<br/>
-										<img src={require('../images/adj_compare.png')} style={{width: "35vw"}} alt="Adjacency comparison illustration"></img>
+										Big O<br />
+										<img src={require('../images/adj_compare.png')} style={{ width: "35vw" }} alt="Adjacency comparison illustration"></img>
 									</li>
 									<li>Adjacency lists take up less space in sparse graphs in comparison to matrices</li>
 									<li>Adjacency lists are also faster to iterate over all edges</li>
@@ -150,8 +150,8 @@ export default function Graphs() {
 								</ul>
 							</ul>
 						</li>
-					</div>
-					<div class="Section">
+					</section>
+					<section>
 						<li>
 							Graph Traversal
 							<ul class="font-sm">
@@ -179,8 +179,8 @@ export default function Graphs() {
 								</li>
 							</ul>
 						</li>
-					</div>
-					<div class="Section">
+					</section>
+					<section>
 						<li>Implementation steps:</li>
 						<ul class="font-sm">
 							<li>
@@ -188,7 +188,7 @@ export default function Graphs() {
 								<ul class="font-xsm">
 									<li>Write a method that accepts the name of a vertex</li>
 									<li>It should add a key to the adjacency list with the name of the vertex and set its value to be an empty array</li>
-									<img src={require('../images/addvertex.png')} style={{width: "20vw"}} alt="Adding a vertex illustration"></img>
+									<img src={require('../images/addvertex.png')} style={{ width: "20vw" }} alt="Adding a vertex illustration"></img>
 								</ul>
 							</li>
 							<li>
@@ -197,7 +197,7 @@ export default function Graphs() {
 									<li>The function should accept two vertices, you can call them vertex1 and vertex2</li>
 									<li>The function should find in the adjacency list the key of vertex1 and push vertex2 to the array</li>
 									<li>The function should find in the adjacency list the key of vertex2 and push vertex1 to the array</li>
-									<img src={require('../images/addedge.png')} style={{width: "25vw"}} alt="Adding a edge illustration"></img>
+									<img src={require('../images/addedge.png')} style={{ width: "25vw" }} alt="Adding a edge illustration"></img>
 								</ul>
 							</li>
 							<li>
@@ -206,7 +206,7 @@ export default function Graphs() {
 									<li>The function should accept two vertices, you can call them vertex1 and vertex2</li>
 									<li>The function should reassign the key of vertex1 to be an array that does not contain vertex2</li>
 									<li>The function should reassign the key of vertex2 to be an array that does not contain vertex1</li>
-									<img src={require('../images/removeedge.png')} style={{width: "25vw"}} alt="Remove a edge illustration"></img>
+									<img src={require('../images/removeedge.png')} style={{ width: "25vw" }} alt="Remove a edge illustration"></img>
 								</ul>
 							</li>
 							<li>
@@ -216,16 +216,16 @@ export default function Graphs() {
 									<li>The function should loop as long as there are any other vertices in the adjacency list for that vortex</li>
 									<li>Inside of the loop, call the Remove Edge function with the vertex you are removing and any values in the adjacency list for that vertex</li>
 									<li>Delete the key in the adjacency list for that vertex</li>
-									<img src={require('../images/removevertex.png')} style={{width: "30vw"}} alt="Remove a vertex illustration"></img>
+									<img src={require('../images/removevertex.png')} style={{ width: "30vw" }} alt="Remove a vertex illustration"></img>
 								</ul>
-							</li><br/>
+							</li><br />
 							<li>
 								<u>DFS</u>
 								<ul class="font-xsm">
 									<li>The function should accept a vertex to remove</li>
-									<img src={require('../images/removevertex.png')} style={{width: "30vw"}} alt="Remove a vertex illustration"></img>
+									<img src={require('../images/removevertex.png')} style={{ width: "30vw" }} alt="Remove a vertex illustration"></img>
 								</ul>
-							</li><br/>
+							</li><br />
 							<li><u>Depth First Search (recursive method)</u></li>
 							<ul class="font-xsm">
 								<li>The function should accept a starting node</li>
@@ -242,7 +242,7 @@ export default function Graphs() {
 									<li>Invoke the helper function with the starting vertex</li>
 									<li>Return the result array</li>
 								</li>
-							</ul><br/>
+							</ul><br />
 							<li><u>Depth First Search (iterative method)</u></li>
 							<ul class="font-xsm">
 								<li>The function should accept a starting node</li>
@@ -251,14 +251,14 @@ export default function Graphs() {
 								<li>Create an object to store visited vertices</li>
 								<li>Add the starting vertex to the stack, and mark it visited</li>
 								<li>
-									While the stack has something in it: 
+									While the stack has something in it:
 									<ul class="font-xxsm">
 										<li>Pop the next vertex from the stack</li>
 										<li>If that vertex hasn't been visited yet, mark it as visited, add it to the result list and push all of its neighbors into the stack</li>
 									</ul>
 								</li>
 								<li>Return the result array</li>
-							</ul><br/>
+							</ul><br />
 							<li><u>Breadth First Search</u></li>
 							<ul class="font-xsm">
 								<li>The function should accept a starting vertex</li>
@@ -273,30 +273,30 @@ export default function Graphs() {
 								<li>Once looping is finished, return the array of visited nodes</li>
 							</ul>
 						</ul>
-					</div>
-					</ul>
-        <div>JavaScript Implementation (includes how to create Graph and BFS/DFS traversal)</div>
-        <div class="Code Section">
-          <pre>
-            <code>
-              {implementation}
-            </code>
-          </pre>
-        </div>
-				<div class="Section">
+					</section>
+				</ul>
+				<div><u>JavaScript Implementation (includes how to create Graph and BFS/DFS traversal)</u></div>
+				<section>
+					<pre>
+						<code>
+							{implementation}
+						</code>
+					</pre>
+				</section>
+				<section>
 					<div class="font-l">LeetCode examples</div>
 					<div class="font-m indent">
-							<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/find-if-path-exists-in-graph/">Find if Path Exists in Graph [Easy]</a></li>
-							<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/find-center-of-star-graph/">Find Center of Star Graph [Easy]</a></li>
-							<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/longest-consecutive-sequence/">Longest Consecutive Sequence [Medium]</a></li>
-							<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/number-of-islands/">Number of Islands [Medium]</a></li>
-							<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/pacific-atlantic-water-flow/">Pacific Atlantic Water Flow [Medium]</a></li>
-							<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/course-schedule/">Course Schedule [Medium]</a></li>
-							<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/clone-graph/">Clone Graph [Medium]</a></li>
-							<li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/reconstruct-itinerary/">Reconstruct Itinerary [Hard]</a></li>
+						<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/find-if-path-exists-in-graph/">Find if Path Exists in Graph [Easy]</a></li>
+						<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/find-center-of-star-graph/">Find Center of Star Graph [Easy]</a></li>
+						<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/longest-consecutive-sequence/">Longest Consecutive Sequence [Medium]</a></li>
+						<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/number-of-islands/">Number of Islands [Medium]</a></li>
+						<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/pacific-atlantic-water-flow/">Pacific Atlantic Water Flow [Medium]</a></li>
+						<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/course-schedule/">Course Schedule [Medium]</a></li>
+						<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/clone-graph/">Clone Graph [Medium]</a></li>
+						<li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/reconstruct-itinerary/">Reconstruct Itinerary [Hard]</a></li>
 					</div>
-				</div>
-			</div>
+				</section>
+			</main>
 		</div>
 	)
 }

@@ -78,11 +78,11 @@ export default function HashTables() {
   return (
     <div class="Concept_page">
       <div class="Concept_title">Hash tables</div>
-      <div class="Container font-m">
+      <main>
         <ul>
-          <div class="Section"><li>Used to store key-value pairs</li></div>
-          <div class="Section"><li>Like arrays, but keys are not ordered</li></div>
-          <div class="Section">
+          <section><li>Used to store key-value pairs</li></section>
+          <section><li>Like arrays, but keys are not ordered</li></section>
+          <section>
             <li>
               Fast for the following operations, unlike arrays:
               <ul class="font-sm">
@@ -91,9 +91,9 @@ export default function HashTables() {
                 <li>Removing values</li>
               </ul>
             </li>
-          </div>
-          <div class="Section"><li>Nearly every programming language has some sort of hash table data structure</li></div>
-          <div class="Section">
+          </section>
+          <section><li>Nearly every programming language has some sort of hash table data structure</li></section>
+          <section>
             <li>
               Because of their speed, hash tables are very commonly used
               <ul class="font-sm">
@@ -103,8 +103,8 @@ export default function HashTables() {
                 <li>Ruby has hashes</li>
               </ul>
             </li>
-          </div>
-          <div class="Section">
+          </section>
+          <section>
             <li>
               Big O of Hash Tables
               <ul class="font-sm"> 
@@ -113,8 +113,8 @@ export default function HashTables() {
                 <li>Access: O(1)</li>
               </ul>
             </li>
-          </div>
-          <div class="Section">
+          </section>
+          <section>
             <li>
               An array can be used to implement a hash table: 
               <ul class="font-sm">
@@ -182,17 +182,17 @@ export default function HashTables() {
                 </li>
               </ul>
             </li>
-          </div>
+          </section>
         </ul>
         <div class="font-l">JavaScript Implementation</div>
-        <div class="Code Section">
+        <section>
           <pre>
             <code>
               {implementation}
             </code>
           </pre>
-        </div>
-        <div class="Section">
+        </section>
+        <section>
           <div class="font-l">
             LeetCode examples
             <div class="font-m indent">
@@ -201,8 +201,8 @@ export default function HashTables() {
                 <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/word-ladder/">Word Ladder [Hard]</a></li>
             </div>
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
     </div>
   )
 }

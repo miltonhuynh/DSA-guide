@@ -77,14 +77,14 @@ class Node {
 
   return (
     <div class="Concept_page">
-      <div class="Concept_title">Priority Queue</div>
-      <div class="Container font-m">
+      <h1>Priority Queue</h1>
+      <main>
         <ul>
-          <div class="Section"><li>A data structure where each element has a priority</li></div>
-          <div class="Section"><li>Elements with higher priorities are served before elements with lower priorities</li></div>
-          <div class="Section"><li>A naive version of implementation is to use a list to store all the elements, each with a priority number, but we would have to iterate over the whole list to find the highest priority element</li></div>
-          <div class="Section"><li>A more efficient way is to use <ref class="Link" onClick={() => navigate("../BinaryHeap")}><u>Binary Heaps</u></ref> to store our elements</li></div>
-          <div class="Section">
+          <section><li>A data structure where each element has a priority</li></section>
+          <section><li>Elements with higher priorities are served before elements with lower priorities</li></section>
+          <section><li>A naive version of implementation is to use a list to store all the elements, each with a priority number, but we would have to iterate over the whole list to find the highest priority element</li></section>
+          <section><li>A more efficient way is to use <ref class="Link" onClick={() => navigate("../BinaryHeap")}><u>Binary Heaps</u></ref> to store our elements</li></section>
+          <section>
             <li>
               Implementation Steps: 
               <ul class="font-sm">
@@ -94,17 +94,17 @@ class Node {
                 <li>Dequeue method removes root element, returns it, and rearranges heap using priority</li>
               </ul>
             </li>
-          </div>
+          </section>
           <div class="font-l">JavaScript Implementation: </div>
-          <div class="Code Section">
+          <section>
             <pre>
               <code>
                 {implementation}
               </code>
             </pre>
-          </div>
+          </section>
         </ul>
-      </div>
+      </main>
     </div>
   )
 }

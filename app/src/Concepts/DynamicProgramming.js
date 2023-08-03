@@ -37,7 +37,7 @@ export default function DynamicProgramming() {
   return (
     <div class="Concept_page">
       <div class="Concept_title">Dynamic Programming</div>
-      <div class="Container font-m">
+      <main>
         <ul>
           <section><li>Dynamic programming is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions</li></section>
           <section class="Section"><li>Wherever we see a recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic Programming. The idea is to simply store the results of subproblems, so that we do not have to re-compute them when needed later. This simple optimization reduces time complexities from exponential to polynomial.</li></section>
@@ -110,7 +110,7 @@ export default function DynamicProgramming() {
             <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/word-break/">Word Break [Medium]</a></li>
           </div>
         </section>
-      </div>
+      </main>
     </div>
   )
 }

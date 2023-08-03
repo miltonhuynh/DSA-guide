@@ -18,9 +18,9 @@ export default function Nav() {
       <NavLink to="FrequencyCounter" className={({ isActive }) => isActive ? 'Active_Link' : 'Inactive_Link'}>Frequency Counter</NavLink>
       <NavLink to="Graphs" className={({ isActive }) => isActive ? 'Active_Link' : 'Inactive_Link'}>Graphs</NavLink>
       <NavLink to="HashTables" className={({ isActive }) => isActive ? 'Active_Link' : 'Inactive_Link'}>Hash Tables</NavLink>
+      <NavLink to="InsertionSort" className={({ isActive }) => isActive ? 'Active_Link' : 'Inactive_Link'}>Insertion Sort</NavLink>
       <NavLink to="Kruskal" className={({ isActive }) => isActive ? 'Active_Link' : 'Inactive_Link'}>Kruskal's Algorithm</NavLink>
       <NavLink to="MergeSort" className={({ isActive }) => isActive ? 'Active_Link' : 'Inactive_Link'}>Merge Sort</NavLink>
-      <NavLink to="InsertionSort" className={({ isActive }) => isActive ? 'Active_Link' : 'Inactive_Link'}>Insertion Sort</NavLink>
       <NavLink to="Prim" className={({ isActive }) => isActive ? 'Active_Link' : 'Inactive_Link'}>Prim's Algorithm</NavLink>
       <NavLink to="PriorityQueue" className={({ isActive }) => isActive ? 'Active_Link' : 'Inactive_Link'}>Priority Queue</NavLink>
       <NavLink to="Queue" className={({ isActive }) => isActive ? 'Active_Link' : 'Inactive_Link'}>Queue</NavLink>
