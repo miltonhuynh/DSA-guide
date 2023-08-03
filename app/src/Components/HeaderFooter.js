@@ -9,6 +9,7 @@ export default function HeaderFooter(props) {
 
   const [bodytheme, setbodyTheme] = useState('body_light');
   const [sectiontheme, setsectionTheme] = useState('section_light')
+  
   //const [inactivetheme, setinactiveTheme] = useState('Inactive_Link')
   //const [activetheme, setactiveTheme] = useState('active_Link')
 
@@ -16,13 +17,11 @@ export default function HeaderFooter(props) {
     if (bodytheme === 'body_light') {
       setbodyTheme('body_dark');
       setsectionTheme('section_dark');
-      //setinactiveTheme('Inactive_Link_dark');
-      //setactiveTheme('active_Link_dark');
+      
     } else {
       setbodyTheme('body_light');
       setsectionTheme('section_light');
-      //setinactiveTheme('Inactive_Link');
-      //setactiveTheme('active_Link');
+      
     }
   }
   useEffect(() => {
@@ -32,19 +31,6 @@ export default function HeaderFooter(props) {
     for (var i = 0; i < sections.length; i++) {
       document.getElementsByTagName("section")[i].className = sectiontheme;
     }
-    /*
-    var links = document.getElementsByClassName("Inactive_Link");
-    for (var x = 0; x < links.length; x++) {
-      document.getElementsByClassName("Inactive_Link")[x].className = inactivetheme;
-    }
-
-    if(document.getElementsByClassName("Active_Link") === true) {
-      var links2 = document.getElementsByClassName("Active_Link");
-      for (var y = 0; y < links2.length; y++) {
-        document.getElementsByClassName("Active_Link")[y].className = activetheme;
-      }
-    }
-    */
   })
 
 

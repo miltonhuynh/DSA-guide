@@ -24,7 +24,7 @@ const py_snippet =
     <h1>Binary Search</h1>
     <main>
       <ul class="font-m">
-        <section class="sectionbox"><li>Binary search is a much faster form of search than linear search</li></section>
+        <section><li>Binary search is a much faster form of search than linear search</li></section>
         <section><li>Rather than eliminating one element at a time, you can elimate half of the remaining elements at at time</li></section>
         <section><li>Binary search only works on sorted arrays</li></section>
         <section><li>Binary search works by repeatedly dividing the search interval in half, depending on whether the guess was lower or higher than the correct value</li></section>
@@ -42,13 +42,13 @@ const py_snippet =
         </section>
       </ul>
       <div class="font-l">Python Implementation:</div>
-        <div class="Code Section">
-            <pre>
-              <code>
-                {py_snippet}
-              </code>
-            </pre>
-        </div>
+      <section class="code">
+          <pre>
+            <code>
+              {py_snippet}
+            </code>
+          </pre>
+      </section>
     </main>
   </div>
   )

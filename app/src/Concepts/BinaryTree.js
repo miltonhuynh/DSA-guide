@@ -1,9 +1,9 @@
 import React from 'react'
 
 export default function BinaryTree() {
-	
+
 	const implementation =
-	`class Node:
+		`class Node:
     def __init__(self, value):
         self.value = value
         self.left = None
@@ -63,25 +63,25 @@ class BinarySearchTree:
         return False
 `
 
-  return (
-    <div class="Concept_page">
-      <h1>Binary Trees</h1>
-      <div class="Container font-m">
+	return (
+		<div class="Concept_page">
+			<h1>Binary Trees</h1>
+			<main>
 				<ul>
-					<section><li>A tree is a data structure that consists of nodes in a parent/child relationship, nodes can only point to a child and cannot have more than one parent</li></section>
+					<section><li class="font-m">A tree is a data structure that consists of nodes in a parent/child relationship, nodes can only point to a child and cannot have more than one parent</li></section>
 					<section>
-						<li> Some uses of trees:</li>
-							<ul class="font-sm">
-								<li>HTML DOM</li>
-								<li>Network Routing</li>
-								<li>Abstract Syntax Tree</li>
-								<li>Artificial Intelligence</li>
-								<li>Folders in Operating Systems</li>
-								<li>Computer File Systems</li>
-							</ul>
-						</section>
+						<li class="font-m">Some uses of trees:</li>
+						<ul class="font-sm">
+							<li>HTML DOM</li>
+							<li>Network Routing</li>
+							<li>Abstract Syntax Tree</li>
+							<li>Artificial Intelligence</li>
+							<li>Folders in Operating Systems</li>
+							<li>Computer File Systems</li>
+						</ul>
+					</section>
 					<section>
-						<li>Common Definitions:</li>
+						<li class="font-m">Common Definitions:</li>
 						<ul class="font-sm">
 							<li>Root: the top node in a tree</li>
 							<li>Child: a node directly connected to another node when moving away from the Root</li>
@@ -90,16 +90,16 @@ class BinarySearchTree:
 						</ul>
 					</section>
 					<section>
-						<li>A Binary Search tree is a special type of tree in which: </li>
+						<li class="font-m">A Binary Search tree is a special type of tree in which: </li>
 						<ul class="font-sm">
 							<li>Every parent node has at most two children</li>
 							<li>Every node to the left of a parent node is always less than the parent</li>
 							<li>Every node to the right of a parent node is always greater than the parent</li>
 						</ul>
 					</section>
-					<section><li>The complexity of Insertion and Searching is O(log n) in the best case and O(n) in the worst case</li></section>
+					<section><li class="font-m">The complexity of Insertion and Searching is O(log n) in the best case and O(n) in the worst case</li></section>
 					<section>
-						<li>Implementation Steps</li>
+						<li class="font-m">Implementation Steps</li>
 						<ul class="font-sm">
 							<li>Create a Node class with a constructor to create properties value, left and right</li>
 							<li>Create a Tree class with a constructor to create the root node</li>
@@ -151,28 +151,28 @@ class BinarySearchTree:
 					</section>
 				</ul>
 				<div class="font-l">Python Implementation</div>
-				<div class="Code Section">
+				<section class="code">
 					<pre>
 						<code>
 							{implementation}
 						</code>
 					</pre>
-				</div>
+				</section>
 				<section>
 					<div class="font-l">LeetCode examples</div>
 					<div class="font-m indent">
-							<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-inorder-traversal/">Binary Tree Inorder Traversal [Easy]</a></li>
-							<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-preorder-traversal/">Binary Tree Preorder Traversal [Easy]</a></li>
-							<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-postorder-traversal/">Binary Tree Postorder Traversal [Easy]</a></li>
-							<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-level-order-traversal/">Binary Tree Level Order Traversal [Easy]</a></li>
-							<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">Maximum Depth of Binary Tree [Easy]</a></li>
-							<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/root-equals-sum-of-children/">Root Equals Sum of Children [Easy]</a></li>
-							<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/unique-binary-search-trees/">Unique Binary Search Trees [Medium]</a></li>
-							<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="hhttps://leetcode.com/problems/sum-root-to-leaf-numbers/">Sum Root to Leaf Numbers [Medium]</a></li>
-							<li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-maximum-path-sum/">Binary Tree Maximum Path Sum [Hard]</a></li>
+						<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-inorder-traversal/">Binary Tree Inorder Traversal [Easy]</a></li>
+						<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-preorder-traversal/">Binary Tree Preorder Traversal [Easy]</a></li>
+						<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-postorder-traversal/">Binary Tree Postorder Traversal [Easy]</a></li>
+						<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-level-order-traversal/">Binary Tree Level Order Traversal [Easy]</a></li>
+						<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">Maximum Depth of Binary Tree [Easy]</a></li>
+						<li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/root-equals-sum-of-children/">Root Equals Sum of Children [Easy]</a></li>
+						<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/unique-binary-search-trees/">Unique Binary Search Trees [Medium]</a></li>
+						<li><a class="Link-yellow" rel="noreferrer" target="_blank" href="hhttps://leetcode.com/problems/sum-root-to-leaf-numbers/">Sum Root to Leaf Numbers [Medium]</a></li>
+						<li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/binary-tree-maximum-path-sum/">Binary Tree Maximum Path Sum [Hard]</a></li>
 					</div>
 				</section>
-      </div>
-    </div>
-  )
+			</main>
+		</div>
+	)
 }

@@ -25,7 +25,7 @@ export default function BreadthFirstSearch() {
   return (
     <div class="Concept_page">
       <h1>Breadth First Search</h1>
-      <div class="Container font-m">
+      <main>
         <ul>
           <section><li>An algorithm for searching a tree data structure for a node that satisfies a given property</li></section>
           <section>
@@ -54,13 +54,13 @@ export default function BreadthFirstSearch() {
           </section>
         </ul>
         <div class="font-l">Python Implementation:</div>
-        <div class="Code Section">
+        <section>
           <pre>
             <code>
               {implementation}
             </code>
           </pre>
-        </div>
+        </section>
         <section>
           <div class="font-l">LeetCode examples</div>
           <div class="font-m indent">
@@ -69,7 +69,7 @@ export default function BreadthFirstSearch() {
             <li><a class="Link-red" rel="noreferrer" href="https://leetcode.com/problems/word-ladder/">Word Ladder [Hard]</a></li>
           </div>
         </section>
-      </div>
+      </main>
     </div>
   )
 }

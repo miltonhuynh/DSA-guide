@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function BinaryHeap() {
 
-  const implementaton =
+  const implementation =
     `class MaxBinaryHeap:
     def __init__(self):
         self.values = [41, 39, 33, 18, 27, 12]
@@ -152,13 +152,13 @@ export default function BinaryHeap() {
           </section>
         </ul>
         <div class="font-l">Python Implementation</div>
-        <div class="Code Codebox">
+        <section>
           <pre>
             <code>
-              {implementaton}
+              {implementation}
             </code>
           </pre>
-        </div>
+        </section>
       </main>
     </div>
   )

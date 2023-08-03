@@ -94,8 +94,8 @@ export default function Graphs() {
 			<h1>Graphs</h1>
 			<div class="Container font-m">
 				<ul>
-					<div class="Section"><li>A graph data structure consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph</li></div>
-					<div class="Section">
+					<section class="Section"><li>A graph data structure consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph</li></section>
+					<section class="Section">
 						<li>
 							<u>Uses for graphs:</u>
 							<ul class="font-sm">
@@ -105,7 +105,7 @@ export default function Graphs() {
 								<li>Visual Hierachy</li>
 								<li>File System Optimizations</li>
 							</ul>
-						</li></div>
+						</li></section>
 						<div class="Section">
 						<li>
 							<u>Some definitions:</u>

@@ -3,7 +3,7 @@ import React from 'react'
 export default function BubbleSort() {
 
   const bubblesort =
-  `function bubble(array) {
+    `function bubble(array) {
     for (let x = 0; x < array.length; x++) {
       for (let y = 0; y < array.length - 1; y++) {
         if (array[y] > array[y+1]) {
@@ -16,13 +16,13 @@ export default function BubbleSort() {
     console.log(array);
   }`
 
-  const n_squared = 
-  `\u00B2`
+  const n_squared =
+    `\u00B2`
 
   return (
     <div class="Concept_page">
       <h1>Bubble Sort</h1>
-      <div class="Container font-m">
+      <main>
         <ul>
           <section><li>Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order</li></section>
           <section><li>This algorithm is not suitable for large data sets as its average and worst case time complexity is O(n{n_squared})</li></section>
@@ -37,15 +37,15 @@ export default function BubbleSort() {
             </div>
           </section>
         </ul>
-        <div class="font-l">Javascript Implementation</div>
-          <div class="Code Section">
-            <pre>
-              <code>
-                {bubblesort}
-              </code>
-            </pre>
-          </div>
-      </div>
+        <div class="font-l">Python Implementation</div>
+        <section>
+          <pre>
+            <code>
+              {bubblesort}
+            </code>
+          </pre>
+        </section>
+      </main>
     </div>
   )
 }
