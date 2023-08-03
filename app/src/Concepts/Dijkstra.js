@@ -78,7 +78,7 @@ export default function Dijkstra() {
   return (
     <div class="Concept_page">
       <h1>Dijkstra's algorithm</h1>
-      <div class="Container font-m">
+      <main>
         <ul>
           <section><li>Dijkstra's algorithm is used to traverse <ref class="Link" onClick={() => navigate("../Graphs")}><u>Graphs</u></ref> and uses a <ref class="Link" onClick={() => navigate("../PriorityQueue")}><u>Priority Queue</u></ref></li></section>
           <section><li>It is a single source shortest path algorithm for graphs with non-negative edge weights</li></section>
@@ -142,13 +142,13 @@ export default function Dijkstra() {
           </section>
         </ul>
         <div class="font-l">JavaScript Implementation</div>
-        <div class="Code Section">
+        <section>
           <pre>
             <code>
               {implementation}
             </code>
           </pre>
-        </div>
+        </section>
         <section>
           <div class="font-l">LeetCode examples</div>
             <div class="font-m indent">
@@ -159,7 +159,7 @@ export default function Dijkstra() {
               <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/">Minimum Cost to Make at Least One Valid Path in a Grid [Hard]</a></li>
           </div>
         </section>
-      </div>
+      </main>
     </div>
   )
 }

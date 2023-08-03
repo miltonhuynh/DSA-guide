@@ -41,7 +41,7 @@ export default function DepthFirstSearch() {
   return (
     <div class="Concept_page">
       <h1>Depth First Search</h1>
-      <div class="Container font-m">
+      <main>
         <ul>
           <section><li>Starts at the root node and explores as far as possible along each branch before backtracking</li></section>
           <section><li>Time Complexity is the same as BFS, but takes up less space in trees with less depth</li></section>
@@ -145,21 +145,21 @@ export default function DepthFirstSearch() {
               </li>
             </ul>
           </section></ul>
-        <div class="font-l">JavaScript Implementation:</div>
-        <div class="Code Section">
+        <div class="font-l">Python Implementation:</div>
+        <section>
           <pre>
             <code>
               {inorder}
             </code>
           </pre>
-        </div>
+        </section>
         <div class="font-l">LeetCode examples</div>
-          <div class="font-m indent">
+          <section>
             <li><a class="Link-green" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/invert-binary-tree/">Invert Binary Tree [Easy]</a></li>
             <li><a class="Link-yellow" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/balance-a-binary-search-tree/">Balance a Binary Search Tree [Medium]</a></li>
             <li><a class="Link-red" rel="noreferrer" target="_blank" href="https://leetcode.com/problems/sum-of-distances-in-tree/">Sum of Distances in Tree [Hard]</a></li>
-        </div><br/>
-      </div>
+        </section><br/>
+      </main>
     </div>
   )
 }
