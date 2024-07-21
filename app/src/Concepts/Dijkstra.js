@@ -6,73 +6,60 @@ export default function Dijkstra() {
   let navigate = useNavigate();
 
   const implementation =
-    `class PriorityQueue {
-    constructor(){
-      this.values = [];
-    }
-    enqueue(val, priority) {
-      this.values.push({val, priority});
-      this.sort();
-    };
-    dequeue() {
-      return this.values.shift();
-    };
-    sort() {
-      this.values.sort((a, b) => a.priority - b.priority);
-    };
-  }
-  
-  class WeightedGraph {
-      constructor() {
-          this.adjacencyList = {};
-      }
-      addVertex(vertex){
-          if(!this.adjacencyList[vertex]) this.adjacencyList[vertex] = [];
-      }
-      addEdge(vertex1,vertex2, weight){
-          this.adjacencyList[vertex1].push({node:vertex2,weight});
-          this.adjacencyList[vertex2].push({node:vertex1, weight});
-      }
-      Dijkstra(start, finish){
-          const nodes = new PriorityQueue();
-          const distances = {};
-          const previous = {};
-          let path = [] 
-          let smallest;
-          for(let vertex in this.adjacencyList){
-              if(vertex === start){
-                  distances[vertex] = 0;
-                  nodes.enqueue(vertex, 0);
-              } else {
-                  distances[vertex] = Infinity;
-                  nodes.enqueue(vertex, Infinity);
-              }
-              previous[vertex] = null;
-          }
-          while(nodes.values.length){
-              smallest = nodes.dequeue().val;
-              if(smallest === finish){
-                  while(previous[smallest]){
-                      path.push(smallest);
-                      smallest = previous[smallest];
-                  }
-                  break;
-              } 
-              if(smallest || distances[smallest] !== Infinity){
-                  for(let neighbor in this.adjacencyList[smallest]){
-                      let nextNode = this.adjacencyList[smallest][neighbor];
-                      let candidate = distances[smallest] + nextNode.weight;
-                      let nextNeighbor = nextNode.node;
-                      if(candidate < distances[nextNeighbor]){
-                          distances[nextNeighbor] = candidate;
-                          previous[nextNeighbor] = smallest;
-                          nodes.enqueue(nextNeighbor, candidate);
-                      }
-                  }
-              }
-          }
-          return path.concat(smallest).reverse();     
-      }
+    `import heapq
+
+class PriorityQueue:
+    def __init__(self):
+        self.values = []
+    
+    def enqueue(self, val, priority):
+        heapq.heappush(self.values, (priority, val))
+    
+    def dequeue(self):
+        return heapq.heappop(self.values)[1]
+
+class WeightedGraph:
+    def __init__(self):
+        self.adjacency_list = {}
+    
+    def add_vertex(self, vertex):
+        if vertex not in self.adjacency_list:
+            self.adjacency_list[vertex] = []
+    
+    def add_edge(self, vertex1, vertex2, weight):
+        self.adjacency_list[vertex1].append({'node': vertex2, 'weight': weight})
+        self.adjacency_list[vertex2].append({'node': vertex1, 'weight': weight})
+    
+    def dijkstra(self, start, finish):
+        nodes = PriorityQueue()
+        distances = {vertex: float('inf') for vertex in self.adjacency_list}
+        previous = {vertex: None for vertex in self.adjacency_list}
+        path = []
+        
+        distances[start] = 0
+        nodes.enqueue(start, 0)
+        
+        while len(nodes.values):
+            smallest = nodes.dequeue()
+            
+            if smallest == finish:
+                while previous[smallest]:
+                    path.append(smallest)
+                    smallest = previous[smallest]
+                break
+            
+            if smallest is not None and distances[smallest] != float('inf'):
+                for neighbor in self.adjacency_list[smallest]:
+                    next_node = neighbor['node']
+                    candidate = distances[smallest] + neighbor['weight']
+                    
+                    if candidate < distances[next_node]:
+                        distances[next_node] = candidate
+                        previous[next_node] = smallest
+                        nodes.enqueue(next_node, candidate)
+        
+        path.append(start)
+        return path[::-1]
   }`
 
   return (
@@ -141,7 +128,7 @@ export default function Dijkstra() {
             </li>
           </section>
         </ul>
-        <div class="font-l">JavaScript Implementation</div>
+        <div class="font-l">Python Implementation</div>
         <section>
           <pre>
             <code>
