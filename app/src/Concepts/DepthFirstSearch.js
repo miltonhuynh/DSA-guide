@@ -3,39 +3,66 @@ import React from 'react'
 export default function DepthFirstSearch() {
 
   const preorder =
-  `DFSPreOrder() {
-    var data = [];
-    function traverse(node) {
-        data.push(node.value);
-        if(node.left) traverse(node.left);
-        if(node.right) traverse(node.right);
-    }
-    traverse(this.root);
-    return data;
+  `class Node:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+
+class BinaryTree:
+    def __init__(self):
+        self.root = None
+
+    def DFSPreOrder(self):
+        data = []
+
+        def traverse(node):
+            if not node:
+                return
+            data.append(node.value)
+            if node.left:
+                traverse(node.left)
+            if node.right:
+                traverse(node.right)
+
+        traverse(self.root)
+        return data
 }`
 
   const postorder =
-  `DFSPostOrder(){
-    var data = [];
-    function traverse(node){
-        if(node.left) traverse(node.left);
-        if(node.right) traverse(node.right);
-        data.push(node.value);
-    }
-    traverse(this.root);
-    return data;
+  `class BinaryTree:
+    def DFSPostOrder(self):
+        data = []
+
+        def traverse(node):
+            if not node:
+                return
+            if node.left:
+                traverse(node.left)
+            if node.right:
+                traverse(node.right)
+            data.append(node.value)
+
+        traverse(self.root)
+        return data
 }`
 
   const inorder =
-  `DFSInOrder(){
-    var data = [];
-    function traverse(node){
-        if(node.left) traverse(node.left);
-        data.push(node.value);
-        if(node.right) traverse(node.right);
-    }
-    traverse(this.root);
-    return data;
+  `class BinaryTree:
+    def DFSInOrder(self):
+        data = []
+
+        def traverse(node):
+            if not node:
+                return
+            if node.left:
+                traverse(node.left)
+            data.append(node.value)
+            if node.right:
+                traverse(node.right)
+
+        traverse(self.root)
+        return data
 }`
 
   return (
@@ -109,7 +136,7 @@ export default function DepthFirstSearch() {
                   <li>Return the array of values</li>
                   </li>
                 </ul><br/>
-                JavaScript Implementation:
+                Python Implementation:
                 <div class="Code">
                   <pre>
                     <code>
@@ -145,11 +172,27 @@ export default function DepthFirstSearch() {
               </li>
             </ul>
           </section></ul>
-        <div class="font-l">JavaScript Implementation:</div>
+        <div class="font-l">Python Implementation (In-order):</div>
         <section>
           <pre>
             <code>
               {inorder}
+            </code>
+          </pre>
+        </section>
+        <div class="font-l">Python Implementation (Pre-order):</div>
+        <section>
+          <pre>
+            <code>
+              {preorder}
+            </code>
+          </pre>
+        </section>
+        <div class="font-l">Python Implementation (Post-order):</div>
+        <section>
+          <pre>
+            <code>
+              {postorder}
             </code>
           </pre>
         </section>
